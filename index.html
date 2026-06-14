@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏆 Porra Mundial 2026 - Panel de Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient floating orbs for premium UI depth -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="header-title">
+        <h1>⚽ Porra Mundial 2026</h1>
+        <p>Dashboard oficial para la porra inicial con amigos. Puntuación automática en tiempo real.</p>
+      </div>
+      <div class="header-stats">
+        <div class="stat-badge">
+          <span class="label">Bote Acumulado</span>
+          <span class="value" id="stat-prize-pool">110.00 €</span>
+        </div>
+        <div class="stat-badge">
+          <span class="label">Líder Actual</span>
+          <span class="value" id="stat-leader">Cargando...</span>
+        </div>
+        <div class="stat-badge" style="position:relative; overflow:hidden;">
+          <span class="label">Partidos Jugados</span>
+          <span class="value" id="stat-played-count">0 / 104</span>
+          <div class="progress-bar-container" style="position:absolute; bottom:0; left:0; width:100%; height:4px; background:rgba(255,255,255,0.05);">
+            <div id="stat-played-progress" class="progress-bar-fill" style="width:0%; height:100%; background:linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%); transition: width 0.6s ease;"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav>
+      <button class="tab-btn active" data-tab="tab-leaderboard">📊 Clasificación</button>
+      <button class="tab-btn" data-tab="tab-calendar">📅 Calendario Diario</button>
+      <button class="tab-btn" data-tab="tab-simulator">🎮 Resultados & Simulador</button>
+      <button class="tab-btn" data-tab="tab-bracket">🏆 Cuadro de Eliminatorias</button>
+      <button class="tab-btn" data-tab="tab-predictions">✍️ Pronósticos de Amigos</button>
+      <button class="tab-btn" data-tab="tab-extras">🌟 Pichichi / MVP</button>
+      <button class="tab-btn" data-tab="tab-rules">📜 Reglas & Premios</button>
+      <button class="tab-btn" data-tab="tab-admin">🔒 Admin</button>
+    </nav>
+
+    <!-- Tab 1: Leaderboard -->
+    <div id="tab-leaderboard" class="tab-panel active">
+      <div id="podium-container" class="podium-wrapper">
+        <!-- Populated dynamically -->
+      </div>
+      <div class="grid-2col">
+        <div class="card">
+          <div class="card-title">
+            <span>Clasificación General</span>
+            <span style="font-size: 0.9rem; font-weight: normal; color: var(--text-muted);">Actualizado en tiempo real</span>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Pos</th>
+                  <th>Participante</th>
+                  <th>Pts Totales</th>
+                  <th>F. Grupos (1X2)</th>
+                  <th>Pos. Grupos</th>
+                  <th>Eliminatorias</th>
+                  <th>Extras</th>
+                  <th>Premio</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboard-body">
+                <!-- Populated dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">Reparto de Premios</div>
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem; background: rgba(251, 191, 36, 0.05); border-radius: 8px; border: 1px solid rgba(251, 191, 36, 0.2);">
+              <span class="prize-tag prize-1st">🏆 1º Clasificado</span>
+              <strong style="color: var(--accent-gold); font-size: 1.2rem;">65.00 €</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem; background: rgba(156, 163, 175, 0.05); border-radius: 8px; border: 1px solid rgba(156, 163, 175, 0.2);">
+              <span class="prize-tag prize-2nd">🥈 2º Clasificado</span>
+              <strong style="color: var(--accent-silver); font-size: 1.2rem;">35.00 €</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem; background: rgba(217, 119, 6, 0.05); border-radius: 8px; border: 1px solid rgba(217, 119, 6, 0.2);">
+              <span class="prize-tag prize-6th">🎖️ 6º Clasificado</span>
+              <strong style="color: var(--accent-bronze); font-size: 1.2rem;">10.00 €</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem; background: rgba(239, 68, 68, 0.05); border-radius: 8px; border: 1px solid rgba(239, 68, 68, 0.2);">
+              <span class="prize-tag prize-last">⚽💥 Último Clasificado</span>
+              <strong style="color: var(--hit-miss); font-size: 0.95rem; text-align: right;">¡Balonazo en el ojete!<br><span style="font-size:0.75rem; font-weight:normal; color:var(--text-muted);">(Pili Pérez incluida)</span></strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 2: Simulator -->
+    <div id="tab-simulator" class="tab-panel">
+      <div class="simulator-controls" style="margin-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 0.75rem;">
+        <button class="btn btn-primary" id="btn-load-mock">🎮 Cargar J1 y J2 (Simulado)</button>
+        <button class="btn" id="btn-load-all-groups">✔️ Simular Torneo Completo</button>
+        <button class="btn" id="btn-clear-scores">❌ Limpiar Marcadores</button>
+        <button class="btn" id="btn-share-scenario" onclick="copySimulationLink()">🔗 Compartir por WhatsApp</button>
+        <button class="btn" id="btn-export-scores">💾 Exportar JSON</button>
+        <button class="btn" id="btn-import-scores">📥 Importar JSON</button>
+      </div>
+
+      <div class="grid-2col">
+        <!-- Match list input -->
+        <div class="card">
+          <div class="card-title">Introducir Resultados de Partidos</div>
+          <div class="simulator-controls" style="margin-bottom: 1rem;">
+            <select id="filter-stage" class="btn">
+              <option value="all">Todas las fases</option>
+              <option value="group">Fase de Grupos</option>
+              <option value="1/16">Dieciseisavos (1/16)</option>
+              <option value="1/8">Octavos (1/8)</option>
+              <option value="1/4">Cuartos (1/4)</option>
+              <option value="1/2">Semifinales</option>
+              <option value="final">Final y 3º puesto</option>
+            </select>
+            <select id="filter-group" class="btn" style="display:none;">
+              <option value="all">Todos los grupos</option>
+              <option value="A">Grupo A</option>
+              <option value="B">Grupo B</option>
+              <option value="C">Grupo C</option>
+              <option value="D">Grupo D</option>
+              <option value="E">Grupo E</option>
+              <option value="F">Grupo F</option>
+              <option value="G">Grupo G</option>
+              <option value="H">Grupo H</option>
+              <option value="I">Grupo I</option>
+              <option value="J">Grupo J</option>
+              <option value="K">Grupo K</option>
+              <option value="L">Grupo L</option>
+            </select>
+          </div>
+          
+          <div class="match-list" id="sim-matches-list">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <!-- Standings dynamic panel -->
+        <div class="card">
+          <div class="card-title">Clasificaciones de Grupos Simulados</div>
+          <div class="group-standings-grid" id="sim-group-standings" style="display:flex; flex-direction:column; gap:1.5rem; max-height: 700px; overflow-y:auto; padding-right:0.5rem;">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab Bracket: Cuadro de Eliminatorias -->
+    <div id="tab-bracket" class="tab-panel">
+      <div class="user-select-container">
+        <label for="select-bracket-user" style="font-family: var(--font-title); font-weight: 600;">Comparar aciertos de:</label>
+        <select id="select-bracket-user" onchange="renderBracket()">
+          <option value="">Nadie (Ver Cuadro Real)</option>
+          <!-- Populated dynamically -->
+        </select>
+      </div>
+      <div class="card" style="overflow-x: auto; padding: 2rem 1.5rem;">
+        <div class="card-title">Cuadro de Eliminatorias Real / Simulado</div>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; margin-top: -1rem; font-style: italic;">
+          * Haz doble clic sobre cualquier partido del cuadro para ir directamente a editar su marcador en el simulador.
+        </p>
+        <div class="bracket-container" id="bracket-wrapper">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 3: Predictions -->
+    <div id="tab-predictions" class="tab-panel">
+      <div class="user-select-container">
+        <label for="select-user" style="font-family: var(--font-title); font-weight: 600;">Selecciona un participante:</label>
+        <select id="select-user">
+          <!-- Populated dynamically -->
+        </select>
+      </div>
+
+      <div class="user-summary-grid">
+        <div class="user-stat-card">
+          <div class="label">Puntos Totales</div>
+          <div class="val" id="user-total-pts">0</div>
+        </div>
+        <div class="user-stat-card">
+          <div class="label">Puntos Partidos (1X2)</div>
+          <div class="val" id="user-matches-pts">0</div>
+        </div>
+        <div class="user-stat-card">
+          <div class="label">Puntos Posición Grupos</div>
+          <div class="val" id="user-standings-pts">0</div>
+        </div>
+        <div class="user-stat-card">
+          <div class="label">Puntos Clasificados Eliminatorias</div>
+          <div class="val" id="user-ko-pts">0</div>
+        </div>
+        <div class="user-stat-card">
+          <div class="label">Puntos Extra (Pichichi/MVP)</div>
+          <div class="val" id="user-extra-pts">0</div>
+        </div>
+      </div>
+
+      <div class="grid-2col">
+        <div class="card">
+          <div class="card-title">Pronósticos en la Fase de Grupos</div>
+          <div class="table-wrapper" style="max-height: 600px; overflow-y: auto;">
+            <table>
+              <thead>
+                <tr>
+                  <th>Partido</th>
+                  <th>Pronóstico</th>
+                  <th>Resultado Real</th>
+                  <th>Puntos</th>
+                </tr>
+              </thead>
+              <tbody id="user-group-preds-body">
+                <!-- Dynamic -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">Pronósticos en Eliminatorias</div>
+          <div style="display:flex; flex-direction:column; gap:1.25rem;">
+            <div>
+              <h4 style="font-family: var(--font-title); margin-bottom: 0.5rem; color: var(--primary);">Octavos de Final (1/8)</h4>
+              <div id="user-octavos-preds" style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+                <!-- Dynamic -->
+              </div>
+            </div>
+            <div>
+              <h4 style="font-family: var(--font-title); margin-bottom: 0.5rem; color: var(--primary);">Cuartos de Final (1/4)</h4>
+              <div id="user-cuartos-preds" style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+                <!-- Dynamic -->
+              </div>
+            </div>
+            <div>
+              <h4 style="font-family: var(--font-title); margin-bottom: 0.5rem; color: var(--primary);">Semifinalistas (1/2)</h4>
+              <div id="user-semis-preds" style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+                <!-- Dynamic -->
+              </div>
+            </div>
+            <div>
+              <h4 style="font-family: var(--font-title); margin-bottom: 0.5rem; color: var(--primary);">Finalistas y 3º puesto</h4>
+              <div id="user-finals-preds" style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+                <!-- Dynamic -->
+              </div>
+            </div>
+            <div style="border-top:1px solid var(--border-color); padding-top: 1rem; display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+              <div>
+                <span class="label" style="font-size:0.75rem; text-transform:uppercase; color:var(--text-muted);">Campeón Pronosticado</span>
+                <div id="user-pred-champion" style="font-family:var(--font-title); font-weight:700; font-size:1.1rem; margin-top:0.25rem;">-</div>
+              </div>
+              <div>
+                <span class="label" style="font-size:0.75rem; text-transform:uppercase; color:var(--text-muted);">Subcampeón Pronosticado</span>
+                <div id="user-pred-subchampion" style="font-family:var(--font-title); font-weight:700; font-size:1.1rem; margin-top:0.25rem;">-</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 2.5rem;">
+        <div class="card-title">Comparativa de Posiciones de Grupos</div>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; margin-top: -1rem; font-style: italic;">
+          * Muestra el pronóstico de orden de grupos del amigo frente a la clasificación actual/simulada. Los aciertos exactos de posición se destacan en verde.
+        </p>
+        <div class="group-standings-comparison-grid" id="user-group-standings-comparison">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 4: Extras -->
+    <div id="tab-extras" class="tab-panel">
+      <div class="card">
+        <div class="card-title">Cuadro de Honor y Apuestas Extra</div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Participante</th>
+                <th>🥇 Campeón</th>
+                <th>🥈 Subcampeón</th>
+                <th>🥉 3er Puesto</th>
+                <th>👟 Pichichi (Bota de Oro)</th>
+                <th>⭐ MVP (Balón de Oro)</th>
+              </tr>
+            </thead>
+            <tbody id="extras-table-body">
+              <!-- Populated dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 5: Calendar -->
+    <div id="tab-calendar" class="tab-panel">
+      <div class="card">
+        <div class="card-title">
+          <span>📅 Calendario de Encuentros Diarios</span>
+          <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+            <button class="btn" id="btn-prev-day">◀ Anterior</button>
+            <button class="btn btn-primary" id="btn-today-day">Hoy (14 Jun)</button>
+            <button class="btn" id="btn-next-day">Siguiente ▶</button>
+          </div>
+        </div>
+        <div id="calendar-day-title" style="font-family: var(--font-title); font-size: 1.35rem; font-weight: 800; color: var(--primary); margin-bottom: 1.5rem; text-align:center; background: rgba(16,185,129,0.05); padding: 0.75rem; border-radius: 8px; border: 1px dashed var(--primary-glow);">
+          Cargando fecha...
+        </div>
+        <div class="match-list" id="calendar-matches-list">
+          <!-- Matches played on selected day -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 6: Rules -->
+    <div id="tab-rules" class="tab-panel">
+      <div class="grid-2col" style="grid-template-columns: 1fr 1fr;">
+        <div class="card">
+          <div class="card-title" style="color: var(--primary);">Reglas de Puntuación</div>
+          <div style="display:flex; flex-direction:column; gap:1rem; font-size:0.95rem;">
+            <div>
+              <strong style="color:#fff;">Fase de Grupos:</strong>
+              <ul style="margin-left: 1.5rem; margin-top: 0.5rem; display:flex; flex-direction:column; gap:0.4rem;">
+                <li><strong>1 punto:</strong> Por acertar el ganador o empate (1X2).</li>
+                <li><strong>2 puntos:</strong> Por acertar los goles de uno de los 2 equipos (habiendo acertado el 1X2 previamente). <em>Ejemplo: pronóstico 2-1, resultado 2-0 (se acierta el 1 y los 2 goles del local).</em></li>
+                <li><strong>3 puntos:</strong> Por acertar el resultado exacto del partido.</li>
+                <li><strong>2 puntos:</strong> Por acertar el 1er clasificado de cada grupo.</li>
+                <li><strong>1 punto:</strong> Por acertar la posición exacta del resto de equipos del grupo (2º, 3º o 4º).</li>
+              </ul>
+            </div>
+            <div style="border-top:1px solid var(--border-color); padding-top:1rem;">
+              <strong style="color:#fff;">Fase Eliminatoria (Clasificados para cada ronda):</strong>
+              <ul style="margin-left: 1.5rem; margin-top: 0.5rem; display:flex; flex-direction:column; gap:0.4rem;">
+                <li><strong>2 puntos:</strong> Por cada equipo que aciertes que se clasifique para Octavos (1/8).</li>
+                <li><strong>3 puntos:</strong> Por cada equipo que aciertes que se clasifique para Cuartos (1/4).</li>
+                <li><strong>5 puntos:</strong> Por cada equipo que aciertes que se clasifique para Semifinales (1/2).</li>
+                <li><strong>8 puntos:</strong> Por cada equipo que aciertes que se clasifique para la Final y el partido del 3º/4º puesto.</li>
+                <li><strong>10 puntos:</strong> Por acertar el equipo que quede en el 3º puesto.</li>
+              </ul>
+            </div>
+            <div style="border-top:1px solid var(--border-color); padding-top:1rem;">
+              <strong style="color:#fff;">Apuestas Extra:</strong>
+              <ul style="margin-left: 1.5rem; margin-top: 0.5rem; display:flex; flex-direction:column; gap:0.4rem;">
+                <li><strong>30 puntos:</strong> Por acertar el Campeón (pronosticado antes de iniciar el torneo).</li>
+                <li><strong>20 puntos:</strong> Por acertar el Pichichi (Bota de Oro).</li>
+                <li><strong>20 puntos:</strong> Por acertar el MVP (Balón de Oro).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div class="card-title" style="color: var(--accent-gold);">Premios y Penalizaciones</div>
+            <p style="margin-bottom: 1rem; color: var(--text-muted);">Establecidos para una cuota de 10 € por participante (Total 110 €):</p>
+            <div style="display:flex; flex-direction:column; gap:0.75rem;">
+              <div style="padding:0.6rem 1rem; background:rgba(255,255,255,0.02); border-radius:8px; display:flex; justify-content:space-between;">
+                <span>🥇 <strong>1er Clasificado:</strong></span>
+                <span style="color:var(--accent-gold); font-weight:700;">65.00 €</span>
+              </div>
+              <div style="padding:0.6rem 1rem; background:rgba(255,255,255,0.02); border-radius:8px; display:flex; justify-content:space-between;">
+                <span>🥈 <strong>2º Clasificado:</strong></span>
+                <span style="color:var(--accent-silver); font-weight:700;">35.00 €</span>
+              </div>
+              <div style="padding:0.6rem 1rem; background:rgba(255,255,255,0.02); border-radius:8px; display:flex; justify-content:space-between;">
+                <span>🎖️ <strong>6º Clasificado:</strong></span>
+                <span style="color:var(--accent-bronze); font-weight:700;">10.00 €</span>
+              </div>
+              <div style="padding:0.6rem 1rem; background:rgba(239, 68, 68, 0.08); border-radius:8px; border:1px solid rgba(239,68,68,0.2); display:flex; justify-content:space-between; align-items:center;">
+                <span>🍑⚽ <strong>Último Clasificado:</strong></span>
+                <span style="color:var(--hit-miss); font-weight:800; font-size:0.9rem; text-align:right;">¡Balonazo en el ojete!<br><span style="font-size:0.75rem; font-weight:normal; color:var(--text-muted);">(Pili Pérez incluida)</span></span>
+              </div>
+            </div>
+          </div>
+          
+          <div style="border-top: 1px solid var(--border-color); padding-top: 1.5rem; margin-top: 1.5rem; text-align:center;">
+            <p style="font-size: 0.85rem; color: var(--text-muted); font-style: italic;">
+              "Que tiemblen los culos..." ⚽💥
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 7: Admin Portal -->
+    <div id="tab-admin" class="tab-panel">
+      <div class="card" style="max-width: 500px; margin: 2rem auto; padding: 2.5rem 2rem; border: 1px solid var(--border-color); box-shadow: 0 8px 32px rgba(0,0,0,0.4);">
+        <div id="admin-login-view">
+          <div class="card-title" style="color: var(--accent-gold); text-align: center; margin-bottom: 2rem; font-size: 1.6rem;">🔒 Acceso Administrador</div>
+          <div style="display:flex; flex-direction:column; gap:1.25rem;">
+            <div style="display:flex; flex-direction:column; gap:0.5rem;">
+              <label for="admin-password-input" style="font-size:0.85rem; color:var(--text-muted); font-weight:600; text-transform:uppercase;">Contraseña de Acceso</label>
+              <input type="password" id="admin-password-input" class="btn" style="background:#020617; color:#fff; text-align:left; border: 1px solid var(--border-color); font-size: 1.1rem; padding: 0.75rem 1rem;" placeholder="Introduce la clave...">
+            </div>
+            <div id="admin-login-error" style="color:var(--hit-miss); font-size:0.85rem; font-weight:700; text-align:center; display:none;">
+              ⚠️ Clave incorrecta. Inténtalo de nuevo.
+            </div>
+            <button class="btn btn-primary" id="btn-admin-login" style="font-size: 1rem; padding: 0.75rem; margin-top: 1rem;">Iniciar Sesión</button>
+          </div>
+        </div>
+
+        <div id="admin-dashboard-view" style="display:none;">
+          <div class="card-title" style="color: var(--primary); text-align: center; margin-bottom: 2rem; font-size: 1.6rem;">🟢 Portal de Administrador</div>
+          <div style="display:flex; flex-direction:column; gap:1.5rem;">
+            <div style="padding: 1rem; background: rgba(16,185,129,0.08); border: 1px dashed var(--primary); border-radius: 8px; text-align:center; font-size: 0.95rem;">
+              Sesión de administrador activa. Puedes modificar los marcadores en la pestaña <strong>Resultados & Simulador</strong> o Pichichi/MVP en <strong>Pichichi / MVP</strong> y guardarlos aquí oficialmente.
+            </div>
+            
+            <button class="btn btn-primary" id="btn-admin-save" style="font-size: 1.1rem; padding: 1rem; display:flex; justify-content:center; align-items:center; gap:0.5rem;">
+              💾 Publicar Resultados Oficiales en la Nube
+            </button>
+            
+            <button class="btn" id="btn-admin-logout" style="font-size: 0.95rem; padding: 0.75rem; background: rgba(239, 68, 68, 0.1); color: var(--hit-miss); border: 1px solid rgba(239, 68, 68, 0.2);">
+              ❌ Cerrar Sesión
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer style="margin-top: 5rem; text-align: center; border-top: 1px solid var(--border-color); padding-top: 1.5rem; opacity: 0.2; transition: opacity 0.3s;" onmouseover="this.style.opacity=0.8" onmouseout="this.style.opacity=0.2">
+      <p style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-title); letter-spacing: 0.05em;">
+        ⚽ Porra Mundial 2026 | <span style="cursor: help;" title="El friki es capaz de esto y más, nadie debe dudar del líder">🔐 Verificación del Sistema</span>
+      </p>
+    </footer>
+
+  </div>
+
+  <!-- Load official data & scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
