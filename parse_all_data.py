@@ -189,6 +189,21 @@ for f in files:
     # Final match: 247 -> Match 104
     ko_match_preds["104"] = sheet_pool.cell(row=247, column=3).value
 
+    # Parse penalty shootout predictions from WORLDCUP sheet
+    ko_penalties = {}
+    for r in range(1, 200):
+        match_num_val = sheet_wc_p.cell(row=r, column=34).value # Col AH (34)
+        if isinstance(match_num_val, int) and 73 <= match_num_val <= 104:
+            home_pen = sheet_wc_p.cell(row=r, column=28).value # Col AB (28)
+            away_pen = sheet_wc_p.cell(row=r, column=31).value # Col AE (31)
+            if home_pen is not None or away_pen is not None:
+                try:
+                    hp = int(home_pen) if home_pen is not None and str(home_pen).strip() != "" else 0
+                    ap = int(away_pen) if away_pen is not None and str(away_pen).strip() != "" else 0
+                    ko_penalties[str(match_num_val)] = {"home": hp, "away": ap}
+                except ValueError:
+                    pass
+
     predictions[name] = {
         "groupMatches": group_matches_preds,
         "groupRankings": group_rankings_preds,
@@ -202,7 +217,8 @@ for f in files:
         "subchampion": subchampion,
         "pichichi": pichichi,
         "mvp": mvp,
-        "koMatches": ko_match_preds
+        "koMatches": ko_match_preds,
+        "koPenalties": ko_penalties
     }
 
 # 4. Generate the JS file contents

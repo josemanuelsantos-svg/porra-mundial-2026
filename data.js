@@ -1683,7 +1683,8 @@ const PREDICTIONS = {
       "102": "Brasil-Portugal·2|0-1",
       "103": "España-Brasil·1|1-0",
       "104": "Francia-Portugal·2|0-1"
-    }
+    },
+    "koPenalties": {}
   },
   "Nacho": {
     "groupMatches": {
@@ -2202,7 +2203,8 @@ const PREDICTIONS = {
       "102": "Brasil-Portugal·1|1-0",
       "103": "Francia-Portugal·1|1-0",
       "104": "España-Brasil·1|1-0"
-    }
+    },
+    "koPenalties": {}
   },
   "Mikel": {
     "groupMatches": {
@@ -2721,7 +2723,8 @@ const PREDICTIONS = {
       "102": "Brasil-Argentina·2|0-1",
       "103": "Francia-Brasil·1|1-0",
       "104": "España-Argentina·1|1-0"
-    }
+    },
+    "koPenalties": {}
   },
   "PiliP": {
     "groupMatches": {
@@ -3240,7 +3243,8 @@ const PREDICTIONS = {
       "102": "Brasil-Argentina·1|1-0",
       "103": "Colombia-Argentina·1|1-0",
       "104": "Ecuador-Brasil·1|1-0"
-    }
+    },
+    "koPenalties": {}
   },
   "Lidia": {
     "groupMatches": {
@@ -3759,7 +3763,8 @@ const PREDICTIONS = {
       "102": "Brasil-Argentina·1|1-0",
       "103": "Colombia-Argentina·1|1-0",
       "104": "Francia-Brasil·1|1-0"
-    }
+    },
+    "koPenalties": {}
   },
   "Javi": {
     "groupMatches": {
@@ -4278,6 +4283,32 @@ const PREDICTIONS = {
       "102": "Marruecos-Portugal·2|0-1",
       "103": "Brasil-Marruecos·1|3-2",
       "104": "España-Portugal·X|1-1"
+    },
+    "koPenalties": {
+      "81": {
+        "home": 0,
+        "away": 1
+      },
+      "85": {
+        "home": 1,
+        "away": 0
+      },
+      "86": {
+        "home": 1,
+        "away": 0
+      },
+      "97": {
+        "home": 0,
+        "away": 1
+      },
+      "101": {
+        "home": 0,
+        "away": 1
+      },
+      "104": {
+        "home": 1,
+        "away": 0
+      }
     }
   },
   "Camina": {
@@ -4797,6 +4828,24 @@ const PREDICTIONS = {
       "102": "Inglaterra-Portugal·X|1-1",
       "103": "Francia-Inglaterra·1|2-0",
       "104": "España-Portugal·1|2-1"
+    },
+    "koPenalties": {
+      "96": {
+        "home": 3,
+        "away": 4
+      },
+      "100": {
+        "home": 3,
+        "away": 5
+      },
+      "101": {
+        "home": 3,
+        "away": 4
+      },
+      "102": {
+        "home": 2,
+        "away": 4
+      }
     }
   },
   "Andrés": {
@@ -5316,7 +5365,8 @@ const PREDICTIONS = {
       "102": "Brasil-Argentina·1|1-0",
       "103": "Colombia-Argentina·1|1-0",
       "104": "Alemania-Brasil·1|11-0"
-    }
+    },
+    "koPenalties": {}
   },
   "Alber": {
     "groupMatches": {
@@ -5835,6 +5885,40 @@ const PREDICTIONS = {
       "102": "Inglaterra-Portugal·2|0-1",
       "103": "España-Inglaterra·1|3-1",
       "104": "Países Bajos-Portugal·1|2-1"
+    },
+    "koPenalties": {
+      "78": {
+        "home": 3,
+        "away": 5
+      },
+      "81": {
+        "home": 1,
+        "away": 4
+      },
+      "83": {
+        "home": 2,
+        "away": 5
+      },
+      "86": {
+        "home": 4,
+        "away": 1
+      },
+      "89": {
+        "home": 3,
+        "away": 5
+      },
+      "91": {
+        "home": 5,
+        "away": 3
+      },
+      "92": {
+        "home": 3,
+        "away": 5
+      },
+      "97": {
+        "home": 2,
+        "away": 4
+      }
     }
   },
   "Iván": {
@@ -6354,7 +6438,8 @@ const PREDICTIONS = {
       "102": "Brasil-Argentina·2|0-1",
       "103": "Francia-Brasil·2|0-1",
       "104": "España-Argentina·2|0-1"
-    }
+    },
+    "koPenalties": {}
   },
   "8pi": {
     "groupMatches": {
@@ -6873,6 +6958,7 @@ const PREDICTIONS = {
       "102": "Marruecos-Austria·2|0-1",
       "103": "Alemania-Marruecos·1|1-0",
       "104": "España-Austria·1|1-0"
-    }
+    },
+    "koPenalties": {}
   }
 };

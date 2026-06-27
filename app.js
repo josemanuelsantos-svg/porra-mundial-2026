@@ -68,7 +68,10 @@ function isGroupComplete(grp) {
 }
 
 // State variables
-let actualScores = {}; // Key: matchNum (1-104), Value: { gh, ga, penaltyWinner }
+const KO_MATCH_1X2_POINTS = 1;
+const KO_PENALTY_EXACT_POINTS = 1;
+
+let actualScores = {}; // Key: matchNum (1-104), Value: { gh, ga, penaltyWinner, penh, pena }
 let actualExtras = {
   pichichi: "",
   mvp: "",
@@ -348,7 +351,7 @@ function createMatchCard(id, stageLabel, homeName, awayName, dateStr, isKnockout
   const card = document.createElement("div");
   card.className = "match-card";
   
-  const score = actualScores[id] || { gh: "", ga: "", penaltyWinner: "" };
+  const score = actualScores[id] || { gh: "", ga: "", penaltyWinner: "", penh: "", pena: "" };
 
   const metaHtml = `
     <div class="match-meta">
@@ -363,14 +366,17 @@ function createMatchCard(id, stageLabel, homeName, awayName, dateStr, isKnockout
   
   let penaltySelectHtml = "";
   if (showPenaltySelect) {
+    const penhVal = score.penh !== undefined && score.penh !== null ? score.penh : "";
+    const penaVal = score.pena !== undefined && score.pena !== null ? score.pena : "";
+    
     penaltySelectHtml = `
       <div style="display:flex; flex-direction:column; align-items:center; gap:0.2rem; margin-left:0.5rem;">
-        <span style="font-size:0.6rem; color:var(--text-muted); text-transform:uppercase;">Clasifica</span>
-        <select class="btn" style="padding:0.2rem 0.5rem; font-size:0.75rem;" onchange="handlePenaltyWinner(${id}, this.value)">
-          <option value="">Seleccionar...</option>
-          <option value="home" ${score.penaltyWinner === "home" ? "selected" : ""}>${getTeamDisplayName(homeName)}</option>
-          <option value="away" ${score.penaltyWinner === "away" ? "selected" : ""}>${getTeamDisplayName(awayName)}</option>
-        </select>
+        <span style="font-size:0.6rem; color:var(--text-muted); text-transform:uppercase;">Penaltis</span>
+        <div style="display:flex; align-items:center; gap:0.1rem;">
+          <input type="number" min="0" class="score-input" style="width:2.2rem; height:1.6rem; font-size:0.75rem; text-align:center;" value="${penhVal}" oninput="handlePenaltyScoreChange(${id}, 'penh', this.value)" placeholder="H">
+          <span>-</span>
+          <input type="number" min="0" class="score-input" style="width:2.2rem; height:1.6rem; font-size:0.75rem; text-align:center;" value="${penaVal}" oninput="handlePenaltyScoreChange(${id}, 'pena', this.value)" placeholder="A">
+        </div>
       </div>
     `;
   }
@@ -392,18 +398,9 @@ function createMatchCard(id, stageLabel, homeName, awayName, dateStr, isKnockout
   return card;
 }
 
-// Handle penalty winner changes
-window.handlePenaltyWinner = function(id, value) {
-  if (!actualScores[id]) actualScores[id] = { gh: "", ga: "", penaltyWinner: "" };
-  actualScores[id].penaltyWinner = value;
-  
-  localStorage.setItem("wc2026_actual_scores", JSON.stringify(actualScores));
-  evaluateTournament();
-};
-
-// Handle match score changes in the simulator
-window.handleScoreChange = function(id, type, val) {
-  if (!actualScores[id]) actualScores[id] = { gh: "", ga: "", penaltyWinner: "" };
+// Handle penalty score changes
+window.handlePenaltyScoreChange = function(id, type, val) {
+  if (!actualScores[id]) actualScores[id] = { gh: "", ga: "", penaltyWinner: "", penh: "", pena: "" };
   
   if (val === "") {
     actualScores[id][type] = "";
@@ -411,9 +408,40 @@ window.handleScoreChange = function(id, type, val) {
     actualScores[id][type] = parseInt(val);
   }
 
-  // Clear penalty winner if scores are no longer equal
+  // Automatically determine penaltyWinner based on penalty score
+  const ph = actualScores[id].penh;
+  const pa = actualScores[id].pena;
+  if (ph !== "" && pa !== "" && ph !== undefined && pa !== undefined && ph !== null && pa !== null) {
+    if (ph > pa) {
+      actualScores[id].penaltyWinner = "home";
+    } else if (ph < pa) {
+      actualScores[id].penaltyWinner = "away";
+    } else {
+      actualScores[id].penaltyWinner = "";
+    }
+  } else {
+    actualScores[id].penaltyWinner = "";
+  }
+
+  localStorage.setItem("wc2026_actual_scores", JSON.stringify(actualScores));
+  evaluateTournament();
+};
+
+// Handle match score changes in the simulator
+window.handleScoreChange = function(id, type, val) {
+  if (!actualScores[id]) actualScores[id] = { gh: "", ga: "", penaltyWinner: "", penh: "", pena: "" };
+  
+  if (val === "") {
+    actualScores[id][type] = "";
+  } else {
+    actualScores[id][type] = parseInt(val);
+  }
+
+  // Clear penalty winner and penalty scores if scores are no longer equal
   if (actualScores[id].gh !== actualScores[id].ga) {
     actualScores[id].penaltyWinner = "";
+    actualScores[id].penh = "";
+    actualScores[id].pena = "";
   }
 
   localStorage.setItem("wc2026_actual_scores", JSON.stringify(actualScores));
@@ -690,6 +718,7 @@ function evaluateTournament() {
       thirdPlace: 0,
       champion: 0,
       extras: 0,
+      koMatches: 0,
       total: 0
     };
 
@@ -788,9 +817,38 @@ function evaluateTournament() {
       ptsDetail.extras += 20;
     }
 
+    // Knockout matches points (73 to 104)
+    for (let matchNum = 73; matchNum <= 104; matchNum++) {
+      const score = actualScores[matchNum];
+      if (score && score.gh !== "" && score.ga !== "") {
+        const koVal = preds.koMatches ? preds.koMatches[matchNum] : null;
+        if (koVal && koVal.includes("·")) {
+          const parts = koVal.split("·");
+          const outcomePart = parts[1].split("|")[0]; // "1", "2", "X"
+          
+          const actWinner = score.gh > score.ga ? "1" : (score.gh < score.ga ? "2" : "X");
+          
+          if (outcomePart === actWinner) {
+            ptsDetail.koMatches += KO_MATCH_1X2_POINTS;
+            
+            if (actWinner === "X") {
+              const predPen = preds.koPenalties ? preds.koPenalties[matchNum] : null;
+              const actPenh = score.penh;
+              const actPena = score.pena;
+              if (predPen && actPenh !== "" && actPena !== "" && actPenh !== undefined && actPena !== undefined && actPenh !== null && actPena !== null) {
+                if (predPen.home === parseInt(actPenh) && predPen.away === parseInt(actPena)) {
+                  ptsDetail.koMatches += KO_PENALTY_EXACT_POINTS;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
     ptsDetail.total = ptsDetail.groupMatches + ptsDetail.groupStandings + 
                        ptsDetail.octavos + ptsDetail.cuartos + ptsDetail.semis + 
-                       ptsDetail.finals + ptsDetail.thirdPlace + ptsDetail.champion + ptsDetail.extras;
+                       ptsDetail.finals + ptsDetail.thirdPlace + ptsDetail.champion + ptsDetail.extras + ptsDetail.koMatches;
 
     return {
       name: user,
@@ -853,7 +911,7 @@ function renderLeaderboard(leaderboard) {
       <td style="font-weight:700;">${idx + 1}</td>
       <td style="font-weight:700; color:#fff;">${leaderCrown}${entry.name}</td>
       <td style="font-size:1.1rem; font-weight:800; color:var(--primary);">${entry.pts.total}</td>
-      <td>${entry.pts.groupMatches}</td>
+      <td>${entry.pts.groupMatches + entry.pts.koMatches}</td>
       <td>${entry.pts.groupStandings}</td>
       <td>${entry.pts.octavos + entry.pts.cuartos + entry.pts.semis + entry.pts.finals + entry.pts.thirdPlace + entry.pts.champion}</td>
       <td>${entry.pts.extras}</td>
@@ -912,13 +970,16 @@ function renderUserPredictions() {
       thirdPlace: 0,
       champion: 0,
       extras: 0,
+      koMatches: 0,
       total: 0
     };
+
+    const pUser = PREDICTIONS[name];
 
     FIXTURES.forEach((match, idx) => {
       const score = actualScores[match.matchNum];
       if (score && score.gh !== "" && score.ga !== "") {
-        const p = preds.groupMatches[match.matchNum];
+        const p = pUser.groupMatches[match.matchNum];
         const actWinner = score.gh > score.ga ? "1" : (score.gh < score.ga ? "2" : "X");
         if (p.winner === actWinner) {
           if (p.gh === score.gh && p.ga === score.ga) ptsDetail.groupMatches += 3;
@@ -931,39 +992,67 @@ function renderUserPredictions() {
     Object.keys(computedActualGroups).forEach(grp => {
       if (!isGroupComplete(grp)) return;
       const act = computedActualGroups[grp].map(t => t.name);
-      const pr = preds.groupRankings[grp];
+      const pr = pUser.groupRankings[grp];
       if (act[0] && pr[0] === act[0]) ptsDetail.groupStandings += 2;
       for (let pos = 1; pos < 4; pos++) {
         if (act[pos] && pr[pos] === act[pos]) ptsDetail.groupStandings += 1;
       }
     });
 
-    preds.octavos.forEach(t => { if (computedQualifiers.octavos.includes(t)) ptsDetail.octavos += 2; });
-    preds.cuartos.forEach(t => { if (computedQualifiers.cuartos.includes(t)) ptsDetail.cuartos += 3; });
-    preds.semis.forEach(t => { if (computedQualifiers.semis.includes(t)) ptsDetail.semis += 5; });
-    preds.finalistas.forEach(t => { if (computedQualifiers.finals.includes(t)) ptsDetail.finals += 8; });
-    preds.match34.forEach(t => { if (computedQualifiers.match34.includes(t)) ptsDetail.finals += 8; });
-    if (computedQualifiers.thirdPlace && preds.thirdPlace === computedQualifiers.thirdPlace) ptsDetail.thirdPlace += 10;
-    if (computedQualifiers.champion && preds.champion === computedQualifiers.champion) ptsDetail.champion += 30;
-    if (actualExtras.pichichi && preds.pichichi.toLowerCase() === actualExtras.pichichi.toLowerCase()) ptsDetail.extras += 20;
-    if (actualExtras.mvp && preds.mvp.toLowerCase() === actualExtras.mvp.toLowerCase()) ptsDetail.extras += 20;
+    pUser.octavos.forEach(t => { if (computedQualifiers.octavos.includes(t)) ptsDetail.octavos += 2; });
+    pUser.cuartos.forEach(t => { if (computedQualifiers.cuartos.includes(t)) ptsDetail.cuartos += 3; });
+    pUser.semis.forEach(t => { if (computedQualifiers.semis.includes(t)) ptsDetail.semis += 5; });
+    pUser.finalistas.forEach(t => { if (computedQualifiers.finals.includes(t)) ptsDetail.finals += 8; });
+    pUser.match34.forEach(t => { if (computedQualifiers.match34.includes(t)) ptsDetail.finals += 8; });
+    if (computedQualifiers.thirdPlace && pUser.thirdPlace === computedQualifiers.thirdPlace) ptsDetail.thirdPlace += 10;
+    if (computedQualifiers.champion && pUser.champion === computedQualifiers.champion) ptsDetail.champion += 30;
+    if (actualExtras.pichichi && pUser.pichichi.toLowerCase() === actualExtras.pichichi.toLowerCase()) ptsDetail.extras += 20;
+    if (actualExtras.mvp && pUser.mvp.toLowerCase() === actualExtras.mvp.toLowerCase()) ptsDetail.extras += 20;
+
+    // Knockout matches points (73 to 104)
+    for (let matchNum = 73; matchNum <= 104; matchNum++) {
+      const score = actualScores[matchNum];
+      if (score && score.gh !== "" && score.ga !== "") {
+        const koVal = pUser.koMatches ? pUser.koMatches[matchNum] : null;
+        if (koVal && koVal.includes("·")) {
+          const parts = koVal.split("·");
+          const outcomePart = parts[1].split("|")[0]; // "1", "2", "X"
+          const actWinner = score.gh > score.ga ? "1" : (score.gh < score.ga ? "2" : "X");
+          if (outcomePart === actWinner) {
+            ptsDetail.koMatches += KO_MATCH_1X2_POINTS;
+            if (actWinner === "X") {
+              const predPen = pUser.koPenalties ? pUser.koPenalties[matchNum] : null;
+              const actPenh = score.penh;
+              const actPena = score.pena;
+              if (predPen && actPenh !== "" && actPena !== "" && actPenh !== undefined && actPena !== undefined && actPenh !== null && actPena !== null) {
+                if (predPen.home === parseInt(actPenh) && predPen.away === parseInt(actPena)) {
+                  ptsDetail.koMatches += KO_PENALTY_EXACT_POINTS;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
 
     ptsDetail.total = ptsDetail.groupMatches + ptsDetail.groupStandings + 
                        ptsDetail.octavos + ptsDetail.cuartos + ptsDetail.semis + 
-                       ptsDetail.finals + ptsDetail.thirdPlace + ptsDetail.champion + ptsDetail.extras;
+                       ptsDetail.finals + ptsDetail.thirdPlace + ptsDetail.champion + ptsDetail.extras + ptsDetail.koMatches;
     return { name, pts: ptsDetail };
   }).find(e => e.name === user);
 
   // Update Summary numbers
   document.getElementById("user-total-pts").textContent = userEntry.pts.total;
-  document.getElementById("user-matches-pts").textContent = userEntry.pts.groupMatches;
+  document.getElementById("user-matches-pts").textContent = userEntry.pts.groupMatches + userEntry.pts.koMatches;
   document.getElementById("user-standings-pts").textContent = userEntry.pts.groupStandings;
   document.getElementById("user-ko-pts").textContent = userEntry.pts.octavos + userEntry.pts.cuartos + userEntry.pts.semis + userEntry.pts.finals + userEntry.pts.thirdPlace + userEntry.pts.champion;
   document.getElementById("user-extra-pts").textContent = userEntry.pts.extras;
 
-  // Render group match prediction rows
+  // Render group & knockout match prediction rows
   const tbody = document.getElementById("user-group-preds-body");
   tbody.innerHTML = "";
+  
+  // 1. Group Stage Matches
   FIXTURES.forEach((match, idx) => {
     const pred = preds.groupMatches[match.matchNum];
     const score = actualScores[match.matchNum];
@@ -1000,6 +1089,95 @@ function renderUserPredictions() {
         <strong>${getTeamDisplayName(match.home)} vs ${getTeamDisplayName(match.away)}</strong>
       </td>
       <td style="font-family:var(--font-title); font-weight:700;">${pred.gh} - ${pred.ga} (${pred.winner})</td>
+      <td style="font-family:var(--font-title); font-weight:700; color:#fff;">${actScoreHtml}</td>
+      <td><span class="hit-badge ${badgeClass}">${badgeLabel}</span></td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  // 2. Knockout Matches
+  const sortedKo = Object.values(knockoutFixtures).sort((a, b) => a.matchNum - b.matchNum);
+  sortedKo.forEach(match => {
+    const id = match.matchNum;
+    const score = actualScores[id];
+    
+    // Check if team names are resolved
+    const homeTeam = match.home || `Ganador/Pos. ${match.homeSource}`;
+    const awayTeam = match.away || `Ganador/Pos. ${match.awaySource}`;
+    
+    // Parse participant's prediction
+    const koVal = preds.koMatches ? preds.koMatches[id] : null;
+    let predText = "-";
+    let pointsEarned = 0;
+    let badgeClass = "pending";
+    let badgeLabel = "Pendiente";
+    
+    if (koVal && koVal.includes("·")) {
+      const parts = koVal.split("·");
+      const matchupPart = parts[0]; // e.g. "Alemania-Suecia"
+      const winnerPart = parts[1].split("|")[0]; // "1", "2", "X"
+      const scorePart = parts[1].split("|")[1]; // e.g. "2-1"
+      
+      const predPen = preds.koPenalties ? preds.koPenalties[id] : null;
+      let penSuffix = "";
+      if (winnerPart === "X" && predPen) {
+        penSuffix = ` (${predPen.home}-${predPen.away} pen)`;
+      }
+      
+      const predictedTeams = matchupPart.split("-");
+      const homeDisp = getTeamDisplayName(predictedTeams[0]);
+      const awayDisp = getTeamDisplayName(predictedTeams[1]);
+      predText = `${homeDisp} ${scorePart}${penSuffix} ${awayDisp}`;
+      
+      if (score && score.gh !== "" && score.ga !== "") {
+        const actWinner = score.gh > score.ga ? "1" : (score.gh < score.ga ? "2" : "X");
+        if (winnerPart === actWinner) {
+          pointsEarned += KO_MATCH_1X2_POINTS;
+          
+          if (actWinner === "X") {
+            const actPenh = score.penh;
+            const actPena = score.pena;
+            if (predPen && actPenh !== "" && actPena !== "" && actPenh !== undefined && actPena !== undefined && actPenh !== null && actPena !== null) {
+              if (predPen.home === parseInt(actPenh) && predPen.away === parseInt(actPena)) {
+                pointsEarned += KO_PENALTY_EXACT_POINTS;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    let actScoreHtml = "-";
+    if (score && score.gh !== "" && score.ga !== "") {
+      const actPenh = score.penh;
+      const actPena = score.pena;
+      let penSuffix = "";
+      if (score.gh === score.ga && actPenh !== undefined && actPena !== undefined && actPenh !== "" && actPena !== "" && actPenh !== null && actPena !== null) {
+        penSuffix = ` (${actPenh}-${actPena} pen)`;
+      }
+      actScoreHtml = `${score.gh} - ${score.ga}${penSuffix}`;
+      
+      if (pointsEarned > 0) {
+        if (pointsEarned > KO_MATCH_1X2_POINTS) {
+          badgeClass = "exact";
+          badgeLabel = `Acierto 1X2 + Penaltis (+${pointsEarned})`;
+        } else {
+          badgeClass = "win1x2";
+          badgeLabel = `Acierto 1X2 (+${pointsEarned})`;
+        }
+      } else {
+        badgeClass = "miss";
+        badgeLabel = "Fallo (0)";
+      }
+    }
+    
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>
+        <span style="font-weight:700; font-size:0.75rem; color:var(--text-muted); display:block;">#${id} - ${getStageName(match.stage)}</span>
+        <strong>${getTeamDisplayName(homeTeam)} vs ${getTeamDisplayName(awayTeam)}</strong>
+      </td>
+      <td style="font-size:0.85rem;">${predText}</td>
       <td style="font-family:var(--font-title); font-weight:700; color:#fff;">${actScoreHtml}</td>
       <td><span class="hit-badge ${badgeClass}">${badgeLabel}</span></td>
     `;
