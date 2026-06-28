@@ -94,7 +94,7 @@ const FIXTURES = [
     "group": "A",
     "home": "México",
     "away": "Sudáfrica",
-    "date": "2026-06-11 21:00",
+    "date": "2026-06-11 15:00",
     "jor": "J1"
   },
   {
@@ -102,7 +102,7 @@ const FIXTURES = [
     "group": "A",
     "home": "Corea del Sur",
     "away": "República Checa",
-    "date": "2026-06-12 04:00",
+    "date": "2026-06-11 22:00",
     "jor": "J1"
   },
   {
@@ -110,7 +110,7 @@ const FIXTURES = [
     "group": "A",
     "home": "República Checa",
     "away": "Sudáfrica",
-    "date": "2026-06-18 18:00",
+    "date": "2026-06-18 12:00",
     "jor": "J2"
   },
   {
@@ -118,7 +118,7 @@ const FIXTURES = [
     "group": "A",
     "home": "México",
     "away": "Corea del Sur",
-    "date": "2026-06-19 03:00",
+    "date": "2026-06-18 21:00",
     "jor": "J2"
   },
   {
@@ -126,7 +126,7 @@ const FIXTURES = [
     "group": "A",
     "home": "República Checa",
     "away": "México",
-    "date": "2026-06-25 03:00",
+    "date": "2026-06-24 21:00",
     "jor": "J3"
   },
   {
@@ -134,7 +134,7 @@ const FIXTURES = [
     "group": "A",
     "home": "Sudáfrica",
     "away": "Corea del Sur",
-    "date": "2026-06-25 03:00",
+    "date": "2026-06-24 21:00",
     "jor": "J3"
   },
   {
@@ -142,7 +142,7 @@ const FIXTURES = [
     "group": "B",
     "home": "Canadá",
     "away": "Bosnia y Herzegovina",
-    "date": "2026-06-12 21:00",
+    "date": "2026-06-12 15:00",
     "jor": "J1"
   },
   {
@@ -150,7 +150,7 @@ const FIXTURES = [
     "group": "B",
     "home": "Catar",
     "away": "Suiza",
-    "date": "2026-06-13 21:00",
+    "date": "2026-06-13 15:00",
     "jor": "J1"
   },
   {
@@ -158,7 +158,7 @@ const FIXTURES = [
     "group": "B",
     "home": "Suiza",
     "away": "Bosnia y Herzegovina",
-    "date": "2026-06-18 21:00",
+    "date": "2026-06-18 15:00",
     "jor": "J2"
   },
   {
@@ -166,7 +166,7 @@ const FIXTURES = [
     "group": "B",
     "home": "Canadá",
     "away": "Catar",
-    "date": "2026-06-19 00:00",
+    "date": "2026-06-18 18:00",
     "jor": "J2"
   },
   {
@@ -174,7 +174,7 @@ const FIXTURES = [
     "group": "B",
     "home": "Suiza",
     "away": "Canadá",
-    "date": "2026-06-24 21:00",
+    "date": "2026-06-24 15:00",
     "jor": "J3"
   },
   {
@@ -182,7 +182,7 @@ const FIXTURES = [
     "group": "B",
     "home": "Bosnia y Herzegovina",
     "away": "Catar",
-    "date": "2026-06-24 21:00",
+    "date": "2026-06-24 15:00",
     "jor": "J3"
   },
   {
@@ -190,7 +190,7 @@ const FIXTURES = [
     "group": "C",
     "home": "Brasil",
     "away": "Marruecos",
-    "date": "2026-06-14 00:00",
+    "date": "2026-06-13 18:00",
     "jor": "J1"
   },
   {
@@ -198,7 +198,7 @@ const FIXTURES = [
     "group": "C",
     "home": "Haití",
     "away": "Escocia",
-    "date": "2026-06-14 03:00",
+    "date": "2026-06-13 21:00",
     "jor": "J1"
   },
   {
@@ -206,7 +206,7 @@ const FIXTURES = [
     "group": "C",
     "home": "Escocia",
     "away": "Marruecos",
-    "date": "2026-06-20 00:00",
+    "date": "2026-06-19 18:00",
     "jor": "J2"
   },
   {
@@ -214,7 +214,7 @@ const FIXTURES = [
     "group": "C",
     "home": "Brasil",
     "away": "Haití",
-    "date": "2026-06-20 02:30",
+    "date": "2026-06-19 20:30",
     "jor": "J2"
   },
   {
@@ -222,7 +222,7 @@ const FIXTURES = [
     "group": "C",
     "home": "Escocia",
     "away": "Brasil",
-    "date": "2026-06-25 00:00",
+    "date": "2026-06-24 18:00",
     "jor": "J3"
   },
   {
@@ -230,7 +230,7 @@ const FIXTURES = [
     "group": "C",
     "home": "Marruecos",
     "away": "Haití",
-    "date": "2026-06-25 00:00",
+    "date": "2026-06-24 18:00",
     "jor": "J3"
   },
   {
@@ -238,7 +238,7 @@ const FIXTURES = [
     "group": "D",
     "home": "Estados Unidos",
     "away": "Paraguay",
-    "date": "2026-06-13 03:00",
+    "date": "2026-06-12 21:00",
     "jor": "J1"
   },
   {
@@ -246,7 +246,7 @@ const FIXTURES = [
     "group": "D",
     "home": "Australia",
     "away": "Turquía",
-    "date": "2026-06-14 06:00",
+    "date": "2026-06-14 00:00",
     "jor": "J1"
   },
   {
@@ -254,7 +254,7 @@ const FIXTURES = [
     "group": "D",
     "home": "Estados Unidos",
     "away": "Australia",
-    "date": "2026-06-19 21:00",
+    "date": "2026-06-19 15:00",
     "jor": "J2"
   },
   {
@@ -262,7 +262,7 @@ const FIXTURES = [
     "group": "D",
     "home": "Turquía",
     "away": "Paraguay",
-    "date": "2026-06-20 05:00",
+    "date": "2026-06-19 23:00",
     "jor": "J2"
   },
   {
@@ -270,7 +270,7 @@ const FIXTURES = [
     "group": "D",
     "home": "Turquía",
     "away": "Estados Unidos",
-    "date": "2026-06-26 04:00",
+    "date": "2026-06-25 22:00",
     "jor": "J3"
   },
   {
@@ -278,7 +278,7 @@ const FIXTURES = [
     "group": "D",
     "home": "Paraguay",
     "away": "Australia",
-    "date": "2026-06-26 04:00",
+    "date": "2026-06-25 22:00",
     "jor": "J3"
   },
   {
@@ -286,7 +286,7 @@ const FIXTURES = [
     "group": "E",
     "home": "Alemania",
     "away": "Curazao",
-    "date": "2026-06-14 19:00",
+    "date": "2026-06-14 13:00",
     "jor": "J1"
   },
   {
@@ -294,7 +294,7 @@ const FIXTURES = [
     "group": "E",
     "home": "Costa de Marfil",
     "away": "Ecuador",
-    "date": "2026-06-15 01:00",
+    "date": "2026-06-14 19:00",
     "jor": "J1"
   },
   {
@@ -302,7 +302,7 @@ const FIXTURES = [
     "group": "E",
     "home": "Alemania",
     "away": "Costa de Marfil",
-    "date": "2026-06-20 22:00",
+    "date": "2026-06-20 16:00",
     "jor": "J2"
   },
   {
@@ -310,7 +310,7 @@ const FIXTURES = [
     "group": "E",
     "home": "Ecuador",
     "away": "Curazao",
-    "date": "2026-06-21 02:00",
+    "date": "2026-06-20 20:00",
     "jor": "J2"
   },
   {
@@ -318,7 +318,7 @@ const FIXTURES = [
     "group": "E",
     "home": "Curazao",
     "away": "Costa de Marfil",
-    "date": "2026-06-25 22:00",
+    "date": "2026-06-25 16:00",
     "jor": "J3"
   },
   {
@@ -326,7 +326,7 @@ const FIXTURES = [
     "group": "E",
     "home": "Ecuador",
     "away": "Alemania",
-    "date": "2026-06-25 22:00",
+    "date": "2026-06-25 16:00",
     "jor": "J3"
   },
   {
@@ -334,7 +334,7 @@ const FIXTURES = [
     "group": "F",
     "home": "Países Bajos",
     "away": "Japón",
-    "date": "2026-06-14 22:00",
+    "date": "2026-06-14 16:00",
     "jor": "J1"
   },
   {
@@ -342,7 +342,7 @@ const FIXTURES = [
     "group": "F",
     "home": "Suecia",
     "away": "Túnez",
-    "date": "2026-06-15 04:00",
+    "date": "2026-06-14 22:00",
     "jor": "J1"
   },
   {
@@ -350,7 +350,7 @@ const FIXTURES = [
     "group": "F",
     "home": "Países Bajos",
     "away": "Suecia",
-    "date": "2026-06-20 19:00",
+    "date": "2026-06-20 13:00",
     "jor": "J2"
   },
   {
@@ -358,7 +358,7 @@ const FIXTURES = [
     "group": "F",
     "home": "Túnez",
     "away": "Japón",
-    "date": "2026-06-21 06:00",
+    "date": "2026-06-21 00:00",
     "jor": "J2"
   },
   {
@@ -366,7 +366,7 @@ const FIXTURES = [
     "group": "F",
     "home": "Japón",
     "away": "Suecia",
-    "date": "2026-06-26 01:00",
+    "date": "2026-06-25 19:00",
     "jor": "J3"
   },
   {
@@ -374,7 +374,7 @@ const FIXTURES = [
     "group": "F",
     "home": "Túnez",
     "away": "Países Bajos",
-    "date": "2026-06-26 01:00",
+    "date": "2026-06-25 19:00",
     "jor": "J3"
   },
   {
@@ -382,7 +382,7 @@ const FIXTURES = [
     "group": "G",
     "home": "Bélgica",
     "away": "Egipto",
-    "date": "2026-06-15 21:00",
+    "date": "2026-06-15 15:00",
     "jor": "J1"
   },
   {
@@ -390,7 +390,7 @@ const FIXTURES = [
     "group": "G",
     "home": "Irán",
     "away": "Nueva Zelanda",
-    "date": "2026-06-16 03:00",
+    "date": "2026-06-15 21:00",
     "jor": "J1"
   },
   {
@@ -398,7 +398,7 @@ const FIXTURES = [
     "group": "G",
     "home": "Bélgica",
     "away": "Irán",
-    "date": "2026-06-21 21:00",
+    "date": "2026-06-21 15:00",
     "jor": "J2"
   },
   {
@@ -406,7 +406,7 @@ const FIXTURES = [
     "group": "G",
     "home": "Nueva Zelanda",
     "away": "Egipto",
-    "date": "2026-06-22 03:00",
+    "date": "2026-06-21 21:00",
     "jor": "J2"
   },
   {
@@ -414,7 +414,7 @@ const FIXTURES = [
     "group": "G",
     "home": "Egipto",
     "away": "Irán",
-    "date": "2026-06-27 05:00",
+    "date": "2026-06-26 23:00",
     "jor": "J3"
   },
   {
@@ -422,7 +422,7 @@ const FIXTURES = [
     "group": "G",
     "home": "Nueva Zelanda",
     "away": "Bélgica",
-    "date": "2026-06-27 05:00",
+    "date": "2026-06-26 23:00",
     "jor": "J3"
   },
   {
@@ -430,7 +430,7 @@ const FIXTURES = [
     "group": "H",
     "home": "España",
     "away": "Cabo Verde",
-    "date": "2026-06-15 18:00",
+    "date": "2026-06-15 12:00",
     "jor": "J1"
   },
   {
@@ -438,7 +438,7 @@ const FIXTURES = [
     "group": "H",
     "home": "Arabia Saudita",
     "away": "Uruguay",
-    "date": "2026-06-16 00:00",
+    "date": "2026-06-15 18:00",
     "jor": "J1"
   },
   {
@@ -446,7 +446,7 @@ const FIXTURES = [
     "group": "H",
     "home": "España",
     "away": "Arabia Saudita",
-    "date": "2026-06-21 18:00",
+    "date": "2026-06-21 12:00",
     "jor": "J2"
   },
   {
@@ -454,7 +454,7 @@ const FIXTURES = [
     "group": "H",
     "home": "Uruguay",
     "away": "Cabo Verde",
-    "date": "2026-06-22 00:00",
+    "date": "2026-06-21 18:00",
     "jor": "J2"
   },
   {
@@ -462,7 +462,7 @@ const FIXTURES = [
     "group": "H",
     "home": "Cabo Verde",
     "away": "Arabia Saudita",
-    "date": "2026-06-27 02:00",
+    "date": "2026-06-26 20:00",
     "jor": "J3"
   },
   {
@@ -470,7 +470,7 @@ const FIXTURES = [
     "group": "H",
     "home": "Uruguay",
     "away": "España",
-    "date": "2026-06-27 02:00",
+    "date": "2026-06-26 20:00",
     "jor": "J3"
   },
   {
@@ -478,7 +478,7 @@ const FIXTURES = [
     "group": "I",
     "home": "Francia",
     "away": "Senegal",
-    "date": "2026-06-16 21:00",
+    "date": "2026-06-16 15:00",
     "jor": "J1"
   },
   {
@@ -486,7 +486,7 @@ const FIXTURES = [
     "group": "I",
     "home": "Irak",
     "away": "Noruega",
-    "date": "2026-06-17 00:00",
+    "date": "2026-06-16 18:00",
     "jor": "J1"
   },
   {
@@ -494,7 +494,7 @@ const FIXTURES = [
     "group": "I",
     "home": "Francia",
     "away": "Irak",
-    "date": "2026-06-22 23:00",
+    "date": "2026-06-22 17:00",
     "jor": "J2"
   },
   {
@@ -502,7 +502,7 @@ const FIXTURES = [
     "group": "I",
     "home": "Noruega",
     "away": "Senegal",
-    "date": "2026-06-23 02:00",
+    "date": "2026-06-22 20:00",
     "jor": "J2"
   },
   {
@@ -510,7 +510,7 @@ const FIXTURES = [
     "group": "I",
     "home": "Noruega",
     "away": "Francia",
-    "date": "2026-06-26 21:00",
+    "date": "2026-06-26 15:00",
     "jor": "J3"
   },
   {
@@ -518,7 +518,7 @@ const FIXTURES = [
     "group": "I",
     "home": "Senegal",
     "away": "Irak",
-    "date": "2026-06-26 21:00",
+    "date": "2026-06-26 15:00",
     "jor": "J3"
   },
   {
@@ -526,7 +526,7 @@ const FIXTURES = [
     "group": "J",
     "home": "Argentina",
     "away": "Argelia",
-    "date": "2026-06-17 03:00",
+    "date": "2026-06-16 21:00",
     "jor": "J1"
   },
   {
@@ -534,7 +534,7 @@ const FIXTURES = [
     "group": "J",
     "home": "Austria",
     "away": "Jordania",
-    "date": "2026-06-17 06:00",
+    "date": "2026-06-17 00:00",
     "jor": "J1"
   },
   {
@@ -542,7 +542,7 @@ const FIXTURES = [
     "group": "J",
     "home": "Argentina",
     "away": "Austria",
-    "date": "2026-06-22 19:00",
+    "date": "2026-06-22 13:00",
     "jor": "J2"
   },
   {
@@ -550,7 +550,7 @@ const FIXTURES = [
     "group": "J",
     "home": "Jordania",
     "away": "Argelia",
-    "date": "2026-06-23 05:00",
+    "date": "2026-06-22 23:00",
     "jor": "J2"
   },
   {
@@ -558,7 +558,7 @@ const FIXTURES = [
     "group": "J",
     "home": "Argelia",
     "away": "Austria",
-    "date": "2026-06-28 04:00",
+    "date": "2026-06-27 22:00",
     "jor": "J3"
   },
   {
@@ -566,7 +566,7 @@ const FIXTURES = [
     "group": "J",
     "home": "Jordania",
     "away": "Argentina",
-    "date": "2026-06-28 04:00",
+    "date": "2026-06-27 22:00",
     "jor": "J3"
   },
   {
@@ -574,7 +574,7 @@ const FIXTURES = [
     "group": "K",
     "home": "Portugal",
     "away": "RD Congo",
-    "date": "2026-06-17 19:00",
+    "date": "2026-06-17 13:00",
     "jor": "J1"
   },
   {
@@ -582,7 +582,7 @@ const FIXTURES = [
     "group": "K",
     "home": "Uzbekistán",
     "away": "Colombia",
-    "date": "2026-06-18 04:00",
+    "date": "2026-06-17 22:00",
     "jor": "J1"
   },
   {
@@ -590,7 +590,7 @@ const FIXTURES = [
     "group": "K",
     "home": "Portugal",
     "away": "Uzbekistán",
-    "date": "2026-06-23 19:00",
+    "date": "2026-06-23 13:00",
     "jor": "J2"
   },
   {
@@ -598,7 +598,7 @@ const FIXTURES = [
     "group": "K",
     "home": "Colombia",
     "away": "RD Congo",
-    "date": "2026-06-24 04:00",
+    "date": "2026-06-23 22:00",
     "jor": "J2"
   },
   {
@@ -606,7 +606,7 @@ const FIXTURES = [
     "group": "K",
     "home": "Colombia",
     "away": "Portugal",
-    "date": "2026-06-28 01:30",
+    "date": "2026-06-27 19:30",
     "jor": "J3"
   },
   {
@@ -614,7 +614,7 @@ const FIXTURES = [
     "group": "K",
     "home": "RD Congo",
     "away": "Uzbekistán",
-    "date": "2026-06-28 01:30",
+    "date": "2026-06-27 19:30",
     "jor": "J3"
   },
   {
@@ -622,7 +622,7 @@ const FIXTURES = [
     "group": "L",
     "home": "Inglaterra",
     "away": "Croacia",
-    "date": "2026-06-17 22:00",
+    "date": "2026-06-17 16:00",
     "jor": "J1"
   },
   {
@@ -630,7 +630,7 @@ const FIXTURES = [
     "group": "L",
     "home": "Ghana",
     "away": "Panamá",
-    "date": "2026-06-18 01:00",
+    "date": "2026-06-17 19:00",
     "jor": "J1"
   },
   {
@@ -638,7 +638,7 @@ const FIXTURES = [
     "group": "L",
     "home": "Inglaterra",
     "away": "Ghana",
-    "date": "2026-06-23 22:00",
+    "date": "2026-06-23 16:00",
     "jor": "J2"
   },
   {
@@ -646,7 +646,7 @@ const FIXTURES = [
     "group": "L",
     "home": "Panamá",
     "away": "Croacia",
-    "date": "2026-06-24 01:00",
+    "date": "2026-06-23 19:00",
     "jor": "J2"
   },
   {
@@ -654,7 +654,7 @@ const FIXTURES = [
     "group": "L",
     "home": "Panamá",
     "away": "Inglaterra",
-    "date": "2026-06-27 23:00",
+    "date": "2026-06-27 17:00",
     "jor": "J3"
   },
   {
@@ -662,7 +662,7 @@ const FIXTURES = [
     "group": "L",
     "home": "Croacia",
     "away": "Ghana",
-    "date": "2026-06-27 23:00",
+    "date": "2026-06-27 17:00",
     "jor": "J3"
   }
 ];
@@ -1170,8 +1170,8 @@ const PREDICTIONS = {
     "groupMatches": {
       "1": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "2": {
         "winner": "1",
@@ -1184,138 +1184,138 @@ const PREDICTIONS = {
         "ga": 1
       },
       "8": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "7": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "5": {
         "winner": "2",
         "gh": 0,
-        "ga": 3
+        "ga": 1
       },
       "4": {
         "winner": "1",
-        "gh": 2,
+        "gh": 4,
         "ga": 1
       },
       "6": {
-        "winner": "X",
+        "winner": "1",
         "gh": 2,
-        "ga": 2
+        "ga": 0
       },
       "10": {
         "winner": "1",
-        "gh": 6,
-        "ga": 0
+        "gh": 7,
+        "ga": 1
       },
       "9": {
-        "winner": "2",
+        "winner": "1",
         "gh": 1,
-        "ga": 2
+        "ga": 0
       },
       "11": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "gh": 2,
+        "ga": 2
       },
       "12": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 5,
+        "ga": 1
       },
       "16": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "15": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "gh": 2,
+        "ga": 2
       },
       "14": {
-        "winner": "1",
-        "gh": 4,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "13": {
-        "winner": "2",
+        "winner": "X",
         "gh": 1,
-        "ga": 2
+        "ga": 1
       },
       "17": {
         "winner": "1",
         "gh": 3,
-        "ga": 0
+        "ga": 1
       },
       "18": {
         "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "gh": 1,
+        "ga": 4
       },
       "19": {
         "winner": "1",
-        "gh": 1,
+        "gh": 3,
         "ga": 0
       },
       "20": {
         "winner": "1",
-        "gh": 2,
+        "gh": 3,
         "ga": 1
       },
       "23": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "24": {
         "winner": "2",
-        "gh": 0,
-        "ga": 4
+        "gh": 1,
+        "ga": 3
       },
       "22": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "21": {
-        "winner": "2",
-        "gh": 1,
+        "gh": 4,
         "ga": 2
       },
-      "25": {
+      "21": {
         "winner": "1",
         "gh": 1,
         "ga": 0
+      },
+      "25": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "28": {
         "winner": "1",
-        "gh": 4,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "26": {
         "winner": "1",
-        "gh": 3,
-        "ga": 0
+        "gh": 4,
+        "ga": 1
       },
       "27": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 6,
+        "ga": 0
       },
       "30": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
       },
       "29": {
         "winner": "1",
-        "gh": 4,
+        "gh": 3,
         "ga": 0
       },
       "32": {
@@ -1324,68 +1324,68 @@ const PREDICTIONS = {
         "ga": 0
       },
       "31": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "33": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "34": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "35": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "36": {
         "winner": "2",
         "gh": 0,
         "ga": 1
       },
-      "39": {
+      "33": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       },
-      "40": {
+      "34": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "38": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "37": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "42": {
+      "35": {
         "winner": "1",
         "gh": 5,
         "ga": 1
       },
-      "41": {
-        "winner": "1",
-        "gh": 2,
+      "36": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 4
+      },
+      "39": {
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
-      "43": {
+      "40": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "38": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "37": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "42": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "41": {
         "winner": "1",
         "gh": 3,
         "ga": 2
       },
-      "44": {
-        "winner": "X",
+      "43": {
+        "winner": "1",
         "gh": 2,
+        "ga": 0
+      },
+      "44": {
+        "winner": "2",
+        "gh": 1,
         "ga": 2
       },
       "47": {
@@ -1395,28 +1395,28 @@ const PREDICTIONS = {
       },
       "48": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "45": {
-        "winner": "1",
-        "gh": 1,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "46": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 1
       },
       "53": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 3
       },
       "54": {
-        "winner": "X",
+        "winner": "1",
         "gh": 1,
-        "ga": 1
+        "ga": 0
       },
       "51": {
         "winner": "1",
@@ -1424,23 +1424,23 @@ const PREDICTIONS = {
         "ga": 1
       },
       "52": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
       },
       "49": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
       },
       "50": {
         "winner": "1",
         "gh": 4,
-        "ga": 1
+        "ga": 2
       },
       "59": {
-        "winner": "X",
-        "gh": 2,
+        "winner": "1",
+        "gh": 3,
         "ga": 2
       },
       "60": {
@@ -1450,78 +1450,78 @@ const PREDICTIONS = {
       },
       "55": {
         "winner": "2",
-        "gh": 1,
+        "gh": 0,
         "ga": 2
       },
       "56": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
       },
       "57": {
-        "winner": "2",
+        "winner": "X",
         "gh": 1,
-        "ga": 2
+        "ga": 1
       },
       "58": {
         "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "gh": 1,
+        "ga": 3
       },
       "63": {
-        "winner": "1",
+        "winner": "X",
         "gh": 1,
-        "ga": 0
+        "ga": 1
       },
       "64": {
         "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "gh": 1,
+        "ga": 5
       },
       "65": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "66": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "2",
+        "gh": 0,
         "ga": 1
       },
       "61": {
         "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "gh": 1,
+        "ga": 4
       },
       "62": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
       },
       "69": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "winner": "X",
+        "gh": 3,
+        "ga": 3
       },
       "70": {
         "winner": "2",
-        "gh": 0,
+        "gh": 1,
         "ga": 3
       },
       "71": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "72": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
+      "72": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
       "67": {
         "winner": "2",
         "gh": 0,
-        "ga": 3
+        "ga": 2
       },
       "68": {
         "winner": "1",
@@ -1532,9 +1532,9 @@ const PREDICTIONS = {
     "groupRankings": {
       "A": [
         "México",
+        "Sudáfrica",
         "Corea del Sur",
-        "República Checa",
-        "Sudáfrica"
+        "República Checa"
       ],
       "B": [
         "Suiza",
@@ -1544,540 +1544,20 @@ const PREDICTIONS = {
       ],
       "C": [
         "Brasil",
-        "Escocia",
-        "Marruecos",
-        "Haití"
-      ],
-      "D": [
-        "Estados Unidos",
-        "Turquía",
-        "Australia",
-        "Paraguay"
-      ],
-      "E": [
-        "Alemania",
-        "Ecuador",
-        "Costa de Marfil",
-        "Curazao"
-      ],
-      "F": [
-        "Países Bajos",
-        "Suecia",
-        "Japón",
-        "Túnez"
-      ],
-      "G": [
-        "Bélgica",
-        "Egipto",
-        "Nueva Zelanda",
-        "Irán"
-      ],
-      "H": [
-        "España",
-        "Uruguay",
-        "Arabia Saudita",
-        "Cabo Verde"
-      ],
-      "I": [
-        "Francia",
-        "Noruega",
-        "Senegal",
-        "Irak"
-      ],
-      "J": [
-        "Argentina",
-        "Austria",
-        "Argelia",
-        "Jordania"
-      ],
-      "K": [
-        "Portugal",
-        "Colombia",
-        "RD Congo",
-        "Uzbekistán"
-      ],
-      "L": [
-        "Inglaterra",
-        "Croacia",
-        "Panamá",
-        "Ghana"
-      ]
-    },
-    "octavos": [
-      "Canadá",
-      "Alemania",
-      "Brasil",
-      "México",
-      "Colombia",
-      "Estados Unidos",
-      "Argentina",
-      "Suiza",
-      "Países Bajos",
-      "Francia",
-      "Ecuador",
-      "Inglaterra",
-      "España",
-      "Bélgica",
-      "Turquía",
-      "Portugal"
-    ],
-    "cuartos": [
-      "Francia",
-      "España",
-      "Brasil",
-      "Argentina",
-      "Países Bajos",
-      "Bélgica",
-      "Inglaterra",
-      "Portugal"
-    ],
-    "semis": [
-      "Francia",
-      "Brasil",
-      "España",
-      "Portugal"
-    ],
-    "finalistas": [
-      "Francia",
-      "Portugal"
-    ],
-    "match34": [
-      "España",
-      "Brasil"
-    ],
-    "thirdPlace": "España",
-    "champion": "Portugal",
-    "subchampion": "Francia",
-    "pichichi": "Kylian Mbappe",
-    "mvp": "Michael Olise",
-    "koMatches": {
-      "73": "Corea del Sur-Canadá·2|0-1",
-      "74": "Brasil-Suecia·1|2-0",
-      "75": "Alemania-Marruecos·1|2-1",
-      "76": "Países Bajos-Escocia·1|2-0",
-      "77": "Ecuador-Noruega·1|3-1",
-      "78": "Francia-Australia·1|3-1",
-      "79": "México-Arabia Saudita·1|2-0",
-      "80": "Inglaterra-Costa de Marfil·1|2-0",
-      "81": "Bélgica-República Checa·1|2-1",
-      "82": "Estados Unidos-Bosnia y Herzegovina·1|1-0",
-      "83": "España-Austria·1|2-1",
-      "84": "Colombia-Croacia·1|3-2",
-      "85": "Suiza-Japón·1|1-0",
-      "86": "Turquía-Egipto·1|1-0",
-      "87": "Argentina-Uruguay·1|2-1",
-      "88": "Portugal-Panamá·1|3-0",
-      "89": "Canadá-Países Bajos·2|0-2",
-      "90": "Alemania-Francia·2|1-2",
-      "91": "Brasil-Ecuador·1|2-1",
-      "92": "México-Inglaterra·2|1-3",
-      "93": "Colombia-España·2|1-2",
-      "94": "Estados Unidos-Bélgica·2|0-2",
-      "95": "Argentina-Turquía·1|3-0",
-      "96": "Suiza-Portugal·2|0-2",
-      "97": "Francia-Países Bajos·1|2-0",
-      "98": "España-Bélgica·1|1-0",
-      "99": "Brasil-Inglaterra·1|2-1",
-      "100": "Argentina-Portugal·2|0-1",
-      "101": "Francia-España·1|2-1",
-      "102": "Brasil-Portugal·2|0-1",
-      "103": "España-Brasil·1|1-0",
-      "104": "Francia-Portugal·2|0-1"
-    },
-    "koPenalties": {}
-  },
-  "Nacho": {
-    "groupMatches": {
-      "1": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "2": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "3": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "8": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "7": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 3
-      },
-      "5": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "4": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "6": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "10": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
-      "9": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "11": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "12": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "16": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "15": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "14": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "13": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "17": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
-      "18": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "19": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "20": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "23": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "24": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "22": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "21": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "25": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "28": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 2
-      },
-      "26": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "27": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
-      },
-      "30": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "29": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 1
-      },
-      "32": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "31": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "33": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "34": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "35": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
-      },
-      "36": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "39": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "40": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "38": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "37": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "42": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "41": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "43": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "44": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "47": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "48": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "45": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "46": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "53": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "54": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "51": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "52": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "49": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "50": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "59": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "60": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "55": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "56": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "57": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "58": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "63": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "64": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "65": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "66": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "61": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "62": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "69": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "70": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "71": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "72": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "67": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "68": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      }
-    },
-    "groupRankings": {
-      "A": [
-        "México",
-        "Sudáfrica",
-        "República Checa",
-        "Corea del Sur"
-      ],
-      "B": [
-        "Canadá",
-        "Suiza",
-        "Catar",
-        "Bosnia y Herzegovina"
-      ],
-      "C": [
-        "Brasil",
         "Marruecos",
         "Escocia",
         "Haití"
       ],
       "D": [
-        "Turquía",
         "Estados Unidos",
         "Australia",
-        "Paraguay"
+        "Paraguay",
+        "Turquía"
       ],
       "E": [
         "Alemania",
-        "Ecuador",
         "Costa de Marfil",
+        "Ecuador",
         "Curazao"
       ],
       "F": [
@@ -2094,9 +1574,9 @@ const PREDICTIONS = {
       ],
       "H": [
         "España",
+        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita",
-        "Cabo Verde"
+        "Arabia Saudita"
       ],
       "I": [
         "Francia",
@@ -2106,15 +1586,15 @@ const PREDICTIONS = {
       ],
       "J": [
         "Argentina",
-        "Argelia",
         "Austria",
+        "Argelia",
         "Jordania"
       ],
       "K": [
+        "Colombia",
         "Portugal",
         "RD Congo",
-        "Uzbekistán",
-        "Colombia"
+        "Uzbekistán"
       ],
       "L": [
         "Inglaterra",
@@ -2124,108 +1604,108 @@ const PREDICTIONS = {
       ]
     },
     "octavos": [
-      "Suiza",
+      "Canadá",
       "Alemania",
       "Brasil",
       "México",
-      "Croacia",
-      "Turquía",
+      "Portugal",
+      "Bosnia y Herzegovina",
       "Argentina",
-      "Canadá",
-      "Marruecos",
+      "Suiza",
+      "Países Bajos",
       "Francia",
       "Noruega",
       "Inglaterra",
       "España",
       "Bélgica",
-      "Estados Unidos",
-      "Portugal"
+      "Egipto",
+      "Colombia"
     ],
     "cuartos": [
       "Francia",
       "España",
-      "Brasil",
+      "Noruega",
       "Argentina",
-      "Marruecos",
+      "Países Bajos",
       "Bélgica",
-      "México",
-      "Portugal"
+      "Inglaterra",
+      "Suiza"
     ],
     "semis": [
       "Francia",
-      "Brasil",
+      "Inglaterra",
       "España",
-      "Portugal"
+      "Argentina"
     ],
     "finalistas": [
-      "España",
-      "Brasil"
+      "Francia",
+      "Argentina"
     ],
     "match34": [
-      "Francia",
-      "Portugal"
+      "España",
+      "Inglaterra"
     ],
-    "thirdPlace": "Francia",
-    "champion": "España",
-    "subchampion": "Brasil",
-    "pichichi": "Neymar",
-    "mvp": "Michael Olise",
+    "thirdPlace": "España",
+    "champion": "Francia",
+    "subchampion": "Argentina",
+    "pichichi": "Mbappe",
+    "mvp": "Mbappe",
     "koMatches": {
-      "73": "Sudáfrica-Suiza·2|0-1",
-      "74": "Brasil-Japón·1|1-0",
-      "75": "Alemania-Australia·1|1-0",
-      "76": "Países Bajos-Marruecos·2|0-1",
-      "77": "Ecuador-Noruega·2|0-1",
-      "78": "Francia-Suecia·1|1-0",
-      "79": "México-Escocia·1|1-0",
-      "80": "Inglaterra-Uzbekistán·1|1-0",
-      "81": "Bélgica-República Checa·1|1-0",
-      "82": "Turquía-Catar·1|1-0",
-      "83": "España-Argelia·1|1-0",
-      "84": "RD Congo-Croacia·2|0-1",
-      "85": "Canadá-Irán·1|1-0",
-      "86": "Estados Unidos-Egipto·1|1-0",
-      "87": "Argentina-Uruguay·1|1-0",
-      "88": "Portugal-Ghana·1|1-0",
-      "89": "Suiza-Marruecos·2|0-1",
-      "90": "Alemania-Francia·2|0-1",
-      "91": "Brasil-Noruega·1|1-0",
-      "92": "México-Inglaterra·1|1-0",
-      "93": "Croacia-España·2|0-1",
-      "94": "Turquía-Bélgica·2|0-1",
-      "95": "Argentina-Estados Unidos·1|1-0",
-      "96": "Canadá-Portugal·2|0-1",
-      "97": "Francia-Marruecos·1|1-0",
-      "98": "España-Bélgica·1|1-0",
-      "99": "Brasil-México·1|1-0",
-      "100": "Argentina-Portugal·2|0-1",
-      "101": "Francia-España·2|0-1",
-      "102": "Brasil-Portugal·1|1-0",
-      "103": "Francia-Portugal·1|1-0",
-      "104": "España-Brasil·1|1-0"
+      "73": "Sudáfrica-Canadá·2|2-4",
+      "74": "Brasil-Japón·1|3-2",
+      "75": "Alemania-Paraguay·1|3-0",
+      "76": "Países Bajos-Marruecos·1|3-2",
+      "77": "Costa de Marfil-Noruega·2|1-3",
+      "78": "Francia-Suecia·1|2-0",
+      "79": "México-Ecuador·1|2-1",
+      "80": "Inglaterra-RD Congo·1|3-0",
+      "81": "Bélgica-Senegal·1|2-1",
+      "82": "Estados Unidos-Bosnia y Herzegovina·2|0-2",
+      "83": "España-Austria·1|2-0",
+      "84": "Portugal-Croacia·1|2-1",
+      "85": "Suiza-Argelia·1|2-0",
+      "86": "Australia-Egipto·2|1-2",
+      "87": "Argentina-Cabo Verde·1|2-0",
+      "88": "Colombia-Ghana·1|2-0",
+      "89": "Canadá-Países Bajos·2|1-2",
+      "90": "Alemania-Francia·2|1-2",
+      "91": "Brasil-Noruega·2|0-2",
+      "92": "México-Inglaterra·2|1-3",
+      "93": "Portugal-España·2|0-1",
+      "94": "Bosnia y Herzegovina-Bélgica·2|0-1",
+      "95": "Argentina-Egipto·1|4-0",
+      "96": "Suiza-Colombia·1|2-1",
+      "97": "Francia-Países Bajos·1|2-0",
+      "98": "España-Bélgica·1|3-1",
+      "99": "Noruega-Inglaterra·2|1-2",
+      "100": "Argentina-Suiza·1|2-0",
+      "101": "Francia-España·1|1-0",
+      "102": "Inglaterra-Argentina·2|2-3",
+      "103": "España-Inglaterra·1|1-0",
+      "104": "Francia-Argentina·1|2-1"
     },
     "koPenalties": {}
   },
-  "Mikel": {
+  "Nacho": {
     "groupMatches": {
       "1": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "2": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "3": {
         "winner": "X",
         "gh": 1,
         "ga": 1
       },
-      "3": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
       "8": {
-        "winner": "2",
-        "gh": 0,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "7": {
@@ -2240,33 +1720,33 @@ const PREDICTIONS = {
       },
       "4": {
         "winner": "1",
-        "gh": 2,
+        "gh": 4,
         "ga": 1
       },
       "6": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "10": {
         "winner": "1",
-        "gh": 3,
-        "ga": 0
+        "gh": 7,
+        "ga": 1
       },
       "9": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "11": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "12": {
         "winner": "1",
         "gh": 1,
         "ga": 0
+      },
+      "11": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "12": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
       },
       "16": {
         "winner": "X",
@@ -2275,63 +1755,63 @@ const PREDICTIONS = {
       },
       "15": {
         "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "gh": 2,
+        "ga": 2
       },
       "14": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "13": {
-        "winner": "2",
-        "gh": 0,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "17": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "18": {
         "winner": "2",
         "gh": 1,
-        "ga": 2
+        "ga": 4
       },
       "19": {
         "winner": "1",
-        "gh": 2,
+        "gh": 3,
         "ga": 0
       },
       "20": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
       },
       "23": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "24": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 3
       },
       "22": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 4,
+        "ga": 2
       },
       "21": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "25": {
         "winner": "1",
         "gh": 1,
         "ga": 0
+      },
+      "25": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "28": {
         "winner": "1",
@@ -2340,18 +1820,18 @@ const PREDICTIONS = {
       },
       "26": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 4,
+        "ga": 1
       },
       "27": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 6,
+        "ga": 0
       },
       "30": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 1
       },
       "29": {
         "winner": "1",
@@ -2359,64 +1839,64 @@ const PREDICTIONS = {
         "ga": 0
       },
       "32": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "31": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "2",
+        "gh": 0,
         "ga": 1
       },
       "33": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       },
       "34": {
-        "winner": "1",
-        "gh": 1,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "35": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 5,
+        "ga": 1
       },
       "36": {
-        "winner": "X",
+        "winner": "2",
         "gh": 0,
-        "ga": 0
+        "ga": 4
       },
       "39": {
-        "winner": "1",
-        "gh": 1,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "40": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 3
       },
       "38": {
         "winner": "1",
-        "gh": 2,
+        "gh": 4,
         "ga": 0
       },
       "37": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
       },
       "42": {
         "winner": "1",
-        "gh": 1,
+        "gh": 3,
         "ga": 0
       },
       "41": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
       },
       "43": {
         "winner": "1",
@@ -2424,13 +1904,13 @@ const PREDICTIONS = {
         "ga": 0
       },
       "44": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "47": {
         "winner": "1",
-        "gh": 2,
+        "gh": 5,
         "ga": 0
       },
       "48": {
@@ -2439,89 +1919,89 @@ const PREDICTIONS = {
         "ga": 0
       },
       "45": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "46": {
-        "winner": "X",
+        "winner": "2",
         "gh": 0,
-        "ga": 0
+        "ga": 1
       },
       "53": {
-        "winner": "X",
+        "winner": "2",
         "gh": 0,
-        "ga": 0
+        "ga": 3
       },
       "54": {
         "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "51": {
+        "winner": "1",
         "gh": 2,
         "ga": 1
       },
-      "51": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
       "52": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
       },
       "49": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 3
       },
       "50": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 4,
+        "ga": 2
       },
       "59": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 3,
+        "ga": 2
       },
       "60": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "55": {
-        "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "56": {
+      "55": {
         "winner": "2",
-        "gh": 1,
+        "gh": 0,
         "ga": 2
+      },
+      "56": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
       },
       "57": {
         "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "gh": 1,
+        "ga": 1
       },
       "58": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 3
       },
       "63": {
-        "winner": "1",
+        "winner": "X",
         "gh": 1,
-        "ga": 0
+        "ga": 1
       },
       "64": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 5
+      },
+      "65": {
         "winner": "X",
         "gh": 0,
         "ga": 0
-      },
-      "65": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
       },
       "66": {
         "winner": "2",
@@ -2531,32 +2011,32 @@ const PREDICTIONS = {
       "61": {
         "winner": "2",
         "gh": 1,
-        "ga": 2
+        "ga": 4
       },
       "62": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
       },
       "69": {
         "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "gh": 3,
+        "ga": 3
       },
       "70": {
         "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "gh": 1,
+        "ga": 3
       },
       "71": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "72": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "67": {
         "winner": "2",
@@ -2564,23 +2044,23 @@ const PREDICTIONS = {
         "ga": 2
       },
       "68": {
-        "winner": "2",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       }
     },
     "groupRankings": {
       "A": [
         "México",
-        "República Checa",
         "Sudáfrica",
-        "Corea del Sur"
+        "Corea del Sur",
+        "República Checa"
       ],
       "B": [
         "Suiza",
         "Canadá",
-        "Catar",
-        "Bosnia y Herzegovina"
+        "Bosnia y Herzegovina",
+        "Catar"
       ],
       "C": [
         "Brasil",
@@ -2589,34 +2069,34 @@ const PREDICTIONS = {
         "Haití"
       ],
       "D": [
-        "Turquía",
         "Estados Unidos",
         "Australia",
-        "Paraguay"
+        "Paraguay",
+        "Turquía"
       ],
       "E": [
         "Alemania",
-        "Ecuador",
         "Costa de Marfil",
+        "Ecuador",
         "Curazao"
       ],
       "F": [
         "Países Bajos",
-        "Suecia",
         "Japón",
+        "Suecia",
         "Túnez"
       ],
       "G": [
-        "Egipto",
         "Bélgica",
-        "Nueva Zelanda",
-        "Irán"
+        "Egipto",
+        "Irán",
+        "Nueva Zelanda"
       ],
       "H": [
         "España",
+        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita",
-        "Cabo Verde"
+        "Arabia Saudita"
       ],
       "I": [
         "Francia",
@@ -2627,20 +2107,20 @@ const PREDICTIONS = {
       "J": [
         "Argentina",
         "Austria",
-        "Jordania",
-        "Argelia"
+        "Argelia",
+        "Jordania"
       ],
       "K": [
-        "Portugal",
         "Colombia",
+        "Portugal",
         "RD Congo",
         "Uzbekistán"
       ],
       "L": [
         "Inglaterra",
+        "Croacia",
         "Ghana",
-        "Panamá",
-        "Croacia"
+        "Panamá"
       ]
     },
     "octavos": [
@@ -2648,18 +2128,18 @@ const PREDICTIONS = {
       "Alemania",
       "Brasil",
       "México",
-      "Colombia",
-      "Turquía",
+      "Croacia",
+      "Bosnia y Herzegovina",
       "Argentina",
       "Suiza",
       "Marruecos",
       "Francia",
-      "Ecuador",
+      "Noruega",
       "Inglaterra",
       "España",
-      "Egipto",
-      "Bélgica",
-      "Portugal"
+      "Senegal",
+      "Australia",
+      "Colombia"
     ],
     "cuartos": [
       "Francia",
@@ -2667,9 +2147,9 @@ const PREDICTIONS = {
       "Brasil",
       "Argentina",
       "Marruecos",
-      "Turquía",
-      "Inglaterra",
-      "Portugal"
+      "Senegal",
+      "México",
+      "Suiza"
     ],
     "semis": [
       "Francia",
@@ -2688,69 +2168,86 @@ const PREDICTIONS = {
     "thirdPlace": "Francia",
     "champion": "España",
     "subchampion": "Argentina",
-    "pichichi": "mbappe",
-    "mvp": "lamine yamal",
+    "pichichi": "Messi",
+    "mvp": "Lamine",
     "koMatches": {
-      "73": "República Checa-Canadá·2|0-1",
-      "74": "Brasil-Suecia·1|1-0",
-      "75": "Alemania-Escocia·1|1-0",
-      "76": "Países Bajos-Marruecos·2|0-1",
-      "77": "Ecuador-Noruega·1|1-0",
-      "78": "Francia-Australia·1|1-0",
-      "79": "México-Arabia Saudita·1|1-0",
-      "80": "Inglaterra-RD Congo·1|1-0",
-      "81": "Egipto-Sudáfrica·1|1-0",
-      "82": "Turquía-Catar·1|1-0",
+      "73": "Sudáfrica-Canadá·X|1-1",
+      "74": "Brasil-Japón·1|2-0",
+      "75": "Alemania-Paraguay·1|3-0",
+      "76": "Países Bajos-Marruecos·2|0-2",
+      "77": "Costa de Marfil-Noruega·X|0-0",
+      "78": "Francia-Suecia·1|3-0",
+      "79": "México-Ecuador·1|2-0",
+      "80": "Inglaterra-RD Congo·1|2-0",
+      "81": "Bélgica-Senegal·2|0-3",
+      "82": "Estados Unidos-Bosnia y Herzegovina·2|1-2",
       "83": "España-Austria·1|1-0",
-      "84": "Colombia-Ghana·1|1-0",
-      "85": "Suiza-Japón·1|1-0",
-      "86": "Estados Unidos-Bélgica·2|0-1",
-      "87": "Argentina-Uruguay·1|1-0",
-      "88": "Portugal-Senegal·1|1-0",
-      "89": "Canadá-Marruecos·2|0-1",
+      "84": "Portugal-Croacia·2|2-3",
+      "85": "Suiza-Argelia·1|2-0",
+      "86": "Australia-Egipto·1|1-0",
+      "87": "Argentina-Cabo Verde·1|4-0",
+      "88": "Colombia-Ghana·1|1-0",
+      "89": "Canadá-Marruecos·2|1-2",
       "90": "Alemania-Francia·2|0-1",
-      "91": "Brasil-Ecuador·1|1-0",
-      "92": "México-Inglaterra·2|0-1",
-      "93": "Colombia-España·2|0-1",
-      "94": "Turquía-Egipto·1|1-0",
-      "95": "Argentina-Bélgica·1|1-0",
-      "96": "Suiza-Portugal·2|0-1",
-      "97": "Francia-Marruecos·1|1-0",
-      "98": "España-Turquía·1|1-0",
-      "99": "Brasil-Inglaterra·1|1-0",
-      "100": "Argentina-Portugal·1|1-0",
-      "101": "Francia-España·2|0-1",
-      "102": "Brasil-Argentina·2|0-1",
-      "103": "Francia-Brasil·1|1-0",
+      "91": "Brasil-Noruega·1|2-0",
+      "92": "México-Inglaterra·X|2-2",
+      "93": "Croacia-España·2|1-2",
+      "94": "Bosnia y Herzegovina-Senegal·2|1-3",
+      "95": "Argentina-Australia·1|2-0",
+      "96": "Suiza-Colombia·1|2-1",
+      "97": "Francia-Marruecos·1|2-1",
+      "98": "España-Senegal·1|2-0",
+      "99": "Brasil-México·1|1-0",
+      "100": "Argentina-Suiza·1|2-0",
+      "101": "Francia-España·X|1-1",
+      "102": "Brasil-Argentina·2|0-2",
+      "103": "Francia-Brasil·1|2-0",
       "104": "España-Argentina·1|1-0"
     },
-    "koPenalties": {}
+    "koPenalties": {
+      "73": {
+        "home": 3,
+        "away": 5
+      },
+      "78": {
+        "home": 4,
+        "away": 5
+      },
+      "92": {
+        "home": 5,
+        "away": 3
+      },
+      "101": {
+        "home": 4,
+        "away": 5
+      }
+    }
   },
-  "PiliP": {
+  "Mikel": {
     "groupMatches": {
       "1": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "2": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "3": {
         "winner": "1",
         "gh": 2,
+        "ga": 1
+      },
+      "3": {
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "8": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "7": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "5": {
@@ -2760,53 +2257,53 @@ const PREDICTIONS = {
       },
       "4": {
         "winner": "1",
-        "gh": 2,
+        "gh": 4,
         "ga": 1
       },
       "6": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "10": {
         "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "9": {
-        "winner": "2",
-        "gh": 0,
+        "gh": 7,
         "ga": 1
       },
-      "11": {
-        "winner": "2",
+      "9": {
+        "winner": "1",
         "gh": 1,
+        "ga": 0
+      },
+      "11": {
+        "winner": "X",
+        "gh": 2,
         "ga": 2
       },
       "12": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 5,
+        "ga": 1
       },
       "16": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "15": {
-        "winner": "1",
+        "winner": "X",
         "gh": 2,
-        "ga": 0
+        "ga": 2
       },
       "14": {
-        "winner": "1",
-        "gh": 4,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "13": {
-        "winner": "2",
+        "winner": "X",
         "gh": 1,
-        "ga": 2
+        "ga": 1
       },
       "17": {
         "winner": "1",
@@ -2816,62 +2313,62 @@ const PREDICTIONS = {
       "18": {
         "winner": "2",
         "gh": 1,
-        "ga": 2
+        "ga": 4
       },
       "19": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "20": {
         "winner": "1",
         "gh": 3,
         "ga": 0
       },
-      "23": {
+      "20": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "24": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "22": {
-        "winner": "1",
-        "gh": 2,
+        "gh": 3,
         "ga": 1
       },
-      "21": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "25": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "28": {
+      "23": {
         "winner": "X",
         "gh": 1,
         "ga": 1
       },
+      "24": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "22": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "21": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "25": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "28": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
       "26": {
         "winner": "1",
-        "gh": 2,
+        "gh": 4,
         "ga": 1
       },
       "27": {
         "winner": "1",
-        "gh": 2,
+        "gh": 6,
         "ga": 0
       },
       "30": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 1
       },
       "29": {
         "winner": "1",
@@ -2881,11 +2378,11 @@ const PREDICTIONS = {
       "32": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "31": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "2",
+        "gh": 0,
         "ga": 1
       },
       "33": {
@@ -2894,39 +2391,39 @@ const PREDICTIONS = {
         "ga": 1
       },
       "34": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "35": {
         "winner": "1",
-        "gh": 3,
-        "ga": 0
+        "gh": 5,
+        "ga": 1
       },
       "36": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 4
       },
       "39": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "40": {
         "winner": "2",
-        "gh": 0,
+        "gh": 1,
         "ga": 3
       },
       "38": {
         "winner": "1",
-        "gh": 3,
+        "gh": 4,
         "ga": 0
       },
       "37": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
       },
       "42": {
         "winner": "1",
@@ -2934,154 +2431,154 @@ const PREDICTIONS = {
         "ga": 0
       },
       "41": {
-        "winner": "X",
-        "gh": 2,
+        "winner": "1",
+        "gh": 3,
         "ga": 2
       },
       "43": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "44": {
         "winner": "1",
         "gh": 2,
         "ga": 0
       },
+      "44": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
       "47": {
         "winner": "1",
-        "gh": 3,
+        "gh": 5,
         "ga": 0
       },
       "48": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "45": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "46": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 1
       },
       "53": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 3
       },
       "54": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
       },
       "51": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "52": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "49": {
         "winner": "2",
-        "gh": 1,
+        "gh": 0,
         "ga": 3
       },
       "50": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 4,
+        "ga": 2
       },
       "59": {
-        "winner": "X",
-        "gh": 2,
+        "winner": "1",
+        "gh": 3,
         "ga": 2
       },
       "60": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "gh": 0,
+        "ga": 0
       },
       "55": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "56": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
-      },
-      "57": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 2
-      },
-      "58": {
         "winner": "2",
         "gh": 0,
-        "ga": 4
+        "ga": 2
       },
-      "63": {
+      "56": {
         "winner": "1",
         "gh": 2,
         "ga": 1
       },
-      "64": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 4
-      },
-      "65": {
+      "57": {
         "winner": "X",
         "gh": 1,
         "ga": 1
       },
-      "66": {
+      "58": {
         "winner": "2",
         "gh": 1,
-        "ga": 2
+        "ga": 3
+      },
+      "63": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "64": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 5
+      },
+      "65": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "66": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
       },
       "61": {
         "winner": "2",
         "gh": 1,
-        "ga": 2
+        "ga": 4
       },
       "62": {
         "winner": "1",
-        "gh": 3,
+        "gh": 5,
         "ga": 0
       },
       "69": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "winner": "X",
+        "gh": 3,
+        "ga": 3
       },
       "70": {
         "winner": "2",
-        "gh": 0,
-        "ga": 4
+        "gh": 1,
+        "ga": 3
       },
       "71": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "72": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 3,
         "ga": 1
       },
       "67": {
         "winner": "2",
         "gh": 0,
-        "ga": 3
+        "ga": 2
       },
       "68": {
         "winner": "1",
@@ -3092,9 +2589,9 @@ const PREDICTIONS = {
     "groupRankings": {
       "A": [
         "México",
+        "Sudáfrica",
         "Corea del Sur",
-        "República Checa",
-        "Sudáfrica"
+        "República Checa"
       ],
       "B": [
         "Suiza",
@@ -3110,1054 +2607,14 @@ const PREDICTIONS = {
       ],
       "D": [
         "Estados Unidos",
-        "Turquía",
+        "Australia",
         "Paraguay",
-        "Australia"
+        "Turquía"
       ],
       "E": [
-        "Ecuador",
         "Alemania",
         "Costa de Marfil",
-        "Curazao"
-      ],
-      "F": [
-        "Japón",
-        "Países Bajos",
-        "Suecia",
-        "Túnez"
-      ],
-      "G": [
-        "Bélgica",
-        "Egipto",
-        "Irán",
-        "Nueva Zelanda"
-      ],
-      "H": [
-        "España",
-        "Uruguay",
-        "Arabia Saudita",
-        "Cabo Verde"
-      ],
-      "I": [
-        "Francia",
-        "Senegal",
-        "Noruega",
-        "Irak"
-      ],
-      "J": [
-        "Argentina",
-        "Austria",
-        "Jordania",
-        "Argelia"
-      ],
-      "K": [
-        "Portugal",
-        "Colombia",
-        "RD Congo",
-        "Uzbekistán"
-      ],
-      "L": [
-        "Inglaterra",
-        "Croacia",
-        "Ghana",
-        "Panamá"
-      ]
-    },
-    "octavos": [
-      "Corea del Sur",
-      "Ecuador",
-      "Brasil",
-      "México",
-      "Colombia",
-      "Estados Unidos",
-      "Argentina",
-      "Suiza",
-      "Japón",
-      "Francia",
-      "Alemania",
-      "Inglaterra",
-      "España",
-      "Bélgica",
-      "Turquía",
-      "Portugal"
-    ],
-    "cuartos": [
-      "Ecuador",
-      "Colombia",
-      "Brasil",
-      "Argentina",
-      "Corea del Sur",
-      "Estados Unidos",
-      "México",
-      "Suiza"
-    ],
-    "semis": [
-      "Ecuador",
-      "Brasil",
-      "Colombia",
-      "Argentina"
-    ],
-    "finalistas": [
-      "Ecuador",
-      "Brasil"
-    ],
-    "match34": [
-      "Colombia",
-      "Argentina"
-    ],
-    "thirdPlace": "Colombia",
-    "champion": "Ecuador",
-    "subchampion": "Brasil",
-    "pichichi": "Mbappé",
-    "mvp": "Bellingham",
-    "koMatches": {
-      "73": "Corea del Sur-Canadá·1|1-0",
-      "74": "Brasil-Países Bajos·1|1-0",
-      "75": "Ecuador-Suecia·1|1-0",
-      "76": "Japón-Marruecos·1|1-0",
-      "77": "Alemania-Senegal·1|1-0",
-      "78": "Francia-Irán·1|1-0",
-      "79": "México-Escocia·1|1-0",
-      "80": "Inglaterra-Noruega·1|1-0",
-      "81": "Bélgica-República Checa·1|1-0",
-      "82": "Estados Unidos-Bosnia y Herzegovina·1|1-0",
-      "83": "España-Austria·1|1-0",
-      "84": "Colombia-Croacia·1|1-0",
-      "85": "Suiza-Jordania·1|1-0",
-      "86": "Turquía-Egipto·1|1-0",
-      "87": "Argentina-Uruguay·1|1-0",
-      "88": "Portugal-Ghana·1|1-0",
-      "89": "Corea del Sur-Japón·1|1-0",
-      "90": "Ecuador-Francia·1|1-0",
-      "91": "Brasil-Alemania·1|1-0",
-      "92": "México-Inglaterra·1|1-0",
-      "93": "Colombia-España·1|1-0",
-      "94": "Estados Unidos-Bélgica·1|1-0",
-      "95": "Argentina-Turquía·1|1-0",
-      "96": "Suiza-Portugal·1|1-0",
-      "97": "Ecuador-Corea del Sur·1|1-0",
-      "98": "Colombia-Estados Unidos·1|1-0",
-      "99": "Brasil-México·1|1-0",
-      "100": "Argentina-Suiza·1|1-0",
-      "101": "Ecuador-Colombia·1|1-0",
-      "102": "Brasil-Argentina·1|1-0",
-      "103": "Colombia-Argentina·1|1-0",
-      "104": "Ecuador-Brasil·1|1-0"
-    },
-    "koPenalties": {}
-  },
-  "Lidia": {
-    "groupMatches": {
-      "1": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "2": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "3": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "8": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "7": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "5": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "4": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "6": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "10": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "9": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "11": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "12": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "16": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "15": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "14": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "13": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "17": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "18": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "19": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "20": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "23": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "24": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "22": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "21": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "25": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "28": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "26": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "27": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "30": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "29": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "32": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "31": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "33": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "34": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "35": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "36": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "39": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "40": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "38": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "37": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "42": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "41": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "43": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "44": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "47": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "48": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "45": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "46": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "53": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "54": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "51": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "52": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "49": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "50": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "59": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "60": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "55": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "56": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "57": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "58": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "63": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "64": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "65": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "66": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "61": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "62": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "69": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "70": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "71": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "72": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "67": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "68": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      }
-    },
-    "groupRankings": {
-      "A": [
-        "Corea del Sur",
-        "Sudáfrica",
-        "República Checa",
-        "México"
-      ],
-      "B": [
-        "Suiza",
-        "Bosnia y Herzegovina",
-        "Catar",
-        "Canadá"
-      ],
-      "C": [
-        "Brasil",
-        "Marruecos",
-        "Escocia",
-        "Haití"
-      ],
-      "D": [
-        "Estados Unidos",
-        "Turquía",
-        "Paraguay",
-        "Australia"
-      ],
-      "E": [
-        "Alemania",
         "Ecuador",
-        "Curazao",
-        "Costa de Marfil"
-      ],
-      "F": [
-        "Países Bajos",
-        "Japón",
-        "Suecia",
-        "Túnez"
-      ],
-      "G": [
-        "Bélgica",
-        "Irán",
-        "Egipto",
-        "Nueva Zelanda"
-      ],
-      "H": [
-        "España",
-        "Uruguay",
-        "Arabia Saudita",
-        "Cabo Verde"
-      ],
-      "I": [
-        "Francia",
-        "Noruega",
-        "Irak",
-        "Senegal"
-      ],
-      "J": [
-        "Argentina",
-        "Austria",
-        "Argelia",
-        "Jordania"
-      ],
-      "K": [
-        "Portugal",
-        "Colombia",
-        "RD Congo",
-        "Uzbekistán"
-      ],
-      "L": [
-        "Inglaterra",
-        "Croacia",
-        "Panamá",
-        "Ghana"
-      ]
-    },
-    "octavos": [
-      "Sudáfrica",
-      "Alemania",
-      "Brasil",
-      "Corea del Sur",
-      "Colombia",
-      "Estados Unidos",
-      "Argentina",
-      "Suiza",
-      "Países Bajos",
-      "Francia",
-      "Ecuador",
-      "Inglaterra",
-      "España",
-      "Bélgica",
-      "Turquía",
-      "Portugal"
-    ],
-    "cuartos": [
-      "Francia",
-      "Colombia",
-      "Brasil",
-      "Argentina",
-      "Sudáfrica",
-      "Estados Unidos",
-      "Corea del Sur",
-      "Suiza"
-    ],
-    "semis": [
-      "Francia",
-      "Brasil",
-      "Colombia",
-      "Argentina"
-    ],
-    "finalistas": [
-      "Francia",
-      "Brasil"
-    ],
-    "match34": [
-      "Colombia",
-      "Argentina"
-    ],
-    "thirdPlace": "Colombia",
-    "champion": "Francia",
-    "subchampion": "Brasil",
-    "pichichi": "Mbappe",
-    "mvp": "Mbappe",
-    "koMatches": {
-      "73": "Sudáfrica-Bosnia y Herzegovina·1|1-0",
-      "74": "Brasil-Japón·1|1-0",
-      "75": "Alemania-Escocia·1|1-0",
-      "76": "Países Bajos-Marruecos·1|1-0",
-      "77": "Ecuador-Noruega·1|1-0",
-      "78": "Francia-Suecia·1|1-0",
-      "79": "Corea del Sur-Arabia Saudita·1|1-0",
-      "80": "Inglaterra-Irak·1|1-0",
-      "81": "Bélgica-República Checa·1|1-0",
-      "82": "Estados Unidos-Catar·1|1-0",
-      "83": "España-Austria·1|1-0",
-      "84": "Colombia-Croacia·1|1-0",
-      "85": "Suiza-Egipto·1|1-0",
-      "86": "Turquía-Irán·1|1-0",
-      "87": "Argentina-Uruguay·1|1-0",
-      "88": "Portugal-Paraguay·1|1-0",
-      "89": "Sudáfrica-Países Bajos·1|1-0",
-      "90": "Alemania-Francia·2|0-1",
-      "91": "Brasil-Ecuador·1|1-0",
-      "92": "Corea del Sur-Inglaterra·1|1-0",
-      "93": "Colombia-España·1|1-0",
-      "94": "Estados Unidos-Bélgica·1|1-0",
-      "95": "Argentina-Turquía·1|1-0",
-      "96": "Suiza-Portugal·1|1-0",
-      "97": "Francia-Sudáfrica·1|1-0",
-      "98": "Colombia-Estados Unidos·1|1-0",
-      "99": "Brasil-Corea del Sur·1|1-0",
-      "100": "Argentina-Suiza·1|1-0",
-      "101": "Francia-Colombia·1|1-0",
-      "102": "Brasil-Argentina·1|1-0",
-      "103": "Colombia-Argentina·1|1-0",
-      "104": "Francia-Brasil·1|1-0"
-    },
-    "koPenalties": {}
-  },
-  "Javi": {
-    "groupMatches": {
-      "1": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "2": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "3": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "8": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "7": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "5": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "4": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "6": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "10": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
-      },
-      "9": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "11": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "12": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "16": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
-      "15": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "14": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "13": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "17": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
-      "18": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "19": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "20": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "23": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "24": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "22": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "21": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "25": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "28": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
-      "26": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "27": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "30": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "29": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "32": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "31": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "33": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "34": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "35": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "36": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "39": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "40": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "38": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
-      },
-      "37": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "42": {
-        "winner": "1",
-        "gh": 6,
-        "ga": 0
-      },
-      "41": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "43": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "44": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "47": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "48": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "45": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "46": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "53": {
-        "winner": "2",
-        "gh": 2,
-        "ga": 3
-      },
-      "54": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "51": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "52": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "49": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "50": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "59": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "60": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "55": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "56": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "57": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "58": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "63": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "64": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "65": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "66": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "61": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "62": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "69": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "70": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 5
-      },
-      "71": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "72": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "67": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "68": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      }
-    },
-    "groupRankings": {
-      "A": [
-        "México",
-        "República Checa",
-        "Sudáfrica",
-        "Corea del Sur"
-      ],
-      "B": [
-        "Suiza",
-        "Canadá",
-        "Catar",
-        "Bosnia y Herzegovina"
-      ],
-      "C": [
-        "Marruecos",
-        "Brasil",
-        "Escocia",
-        "Haití"
-      ],
-      "D": [
-        "Turquía",
-        "Estados Unidos",
-        "Paraguay",
-        "Australia"
-      ],
-      "E": [
-        "Alemania",
-        "Ecuador",
-        "Costa de Marfil",
         "Curazao"
       ],
       "F": [
@@ -4169,13 +2626,13 @@ const PREDICTIONS = {
       "G": [
         "Bélgica",
         "Egipto",
-        "Nueva Zelanda",
-        "Irán"
+        "Irán",
+        "Nueva Zelanda"
       ],
       "H": [
         "España",
-        "Uruguay",
         "Cabo Verde",
+        "Uruguay",
         "Arabia Saudita"
       ],
       "I": [
@@ -4191,553 +2648,8 @@ const PREDICTIONS = {
         "Jordania"
       ],
       "K": [
-        "Portugal",
         "Colombia",
-        "RD Congo",
-        "Uzbekistán"
-      ],
-      "L": [
-        "Inglaterra",
-        "Croacia",
-        "Ghana",
-        "Panamá"
-      ]
-    },
-    "octavos": [
-      "República Checa",
-      "Alemania",
-      "Marruecos",
-      "México",
-      "Croacia",
-      "Suecia",
-      "Argentina",
-      "Suiza",
-      "Brasil",
-      "Francia",
-      "Noruega",
-      "Inglaterra",
-      "España",
-      "Bélgica",
-      "Estados Unidos",
-      "Portugal"
-    ],
-    "cuartos": [
-      "Francia",
-      "España",
-      "Marruecos",
-      "Argentina",
-      "Brasil",
-      "Bélgica",
-      "Inglaterra",
-      "Portugal"
-    ],
-    "semis": [
-      "Brasil",
-      "Marruecos",
-      "España",
-      "Portugal"
-    ],
-    "finalistas": [
-      "España",
-      "Portugal"
-    ],
-    "match34": [
-      "Brasil",
-      "Marruecos"
-    ],
-    "thirdPlace": "Brasil",
-    "champion": "España",
-    "subchampion": "Portugal",
-    "pichichi": "Ronaldo",
-    "mvp": "Lamine Yamal",
-    "koMatches": {
-      "73": "República Checa-Canadá·1|2-1",
-      "74": "Marruecos-Japón·1|2-0",
-      "75": "Alemania-Escocia·1|3-1",
-      "76": "Países Bajos-Brasil·2|1-2",
-      "77": "Ecuador-Noruega·2|0-1",
-      "78": "Francia-Paraguay·1|2-0",
-      "79": "México-Cabo Verde·1|3-0",
-      "80": "Inglaterra-Senegal·1|2-1",
-      "81": "Bélgica-Sudáfrica·1|2-1",
-      "82": "Turquía-Suecia·X|0-0",
-      "83": "España-Austria·1|3-1",
-      "84": "Colombia-Croacia·2|1-2",
-      "85": "Suiza-Costa de Marfil·X|1-1",
-      "86": "Estados Unidos-Egipto·1|1-0",
-      "87": "Argentina-Uruguay·X|2-2",
-      "88": "Portugal-Ghana·1|3-0",
-      "89": "República Checa-Brasil·2|0-2",
-      "90": "Alemania-Francia·2|1-2",
-      "91": "Marruecos-Noruega·1|2-1",
-      "92": "México-Inglaterra·2|1-2",
-      "93": "Croacia-España·2|1-3",
-      "94": "Suecia-Bélgica·2|0-2",
-      "95": "Argentina-Estados Unidos·1|2-0",
-      "96": "Suiza-Portugal·2|0-2",
-      "97": "Francia-Brasil·X|1-1",
-      "98": "España-Bélgica·1|2-1",
-      "99": "Marruecos-Inglaterra·1|2-1",
-      "100": "Argentina-Portugal·2|0-2",
-      "101": "Brasil-España·X|2-2",
-      "102": "Marruecos-Portugal·2|0-1",
-      "103": "Brasil-Marruecos·1|3-2",
-      "104": "España-Portugal·X|1-1"
-    },
-    "koPenalties": {
-      "81": {
-        "home": 0,
-        "away": 1
-      },
-      "85": {
-        "home": 1,
-        "away": 0
-      },
-      "86": {
-        "home": 1,
-        "away": 0
-      },
-      "97": {
-        "home": 0,
-        "away": 1
-      },
-      "101": {
-        "home": 0,
-        "away": 1
-      },
-      "104": {
-        "home": 1,
-        "away": 0
-      }
-    }
-  },
-  "Camina": {
-    "groupMatches": {
-      "1": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "2": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "3": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "8": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "7": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "5": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "4": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "6": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "10": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "9": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "11": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "12": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "16": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "15": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "14": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "13": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "17": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "18": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "19": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "20": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "23": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "24": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "22": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "21": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "25": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "28": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "26": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "27": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "30": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "29": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "32": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "31": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "33": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "34": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "35": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "36": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "39": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "40": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "38": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "37": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "42": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "41": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "43": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "44": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "47": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "48": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "45": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "46": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "53": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "54": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "51": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "52": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "49": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "50": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "59": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "60": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "55": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "56": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "57": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "58": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "63": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "64": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "65": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "66": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "61": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "62": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "69": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "70": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "71": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "72": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "67": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "68": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      }
-    },
-    "groupRankings": {
-      "A": [
-        "México",
-        "Sudáfrica",
-        "República Checa",
-        "Corea del Sur"
-      ],
-      "B": [
-        "Bosnia y Herzegovina",
-        "Canadá",
-        "Suiza",
-        "Catar"
-      ],
-      "C": [
-        "Brasil",
-        "Marruecos",
-        "Escocia",
-        "Haití"
-      ],
-      "D": [
-        "Turquía",
-        "Estados Unidos",
-        "Paraguay",
-        "Australia"
-      ],
-      "E": [
-        "Alemania",
-        "Ecuador",
-        "Costa de Marfil",
-        "Curazao"
-      ],
-      "F": [
-        "Países Bajos",
-        "Japón",
-        "Suecia",
-        "Túnez"
-      ],
-      "G": [
-        "Bélgica",
-        "Egipto",
-        "Irán",
-        "Nueva Zelanda"
-      ],
-      "H": [
-        "España",
-        "Uruguay",
-        "Arabia Saudita",
-        "Cabo Verde"
-      ],
-      "I": [
-        "Francia",
-        "Noruega",
-        "Senegal",
-        "Irak"
-      ],
-      "J": [
-        "Argentina",
-        "Austria",
-        "Argelia",
-        "Jordania"
-      ],
-      "K": [
         "Portugal",
-        "Colombia",
         "RD Congo",
         "Uzbekistán"
       ],
@@ -4753,38 +2665,38 @@ const PREDICTIONS = {
       "Alemania",
       "Brasil",
       "México",
-      "Colombia",
-      "Turquía",
+      "Portugal",
+      "Estados Unidos",
       "Argentina",
-      "Bosnia y Herzegovina",
-      "Países Bajos",
+      "Suiza",
+      "Marruecos",
       "Francia",
       "Noruega",
       "Inglaterra",
       "España",
       "Bélgica",
-      "Estados Unidos",
-      "Portugal"
+      "Egipto",
+      "Ghana"
     ],
     "cuartos": [
       "Francia",
       "España",
-      "Noruega",
+      "Brasil",
       "Argentina",
-      "Países Bajos",
-      "Turquía",
+      "Marruecos",
+      "Bélgica",
       "Inglaterra",
-      "Portugal"
+      "Ghana"
     ],
     "semis": [
       "Francia",
       "Inglaterra",
       "España",
-      "Portugal"
+      "Argentina"
     ],
     "finalistas": [
       "España",
-      "Portugal"
+      "Argentina"
     ],
     "match34": [
       "Francia",
@@ -4792,593 +2704,69 @@ const PREDICTIONS = {
     ],
     "thirdPlace": "Francia",
     "champion": "España",
-    "subchampion": "Portugal",
-    "pichichi": "Mbappé",
-    "mvp": "Lamine Yamal",
+    "subchampion": "Argentina",
+    "pichichi": "Messi",
+    "mvp": "Lamine",
     "koMatches": {
-      "73": "Sudáfrica-Canadá·2|0-1",
-      "74": "Brasil-Japón·1|2-0",
-      "75": "Alemania-Paraguay·1|2-0",
-      "76": "Países Bajos-Marruecos·1|1-0",
-      "77": "Ecuador-Noruega·2|0-1",
+      "73": "Sudáfrica-Canadá·2|0-2",
+      "74": "Brasil-Japón·1|2-1",
+      "75": "Alemania-Paraguay·1|4-0",
+      "76": "Países Bajos-Marruecos·X|1-1",
+      "77": "Costa de Marfil-Noruega·2|1-3",
       "78": "Francia-Suecia·1|2-0",
-      "79": "México-Escocia·1|1-0",
-      "80": "Inglaterra-Costa de Marfil·1|2-1",
-      "81": "Bélgica-Arabia Saudita·1|2-0",
-      "82": "Turquía-Suiza·1|1-0",
-      "83": "España-Austria·1|2-1",
-      "84": "Colombia-Croacia·1|2-1",
-      "85": "Bosnia y Herzegovina-Argelia·1|2-0",
-      "86": "Estados Unidos-Egipto·1|1-0",
-      "87": "Argentina-Uruguay·1|2-1",
-      "88": "Portugal-Ghana·1|2-0",
-      "89": "Canadá-Países Bajos·2|0-1",
-      "90": "Alemania-Francia·2|0-1",
-      "91": "Brasil-Noruega·2|0-1",
+      "79": "México-Ecuador·1|2-1",
+      "80": "Inglaterra-RD Congo·1|2-0",
+      "81": "Bélgica-Senegal·1|1-0",
+      "82": "Estados Unidos-Bosnia y Herzegovina·1|1-0",
+      "83": "España-Austria·1|2-0",
+      "84": "Portugal-Croacia·X|1-1",
+      "85": "Suiza-Argelia·1|1-0",
+      "86": "Australia-Egipto·2|0-1",
+      "87": "Argentina-Cabo Verde·1|2-0",
+      "88": "Colombia-Ghana·2|0-1",
+      "89": "Canadá-Marruecos·2|0-2",
+      "90": "Alemania-Francia·2|0-2",
+      "91": "Brasil-Noruega·1|2-1",
       "92": "México-Inglaterra·2|0-2",
-      "93": "Colombia-España·2|0-2",
-      "94": "Turquía-Bélgica·1|2-1",
-      "95": "Argentina-Estados Unidos·1|1-0",
-      "96": "Bosnia y Herzegovina-Portugal·X|1-1",
-      "97": "Francia-Países Bajos·1|2-1",
-      "98": "España-Turquía·1|1-0",
-      "99": "Noruega-Inglaterra·2|0-1",
-      "100": "Argentina-Portugal·X|1-1",
-      "101": "Francia-España·X|1-1",
-      "102": "Inglaterra-Portugal·X|1-1",
-      "103": "Francia-Inglaterra·1|2-0",
-      "104": "España-Portugal·1|2-1"
+      "93": "Portugal-España·2|1-2",
+      "94": "Estados Unidos-Bélgica·X|0-0",
+      "95": "Argentina-Egipto·1|3-0",
+      "96": "Suiza-Ghana·2|0-1",
+      "97": "Francia-Marruecos·1|1-0",
+      "98": "España-Bélgica·1|2-0",
+      "99": "Brasil-Inglaterra·2|0-2",
+      "100": "Argentina-Ghana·1|2-0",
+      "101": "Francia-España·2|1-2",
+      "102": "Inglaterra-Argentina·2|0-2",
+      "103": "Francia-Inglaterra·1|2-1",
+      "104": "España-Argentina·1|2-1"
     },
     "koPenalties": {
-      "96": {
-        "home": 3,
-        "away": 4
-      },
-      "100": {
+      "75": {
         "home": 3,
         "away": 5
       },
-      "101": {
-        "home": 3,
-        "away": 4
+      "83": {
+        "home": 5,
+        "away": 3
       },
-      "102": {
+      "94": {
         "home": 2,
         "away": 4
       }
     }
   },
-  "Andrés": {
+  "PiliP": {
     "groupMatches": {
       "1": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "2": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
-      },
-      "3": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "8": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "7": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "5": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "4": {
-        "winner": "1",
-        "gh": 3,
         "ga": 1
-      },
-      "6": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "10": {
-        "winner": "1",
-        "gh": 6,
-        "ga": 0
-      },
-      "9": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "11": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "12": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "16": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "15": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "14": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "13": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "17": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "18": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "19": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "20": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "23": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
-      "24": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "22": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "21": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "25": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "28": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "26": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "27": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "30": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "29": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "32": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "31": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "33": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "34": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "35": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "36": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "39": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "40": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "38": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "37": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "42": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "41": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "43": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "44": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "47": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "48": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "45": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "46": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "53": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "54": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "51": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "52": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "49": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "50": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "59": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "60": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "55": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "56": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "57": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "58": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "63": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "64": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "65": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "66": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "61": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "62": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "69": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "70": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "71": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "72": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "67": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "68": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      }
-    },
-    "groupRankings": {
-      "A": [
-        "Corea del Sur",
-        "México",
-        "República Checa",
-        "Sudáfrica"
-      ],
-      "B": [
-        "Suiza",
-        "Canadá",
-        "Bosnia y Herzegovina",
-        "Catar"
-      ],
-      "C": [
-        "Brasil",
-        "Marruecos",
-        "Escocia",
-        "Haití"
-      ],
-      "D": [
-        "Estados Unidos",
-        "Turquía",
-        "Paraguay",
-        "Australia"
-      ],
-      "E": [
-        "Alemania",
-        "Costa de Marfil",
-        "Ecuador",
-        "Curazao"
-      ],
-      "F": [
-        "Suecia",
-        "Japón",
-        "Países Bajos",
-        "Túnez"
-      ],
-      "G": [
-        "Bélgica",
-        "Egipto",
-        "Irán",
-        "Nueva Zelanda"
-      ],
-      "H": [
-        "España",
-        "Uruguay",
-        "Arabia Saudita",
-        "Cabo Verde"
-      ],
-      "I": [
-        "Francia",
-        "Senegal",
-        "Noruega",
-        "Irak"
-      ],
-      "J": [
-        "Argentina",
-        "Austria",
-        "Argelia",
-        "Jordania"
-      ],
-      "K": [
-        "Portugal",
-        "Colombia",
-        "RD Congo",
-        "Uzbekistán"
-      ],
-      "L": [
-        "Inglaterra",
-        "Ghana",
-        "Croacia",
-        "Panamá"
-      ]
-    },
-    "octavos": [
-      "México",
-      "Alemania",
-      "Brasil",
-      "Corea del Sur",
-      "Colombia",
-      "Estados Unidos",
-      "Argentina",
-      "Suiza",
-      "Suecia",
-      "Francia",
-      "Costa de Marfil",
-      "Inglaterra",
-      "España",
-      "Bélgica",
-      "Turquía",
-      "Portugal"
-    ],
-    "cuartos": [
-      "Alemania",
-      "Colombia",
-      "Brasil",
-      "Argentina",
-      "México",
-      "Estados Unidos",
-      "Corea del Sur",
-      "Suiza"
-    ],
-    "semis": [
-      "Alemania",
-      "Brasil",
-      "Colombia",
-      "Argentina"
-    ],
-    "finalistas": [
-      "Alemania",
-      "Brasil"
-    ],
-    "match34": [
-      "Colombia",
-      "Argentina"
-    ],
-    "thirdPlace": "Colombia",
-    "champion": "Alemania",
-    "subchampion": "Brasil",
-    "pichichi": "Olise",
-    "mvp": "Pedri",
-    "koMatches": {
-      "73": "México-Canadá·1|1-0",
-      "74": "Brasil-Japón·1|1-0",
-      "75": "Alemania-Países Bajos·1|1-0",
-      "76": "Suecia-Marruecos·1|1-0",
-      "77": "Costa de Marfil-Senegal·1|1-0",
-      "78": "Francia-Irán·1|1-0",
-      "79": "Corea del Sur-Ecuador·1|1-0",
-      "80": "Inglaterra-RD Congo·1|1-0",
-      "81": "Bélgica-Noruega·1|1-0",
-      "82": "Estados Unidos-Bosnia y Herzegovina·1|1-0",
-      "83": "España-Austria·1|1-0",
-      "84": "Colombia-Ghana·1|1-0",
-      "85": "Suiza-Argelia·1|1-0",
-      "86": "Turquía-Egipto·1|1-0",
-      "87": "Argentina-Uruguay·1|1-0",
-      "88": "Portugal-Croacia·1|1-0",
-      "89": "México-Suecia·1|1-0",
-      "90": "Alemania-Francia·1|1-0",
-      "91": "Brasil-Costa de Marfil·1|1-0",
-      "92": "Corea del Sur-Inglaterra·1|1-0",
-      "93": "Colombia-España·1|1-0",
-      "94": "Estados Unidos-Bélgica·1|1-0",
-      "95": "Argentina-Turquía·1|1-0",
-      "96": "Suiza-Portugal·1|1-0",
-      "97": "Alemania-México·1|1-0",
-      "98": "Colombia-Estados Unidos·1|1-0",
-      "99": "Brasil-Corea del Sur·1|1-0",
-      "100": "Argentina-Suiza·1|1-0",
-      "101": "Alemania-Colombia·1|1-0",
-      "102": "Brasil-Argentina·1|1-0",
-      "103": "Colombia-Argentina·1|1-0",
-      "104": "Alemania-Brasil·1|11-0"
-    },
-    "koPenalties": {}
-  },
-  "Alber": {
-    "groupMatches": {
-      "1": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "2": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
       },
       "3": {
         "winner": "X",
@@ -5386,592 +2774,39 @@ const PREDICTIONS = {
         "ga": 1
       },
       "8": {
-        "winner": "2",
+        "winner": "X",
         "gh": 1,
-        "ga": 3
+        "ga": 1
       },
       "7": {
         "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "gh": 1,
+        "ga": 1
       },
       "5": {
         "winner": "2",
-        "gh": 1,
-        "ga": 6
+        "gh": 0,
+        "ga": 1
       },
       "4": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 4,
         "ga": 1
       },
       "6": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "10": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "9": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "11": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "12": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "16": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "15": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "14": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "13": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "17": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "18": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "19": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "20": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "23": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "24": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "22": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "21": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "25": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "28": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "26": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "27": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "30": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "29": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
-      "32": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "31": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "33": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "34": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "35": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
-      "36": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "39": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "40": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "38": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "37": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "42": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "41": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "43": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "44": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "47": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "48": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "45": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "46": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "53": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "54": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "51": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "52": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "49": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "50": {
         "winner": "1",
         "gh": 7,
         "ga": 1
       },
-      "59": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "60": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "55": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "56": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "57": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "58": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "63": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "64": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "65": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "66": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "61": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "62": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "69": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "70": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "71": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "72": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "67": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "68": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      }
-    },
-    "groupRankings": {
-      "A": [
-        "México",
-        "Corea del Sur",
-        "Sudáfrica",
-        "República Checa"
-      ],
-      "B": [
-        "Suiza",
-        "Bosnia y Herzegovina",
-        "Catar",
-        "Canadá"
-      ],
-      "C": [
-        "Marruecos",
-        "Brasil",
-        "Escocia",
-        "Haití"
-      ],
-      "D": [
-        "Estados Unidos",
-        "Turquía",
-        "Paraguay",
-        "Australia"
-      ],
-      "E": [
-        "Alemania",
-        "Costa de Marfil",
-        "Ecuador",
-        "Curazao"
-      ],
-      "F": [
-        "Países Bajos",
-        "Japón",
-        "Suecia",
-        "Túnez"
-      ],
-      "G": [
-        "Bélgica",
-        "Egipto",
-        "Nueva Zelanda",
-        "Irán"
-      ],
-      "H": [
-        "España",
-        "Uruguay",
-        "Arabia Saudita",
-        "Cabo Verde"
-      ],
-      "I": [
-        "Noruega",
-        "Francia",
-        "Senegal",
-        "Irak"
-      ],
-      "J": [
-        "Argentina",
-        "Austria",
-        "Argelia",
-        "Jordania"
-      ],
-      "K": [
-        "Portugal",
-        "Colombia",
-        "RD Congo",
-        "Uzbekistán"
-      ],
-      "L": [
-        "Inglaterra",
-        "Croacia",
-        "Ghana",
-        "Panamá"
-      ]
-    },
-    "octavos": [
-      "Corea del Sur",
-      "Alemania",
-      "Marruecos",
-      "México",
-      "Croacia",
-      "Catar",
-      "Argentina",
-      "Senegal",
-      "Países Bajos",
-      "Noruega",
-      "Francia",
-      "Inglaterra",
-      "España",
-      "Bélgica",
-      "Egipto",
-      "Portugal"
-    ],
-    "cuartos": [
-      "Noruega",
-      "España",
-      "Marruecos",
-      "Argentina",
-      "Países Bajos",
-      "Bélgica",
-      "Inglaterra",
-      "Portugal"
-    ],
-    "semis": [
-      "Países Bajos",
-      "Inglaterra",
-      "España",
-      "Portugal"
-    ],
-    "finalistas": [
-      "Países Bajos",
-      "Portugal"
-    ],
-    "match34": [
-      "España",
-      "Inglaterra"
-    ],
-    "thirdPlace": "España",
-    "champion": "Países Bajos",
-    "subchampion": "Portugal",
-    "pichichi": "Kane",
-    "mvp": "De Jong",
-    "koMatches": {
-      "73": "Corea del Sur-Bosnia y Herzegovina·1|3-1",
-      "74": "Marruecos-Japón·1|2-0",
-      "75": "Alemania-Escocia·1|3-0",
-      "76": "Países Bajos-Brasil·1|2-1",
-      "77": "Costa de Marfil-Francia·X|1-1",
-      "78": "Noruega-Paraguay·1|2-1",
-      "79": "México-Ecuador·1|2-0",
-      "80": "Inglaterra-RD Congo·1|3-1",
-      "81": "Bélgica-Arabia Saudita·1|2-0",
-      "82": "Estados Unidos-Catar·X|1-1",
-      "83": "España-Austria·1|3-1",
-      "84": "Colombia-Croacia·X|1-1",
-      "85": "Suiza-Senegal·2|1-2",
-      "86": "Turquía-Egipto·2|0-2",
-      "87": "Argentina-Uruguay·X|1-1",
-      "88": "Portugal-Ghana·1|3-0",
-      "89": "Corea del Sur-Países Bajos·2|1-4",
-      "90": "Alemania-Noruega·X|2-2",
-      "91": "Marruecos-Francia·X|1-1",
-      "92": "México-Inglaterra·X|1-1",
-      "93": "Croacia-España·2|1-2",
-      "94": "Catar-Bélgica·2|0-2",
-      "95": "Argentina-Egipto·1|2-0",
-      "96": "Senegal-Portugal·2|1-2",
-      "97": "Noruega-Países Bajos·X|1-1",
-      "98": "España-Bélgica·1|1-0",
-      "99": "Marruecos-Inglaterra·2|1-3",
-      "100": "Argentina-Portugal·2|1-3",
-      "101": "Países Bajos-España·1|2-1",
-      "102": "Inglaterra-Portugal·2|0-1",
-      "103": "España-Inglaterra·1|3-1",
-      "104": "Países Bajos-Portugal·1|2-1"
-    },
-    "koPenalties": {
-      "78": {
-        "home": 3,
-        "away": 5
-      },
-      "81": {
-        "home": 1,
-        "away": 4
-      },
-      "83": {
-        "home": 2,
-        "away": 5
-      },
-      "86": {
-        "home": 4,
-        "away": 1
-      },
-      "89": {
-        "home": 3,
-        "away": 5
-      },
-      "91": {
-        "home": 5,
-        "away": 3
-      },
-      "92": {
-        "home": 3,
-        "away": 5
-      },
-      "97": {
-        "home": 2,
-        "away": 4
-      }
-    }
-  },
-  "Iván": {
-    "groupMatches": {
-      "1": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "2": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "3": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "8": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "7": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "5": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "4": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "6": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "10": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
-      },
       "9": {
-        "winner": "2",
+        "winner": "1",
         "gh": 1,
-        "ga": 2
+        "ga": 0
       },
       "11": {
         "winner": "X",
@@ -5979,29 +2814,29 @@ const PREDICTIONS = {
         "ga": 2
       },
       "12": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "16": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "15": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "14": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "16": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "15": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "14": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 0
-      },
       "13": {
-        "winner": "2",
+        "winner": "X",
         "gh": 1,
-        "ga": 3
+        "ga": 1
       },
       "17": {
         "winner": "1",
@@ -6010,38 +2845,38 @@ const PREDICTIONS = {
       },
       "18": {
         "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "gh": 1,
+        "ga": 4
       },
       "19": {
         "winner": "1",
-        "gh": 2,
+        "gh": 3,
         "ga": 0
       },
       "20": {
         "winner": "1",
         "gh": 3,
-        "ga": 0
+        "ga": 1
       },
       "23": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "24": {
         "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "gh": 1,
+        "ga": 3
       },
       "22": {
-        "winner": "X",
-        "gh": 2,
+        "winner": "1",
+        "gh": 4,
         "ga": 2
       },
       "21": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "25": {
         "winner": "X",
@@ -6050,17 +2885,17 @@ const PREDICTIONS = {
       },
       "28": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "26": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 4,
+        "ga": 1
       },
       "27": {
         "winner": "1",
-        "gh": 1,
+        "gh": 6,
         "ga": 0
       },
       "30": {
@@ -6070,92 +2905,92 @@ const PREDICTIONS = {
       },
       "29": {
         "winner": "1",
-        "gh": 6,
+        "gh": 3,
         "ga": 0
       },
       "32": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "31": {
-        "winner": "X",
+        "winner": "2",
         "gh": 0,
-        "ga": 0
+        "ga": 1
       },
       "33": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       },
       "34": {
-        "winner": "1",
-        "gh": 4,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "35": {
         "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "gh": 5,
+        "ga": 1
       },
       "36": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 4
       },
       "39": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "40": {
         "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "gh": 1,
+        "ga": 3
       },
       "38": {
         "winner": "1",
-        "gh": 3,
+        "gh": 4,
         "ga": 0
       },
       "37": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "42": {
         "winner": "1",
         "gh": 3,
         "ga": 0
       },
-      "42": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
       "41": {
-        "winner": "X",
-        "gh": 2,
+        "winner": "1",
+        "gh": 3,
         "ga": 2
       },
       "43": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "44": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 2
       },
       "47": {
         "winner": "1",
-        "gh": 4,
+        "gh": 5,
         "ga": 0
       },
       "48": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "45": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "46": {
@@ -6164,53 +2999,53 @@ const PREDICTIONS = {
         "ga": 1
       },
       "53": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
       },
       "54": {
-        "winner": "2",
+        "winner": "1",
         "gh": 1,
-        "ga": 2
+        "ga": 0
       },
       "51": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "52": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "49": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 3
       },
       "50": {
         "winner": "1",
-        "gh": 3,
-        "ga": 0
+        "gh": 4,
+        "ga": 2
       },
       "59": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
       },
       "60": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "55": {
         "winner": "2",
         "gh": 0,
-        "ga": 3
+        "ga": 2
       },
       "56": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "57": {
@@ -6220,76 +3055,76 @@ const PREDICTIONS = {
       },
       "58": {
         "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "gh": 1,
+        "ga": 3
       },
       "63": {
         "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "gh": 1,
+        "ga": 1
       },
       "64": {
         "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "gh": 1,
+        "ga": 5
       },
       "65": {
-        "winner": "2",
+        "winner": "X",
         "gh": 0,
-        "ga": 2
+        "ga": 0
       },
       "66": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 1
       },
       "61": {
         "winner": "2",
         "gh": 1,
-        "ga": 2
+        "ga": 4
       },
       "62": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 5,
         "ga": 0
       },
       "69": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "gh": 3,
+        "ga": 3
       },
       "70": {
         "winner": "2",
-        "gh": 0,
-        "ga": 4
+        "gh": 1,
+        "ga": 3
       },
       "71": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "gh": 0,
+        "ga": 0
       },
       "72": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "67": {
         "winner": "2",
-        "gh": 1,
+        "gh": 0,
         "ga": 2
       },
       "68": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 1
       }
     },
     "groupRankings": {
       "A": [
         "México",
+        "Sudáfrica",
         "Corea del Sur",
-        "República Checa",
-        "Sudáfrica"
+        "República Checa"
       ],
       "B": [
         "Suiza",
@@ -6305,14 +3140,14 @@ const PREDICTIONS = {
       ],
       "D": [
         "Estados Unidos",
-        "Turquía",
+        "Australia",
         "Paraguay",
-        "Australia"
+        "Turquía"
       ],
       "E": [
         "Alemania",
-        "Ecuador",
         "Costa de Marfil",
+        "Ecuador",
         "Curazao"
       ],
       "F": [
@@ -6329,9 +3164,9 @@ const PREDICTIONS = {
       ],
       "H": [
         "España",
+        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita",
-        "Cabo Verde"
+        "Arabia Saudita"
       ],
       "I": [
         "Francia",
@@ -6346,8 +3181,8 @@ const PREDICTIONS = {
         "Jordania"
       ],
       "K": [
-        "Portugal",
         "Colombia",
+        "Portugal",
         "RD Congo",
         "Uzbekistán"
       ],
@@ -6359,22 +3194,22 @@ const PREDICTIONS = {
       ]
     },
     "octavos": [
-      "Corea del Sur",
+      "Canadá",
       "Alemania",
       "Brasil",
       "México",
-      "Croacia",
+      "Portugal",
       "Estados Unidos",
       "Argentina",
       "Suiza",
       "Países Bajos",
       "Francia",
-      "Ecuador",
+      "Noruega",
       "Inglaterra",
       "España",
       "Bélgica",
-      "Turquía",
-      "Portugal"
+      "Australia",
+      "Colombia"
     ],
     "cuartos": [
       "Francia",
@@ -6382,9 +3217,9 @@ const PREDICTIONS = {
       "Brasil",
       "Argentina",
       "Países Bajos",
-      "Bélgica",
-      "Inglaterra",
-      "Portugal"
+      "Estados Unidos",
+      "México",
+      "Suiza"
     ],
     "semis": [
       "Francia",
@@ -6401,47 +3236,60 @@ const PREDICTIONS = {
       "Brasil"
     ],
     "thirdPlace": "Brasil",
-    "champion": "Argentina",
-    "subchampion": "España",
+    "champion": "España",
+    "subchampion": "Argentina",
     "pichichi": "Mbappe",
-    "mvp": "Mesi",
+    "mvp": "Messi",
     "koMatches": {
-      "73": "Corea del Sur-Canadá·1|1-0",
-      "74": "Brasil-Japón·1|1-0",
-      "75": "Alemania-Escocia·1|1-0",
-      "76": "Países Bajos-Marruecos·1|1-0",
-      "77": "Ecuador-Noruega·1|1-0",
-      "78": "Francia-Paraguay·1|1-0",
-      "79": "México-Arabia Saudita·1|1-0",
-      "80": "Inglaterra-Argelia·1|1-0",
-      "81": "Bélgica-República Checa·1|1-0",
-      "82": "Estados Unidos-Bosnia y Herzegovina·1|1-0",
-      "83": "España-Austria·1|1-0",
-      "84": "Colombia-Croacia·2|0-1",
-      "85": "Suiza-Irán·1|1-0",
-      "86": "Turquía-Egipto·1|1-0",
-      "87": "Argentina-Uruguay·1|1-0",
-      "88": "Portugal-Costa de Marfil·1|1-0",
-      "89": "Corea del Sur-Países Bajos·2|0-1",
-      "90": "Alemania-Francia·2|0-1",
-      "91": "Brasil-Ecuador·1|1-0",
-      "92": "México-Inglaterra·2|0-1",
-      "93": "Croacia-España·2|0-1",
-      "94": "Estados Unidos-Bélgica·2|0-1",
-      "95": "Argentina-Turquía·1|1-0",
-      "96": "Suiza-Portugal·2|0-1",
-      "97": "Francia-Países Bajos·1|1-0",
-      "98": "España-Bélgica·1|1-0",
-      "99": "Brasil-Inglaterra·1|1-0",
-      "100": "Argentina-Portugal·1|1-0",
-      "101": "Francia-España·2|0-1",
-      "102": "Brasil-Argentina·2|0-1",
-      "103": "Francia-Brasil·2|0-1",
-      "104": "España-Argentina·2|0-1"
+      "73": "Sudáfrica-Canadá·2|1-2",
+      "74": "Brasil-Japón·1|3-1",
+      "75": "Alemania-Paraguay·1|2-0",
+      "76": "Países Bajos-Marruecos·1|3-2",
+      "77": "Costa de Marfil-Noruega·2|1-2",
+      "78": "Francia-Suecia·1|4-1",
+      "79": "México-Ecuador·1|3-1",
+      "80": "Inglaterra-RD Congo·1|3-1",
+      "81": "Bélgica-Senegal·X|2-2",
+      "82": "Estados Unidos-Bosnia y Herzegovina·1|2-1",
+      "83": "España-Austria·1|2-0",
+      "84": "Portugal-Croacia·1|2-1",
+      "85": "Suiza-Argelia·1|3-1",
+      "86": "Australia-Egipto·1|1-0",
+      "87": "Argentina-Cabo Verde·1|3-0",
+      "88": "Colombia-Ghana·1|2-1",
+      "89": "Canadá-Países Bajos·2|1-3",
+      "90": "Alemania-Francia·2|1-2",
+      "91": "Brasil-Noruega·1|3-0",
+      "92": "México-Inglaterra·X|1-1",
+      "93": "Portugal-España·X|2-2",
+      "94": "Estados Unidos-Bélgica·1|1-0",
+      "95": "Argentina-Australia·1|3-0",
+      "96": "Suiza-Colombia·1|1-0",
+      "97": "Francia-Países Bajos·1|2-1",
+      "98": "España-Estados Unidos·1|2-0",
+      "99": "Brasil-México·1|2-1",
+      "100": "Argentina-Suiza·1|3-0",
+      "101": "Francia-España·2|2-3",
+      "102": "Brasil-Argentina·2|1-2",
+      "103": "Francia-Brasil·2|2-3",
+      "104": "España-Argentina·1|2-1"
     },
-    "koPenalties": {}
+    "koPenalties": {
+      "82": {
+        "home": 5,
+        "away": 4
+      },
+      "92": {
+        "home": 5,
+        "away": 4
+      },
+      "93": {
+        "home": 4,
+        "away": 5
+      }
+    }
   },
-  "8pi": {
+  "Lidia": {
     "groupMatches": {
       "1": {
         "winner": "1",
@@ -6449,59 +3297,59 @@ const PREDICTIONS = {
         "ga": 0
       },
       "2": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "3": {
         "winner": "1",
         "gh": 2,
         "ga": 1
       },
+      "3": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
       "8": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "7": {
-        "winner": "2",
-        "gh": 0,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "5": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 1
       },
       "4": {
         "winner": "1",
-        "gh": 2,
+        "gh": 4,
         "ga": 1
       },
       "6": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "10": {
         "winner": "1",
-        "gh": 4,
-        "ga": 0
+        "gh": 7,
+        "ga": 1
       },
       "9": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
       },
       "11": {
-        "winner": "1",
+        "winner": "X",
         "gh": 2,
-        "ga": 1
+        "ga": 2
       },
       "12": {
         "winner": "1",
-        "gh": 3,
-        "ga": 0
+        "gh": 5,
+        "ga": 1
       },
       "16": {
         "winner": "X",
@@ -6510,18 +3358,18 @@ const PREDICTIONS = {
       },
       "15": {
         "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "14": {
+        "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "14": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
       "13": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "17": {
         "winner": "1",
@@ -6530,43 +3378,43 @@ const PREDICTIONS = {
       },
       "18": {
         "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "gh": 1,
+        "ga": 4
       },
       "19": {
         "winner": "1",
-        "gh": 1,
+        "gh": 3,
         "ga": 0
       },
       "20": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "23": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "24": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 3
       },
       "22": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 4,
+        "ga": 2
       },
       "21": {
         "winner": "1",
-        "gh": 2,
+        "gh": 1,
         "ga": 0
       },
       "25": {
-        "winner": "1",
+        "winner": "X",
         "gh": 1,
-        "ga": 0
+        "ga": 1
       },
       "28": {
         "winner": "1",
@@ -6575,33 +3423,33 @@ const PREDICTIONS = {
       },
       "26": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 4,
+        "ga": 1
       },
       "27": {
         "winner": "1",
-        "gh": 1,
+        "gh": 6,
         "ga": 0
       },
       "30": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 1
       },
       "29": {
         "winner": "1",
-        "gh": 2,
+        "gh": 3,
         "ga": 0
       },
       "32": {
         "winner": "1",
-        "gh": 1,
+        "gh": 2,
         "ga": 0
       },
       "31": {
-        "winner": "X",
+        "winner": "2",
         "gh": 0,
-        "ga": 0
+        "ga": 1
       },
       "33": {
         "winner": "1",
@@ -6609,99 +3457,99 @@ const PREDICTIONS = {
         "ga": 1
       },
       "34": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "35": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 5,
+        "ga": 1
       },
       "36": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 4
       },
       "39": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "40": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 3
       },
       "38": {
         "winner": "1",
-        "gh": 2,
+        "gh": 4,
         "ga": 0
       },
       "37": {
-        "winner": "1",
+        "winner": "X",
         "gh": 2,
-        "ga": 1
+        "ga": 2
       },
       "42": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "41": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "43": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "44": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "47": {
         "winner": "1",
         "gh": 3,
         "ga": 0
       },
-      "48": {
+      "41": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "43": {
         "winner": "1",
         "gh": 2,
         "ga": 0
       },
-      "45": {
+      "44": {
         "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "47": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "48": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "45": {
+        "winner": "X",
         "gh": 0,
-        "ga": 1
+        "ga": 0
       },
       "46": {
         "winner": "2",
         "gh": 0,
-        "ga": 3
-      },
-      "53": {
-        "winner": "X",
-        "gh": 1,
         "ga": 1
       },
-      "54": {
+      "53": {
         "winner": "2",
         "gh": 0,
         "ga": 3
       },
-      "51": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "52": {
+      "54": {
         "winner": "1",
         "gh": 1,
         "ga": 0
+      },
+      "51": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "52": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
       },
       "49": {
         "winner": "2",
@@ -6710,13 +3558,13 @@ const PREDICTIONS = {
       },
       "50": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 4,
+        "ga": 2
       },
       "59": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 3,
+        "ga": 2
       },
       "60": {
         "winner": "X",
@@ -6725,91 +3573,91 @@ const PREDICTIONS = {
       },
       "55": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "56": {
-        "winner": "X",
-        "gh": 2,
+        "gh": 0,
         "ga": 2
       },
-      "57": {
+      "56": {
         "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "57": {
+        "winner": "X",
         "gh": 1,
-        "ga": 0
+        "ga": 1
       },
       "58": {
         "winner": "2",
-        "gh": 0,
+        "gh": 1,
         "ga": 3
       },
       "63": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "64": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "65": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "66": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "61": {
-        "winner": "2",
-        "gh": 2,
-        "ga": 3
-      },
-      "62": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "69": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
-      "70": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 4
-      },
-      "71": {
         "winner": "X",
         "gh": 1,
         "ga": 1
       },
-      "72": {
+      "64": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 5
+      },
+      "65": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "66": {
         "winner": "2",
         "gh": 0,
+        "ga": 1
+      },
+      "61": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "62": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "69": {
+        "winner": "X",
+        "gh": 3,
+        "ga": 3
+      },
+      "70": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "71": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "72": {
+        "winner": "1",
+        "gh": 3,
         "ga": 1
       },
       "67": {
         "winner": "2",
         "gh": 0,
-        "ga": 3
+        "ga": 2
       },
       "68": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       }
     },
     "groupRankings": {
       "A": [
         "México",
-        "República Checa",
+        "Sudáfrica",
         "Corea del Sur",
-        "Sudáfrica"
+        "República Checa"
       ],
       "B": [
         "Suiza",
@@ -6818,21 +3666,21 @@ const PREDICTIONS = {
         "Catar"
       ],
       "C": [
-        "Marruecos",
         "Brasil",
+        "Marruecos",
         "Escocia",
         "Haití"
       ],
       "D": [
         "Estados Unidos",
-        "Turquía",
+        "Australia",
         "Paraguay",
-        "Australia"
+        "Turquía"
       ],
       "E": [
         "Alemania",
-        "Ecuador",
         "Costa de Marfil",
+        "Ecuador",
         "Curazao"
       ],
       "F": [
@@ -6844,14 +3692,14 @@ const PREDICTIONS = {
       "G": [
         "Bélgica",
         "Egipto",
-        "Nueva Zelanda",
-        "Irán"
+        "Irán",
+        "Nueva Zelanda"
       ],
       "H": [
         "España",
+        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita",
-        "Cabo Verde"
+        "Arabia Saudita"
       ],
       "I": [
         "Francia",
@@ -6860,105 +3708,3404 @@ const PREDICTIONS = {
         "Irak"
       ],
       "J": [
-        "Austria",
         "Argentina",
+        "Austria",
         "Argelia",
         "Jordania"
       ],
       "K": [
-        "Portugal",
         "Colombia",
-        "Uzbekistán",
-        "RD Congo"
+        "Portugal",
+        "RD Congo",
+        "Uzbekistán"
       ],
       "L": [
-        "Croacia",
         "Inglaterra",
+        "Croacia",
         "Ghana",
         "Panamá"
       ]
     },
     "octavos": [
-      "República Checa",
+      "Canadá",
       "Alemania",
-      "Marruecos",
+      "Brasil",
       "México",
-      "Colombia",
+      "Croacia",
       "Estados Unidos",
-      "Austria",
+      "Argentina",
       "Suiza",
       "Países Bajos",
       "Francia",
-      "Ecuador",
-      "Croacia",
+      "Noruega",
+      "Inglaterra",
       "España",
       "Bélgica",
-      "Turquía",
-      "Portugal"
+      "Egipto",
+      "Colombia"
+    ],
+    "cuartos": [
+      "Francia",
+      "España",
+      "Brasil",
+      "Argentina",
+      "Países Bajos",
+      "Bélgica",
+      "Inglaterra",
+      "Colombia"
+    ],
+    "semis": [
+      "Francia",
+      "Brasil",
+      "España",
+      "Argentina"
+    ],
+    "finalistas": [
+      "Francia",
+      "Argentina"
+    ],
+    "match34": [
+      "España",
+      "Brasil"
+    ],
+    "thirdPlace": "España",
+    "champion": "Francia",
+    "subchampion": "Argentina",
+    "pichichi": "Escribe un jugador",
+    "mvp": "Escribe un jugador",
+    "koMatches": {
+      "73": "Sudáfrica-Canadá·2|1-2",
+      "74": "Brasil-Japón·1|3-1",
+      "75": "Alemania-Paraguay·1|3-0",
+      "76": "Países Bajos-Marruecos·X|1-1",
+      "77": "Costa de Marfil-Noruega·X|1-1",
+      "78": "Francia-Suecia·1|3-1",
+      "79": "México-Ecuador·1|2-0",
+      "80": "Inglaterra-RD Congo·1|3-0",
+      "81": "Bélgica-Senegal·1|3-1",
+      "82": "Estados Unidos-Bosnia y Herzegovina·1|2-1",
+      "83": "España-Austria·1|3-0",
+      "84": "Portugal-Croacia·X|1-1",
+      "85": "Suiza-Argelia·1|1-0",
+      "86": "Australia-Egipto·2|1-2",
+      "87": "Argentina-Cabo Verde·1|3-0",
+      "88": "Colombia-Ghana·1|2-0",
+      "89": "Canadá-Países Bajos·2|0-2",
+      "90": "Alemania-Francia·2|1-2",
+      "91": "Brasil-Noruega·1|2-0",
+      "92": "México-Inglaterra·2|0-2",
+      "93": "Croacia-España·2|1-2",
+      "94": "Estados Unidos-Bélgica·2|1-2",
+      "95": "Argentina-Egipto·1|3-0",
+      "96": "Suiza-Colombia·2|1-2",
+      "97": "Francia-Países Bajos·1|2-1",
+      "98": "España-Bélgica·1|3-1",
+      "99": "Brasil-Inglaterra·X|1-1",
+      "100": "Argentina-Colombia·1|2-0",
+      "101": "Francia-España·1|2-1",
+      "102": "Brasil-Argentina·2|1-2",
+      "103": "España-Brasil·X|1-1",
+      "104": "Francia-Argentina·1|2-1"
+    },
+    "koPenalties": {
+      "75": {
+        "home": 4,
+        "away": 3
+      },
+      "78": {
+        "home": 4,
+        "away": 5
+      },
+      "83": {
+        "home": 3,
+        "away": 4
+      },
+      "99": {
+        "home": 5,
+        "away": 4
+      },
+      "103": {
+        "home": 5,
+        "away": 4
+      }
+    }
+  },
+  "Javi": {
+    "groupMatches": {
+      "1": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "2": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "3": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "8": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "7": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "5": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "4": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "6": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "10": {
+        "winner": "1",
+        "gh": 7,
+        "ga": 1
+      },
+      "9": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "11": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "12": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "16": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "15": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "14": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "13": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "17": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "18": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "19": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "20": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "23": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "24": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "22": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "21": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "25": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "28": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "26": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "27": {
+        "winner": "1",
+        "gh": 6,
+        "ga": 0
+      },
+      "30": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "29": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "32": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "31": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "33": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "34": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "35": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "36": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 4
+      },
+      "39": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "40": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "38": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "37": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "42": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "41": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "43": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "44": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "47": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "48": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "45": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "46": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "53": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "54": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "51": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "52": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "49": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "50": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "59": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "60": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "55": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "56": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "57": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "58": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "63": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "64": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 5
+      },
+      "65": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "66": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "61": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "62": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "69": {
+        "winner": "X",
+        "gh": 3,
+        "ga": 3
+      },
+      "70": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "71": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "72": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "67": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "68": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      }
+    },
+    "groupRankings": {
+      "A": [
+        "México",
+        "Sudáfrica",
+        "Corea del Sur",
+        "República Checa"
+      ],
+      "B": [
+        "Suiza",
+        "Canadá",
+        "Bosnia y Herzegovina",
+        "Catar"
+      ],
+      "C": [
+        "Brasil",
+        "Marruecos",
+        "Escocia",
+        "Haití"
+      ],
+      "D": [
+        "Estados Unidos",
+        "Australia",
+        "Paraguay",
+        "Turquía"
+      ],
+      "E": [
+        "Alemania",
+        "Costa de Marfil",
+        "Ecuador",
+        "Curazao"
+      ],
+      "F": [
+        "Países Bajos",
+        "Japón",
+        "Suecia",
+        "Túnez"
+      ],
+      "G": [
+        "Bélgica",
+        "Egipto",
+        "Irán",
+        "Nueva Zelanda"
+      ],
+      "H": [
+        "España",
+        "Cabo Verde",
+        "Uruguay",
+        "Arabia Saudita"
+      ],
+      "I": [
+        "Francia",
+        "Noruega",
+        "Senegal",
+        "Irak"
+      ],
+      "J": [
+        "Argentina",
+        "Austria",
+        "Argelia",
+        "Jordania"
+      ],
+      "K": [
+        "Colombia",
+        "Portugal",
+        "RD Congo",
+        "Uzbekistán"
+      ],
+      "L": [
+        "Inglaterra",
+        "Croacia",
+        "Ghana",
+        "Panamá"
+      ]
+    },
+    "octavos": [
+      "Canadá",
+      "Alemania",
+      "Brasil",
+      "México",
+      "Portugal",
+      "Estados Unidos",
+      "Argentina",
+      "Suiza",
+      "Marruecos",
+      "Francia",
+      "Costa de Marfil",
+      "Inglaterra",
+      "España",
+      "Bélgica",
+      "Egipto",
+      "Colombia"
+    ],
+    "cuartos": [
+      "Francia",
+      "España",
+      "Brasil",
+      "Argentina",
+      "Marruecos",
+      "Bélgica",
+      "México",
+      "Colombia"
+    ],
+    "semis": [
+      "Francia",
+      "Brasil",
+      "España",
+      "Argentina"
+    ],
+    "finalistas": [
+      "España",
+      "Brasil"
+    ],
+    "match34": [
+      "Francia",
+      "Argentina"
+    ],
+    "thirdPlace": "Francia",
+    "champion": "España",
+    "subchampion": "Brasil",
+    "pichichi": "Mbappe",
+    "mvp": "Lamine Yamal",
+    "koMatches": {
+      "73": "Sudáfrica-Canadá·2|0-2",
+      "74": "Brasil-Japón·1|3-0",
+      "75": "Alemania-Paraguay·1|2-1",
+      "76": "Países Bajos-Marruecos·2|1-2",
+      "77": "Costa de Marfil-Noruega·1|2-1",
+      "78": "Francia-Suecia·1|3-1",
+      "79": "México-Ecuador·X|1-1",
+      "80": "Inglaterra-RD Congo·1|3-0",
+      "81": "Bélgica-Senegal·1|3-1",
+      "82": "Estados Unidos-Bosnia y Herzegovina·1|2-1",
+      "83": "España-Austria·1|3-2",
+      "84": "Portugal-Croacia·X|1-1",
+      "85": "Suiza-Argelia·1|1-0",
+      "86": "Australia-Egipto·2|1-2",
+      "87": "Argentina-Cabo Verde·1|3-1",
+      "88": "Colombia-Ghana·1|1-0",
+      "89": "Canadá-Marruecos·2|0-2",
+      "90": "Alemania-Francia·X|1-1",
+      "91": "Brasil-Costa de Marfil·1|2-1",
+      "92": "México-Inglaterra·X|1-1",
+      "93": "Portugal-España·2|1-3",
+      "94": "Estados Unidos-Bélgica·2|1-2",
+      "95": "Argentina-Egipto·1|3-1",
+      "96": "Suiza-Colombia·2|0-1",
+      "97": "Francia-Marruecos·1|2-1",
+      "98": "España-Bélgica·1|2-0",
+      "99": "Brasil-México·1|3-1",
+      "100": "Argentina-Colombia·1|2-1",
+      "101": "Francia-España·2|3-4",
+      "102": "Brasil-Argentina·X|1-1",
+      "103": "Francia-Argentina·1|3-1",
+      "104": "España-Brasil·1|2-1"
+    },
+    "koPenalties": {
+      "79": {
+        "home": 4,
+        "away": 3
+      },
+      "83": {
+        "home": 4,
+        "away": 3
+      },
+      "89": {
+        "home": 3,
+        "away": 4
+      },
+      "92": {
+        "home": 4,
+        "away": 3
+      },
+      "102": {
+        "home": 5,
+        "away": 4
+      }
+    }
+  },
+  "Camina": {
+    "groupMatches": {
+      "1": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "2": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "3": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "8": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "7": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "5": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "4": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "6": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "10": {
+        "winner": "1",
+        "gh": 7,
+        "ga": 1
+      },
+      "9": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "11": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "12": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "16": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "15": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "14": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "13": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "17": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "18": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "19": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "20": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "23": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "24": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "22": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "21": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "25": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "28": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "26": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "27": {
+        "winner": "1",
+        "gh": 6,
+        "ga": 0
+      },
+      "30": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "29": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "32": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "31": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "33": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "34": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "35": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "36": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 4
+      },
+      "39": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "40": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "38": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "37": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "42": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "41": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "43": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "44": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "47": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "48": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "45": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "46": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "53": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "54": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "51": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "52": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "49": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "50": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "59": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "60": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "55": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "56": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "57": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "58": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "63": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "64": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 5
+      },
+      "65": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "66": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "61": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "62": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "69": {
+        "winner": "X",
+        "gh": 3,
+        "ga": 3
+      },
+      "70": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "71": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "72": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "67": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "68": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      }
+    },
+    "groupRankings": {
+      "A": [
+        "México",
+        "Sudáfrica",
+        "Corea del Sur",
+        "República Checa"
+      ],
+      "B": [
+        "Suiza",
+        "Canadá",
+        "Bosnia y Herzegovina",
+        "Catar"
+      ],
+      "C": [
+        "Brasil",
+        "Marruecos",
+        "Escocia",
+        "Haití"
+      ],
+      "D": [
+        "Estados Unidos",
+        "Australia",
+        "Paraguay",
+        "Turquía"
+      ],
+      "E": [
+        "Alemania",
+        "Costa de Marfil",
+        "Ecuador",
+        "Curazao"
+      ],
+      "F": [
+        "Países Bajos",
+        "Japón",
+        "Suecia",
+        "Túnez"
+      ],
+      "G": [
+        "Bélgica",
+        "Egipto",
+        "Irán",
+        "Nueva Zelanda"
+      ],
+      "H": [
+        "España",
+        "Cabo Verde",
+        "Uruguay",
+        "Arabia Saudita"
+      ],
+      "I": [
+        "Francia",
+        "Noruega",
+        "Senegal",
+        "Irak"
+      ],
+      "J": [
+        "Argentina",
+        "Austria",
+        "Argelia",
+        "Jordania"
+      ],
+      "K": [
+        "Colombia",
+        "Portugal",
+        "RD Congo",
+        "Uzbekistán"
+      ],
+      "L": [
+        "Inglaterra",
+        "Croacia",
+        "Ghana",
+        "Panamá"
+      ]
+    },
+    "octavos": [
+      "Canadá",
+      "Alemania",
+      "Brasil",
+      "México",
+      "Portugal",
+      "Estados Unidos",
+      "Argentina",
+      "Suiza",
+      "Marruecos",
+      "Francia",
+      "Noruega",
+      "Inglaterra",
+      "España",
+      "Bélgica",
+      "Australia",
+      "Colombia"
+    ],
+    "cuartos": [
+      "Francia",
+      "España",
+      "Brasil",
+      "Argentina",
+      "Marruecos",
+      "Bélgica",
+      "Inglaterra",
+      "Colombia"
+    ],
+    "semis": [
+      "Francia",
+      "Inglaterra",
+      "España",
+      "Argentina"
+    ],
+    "finalistas": [
+      "España",
+      "Argentina"
+    ],
+    "match34": [
+      "Francia",
+      "Inglaterra"
+    ],
+    "thirdPlace": "Francia",
+    "champion": "España",
+    "subchampion": "Argentina",
+    "pichichi": "Mbappe",
+    "mvp": "Messi",
+    "koMatches": {
+      "73": "Sudáfrica-Canadá·2|0-2",
+      "74": "Brasil-Japón·1|2-0",
+      "75": "Alemania-Paraguay·1|2-0",
+      "76": "Países Bajos-Marruecos·2|0-1",
+      "77": "Costa de Marfil-Noruega·X|1-1",
+      "78": "Francia-Suecia·1|2-1",
+      "79": "México-Ecuador·1|1-0",
+      "80": "Inglaterra-RD Congo·1|2-0",
+      "81": "Bélgica-Senegal·X|1-1",
+      "82": "Estados Unidos-Bosnia y Herzegovina·X|1-1",
+      "83": "España-Austria·1|2-0",
+      "84": "Portugal-Croacia·1|2-1",
+      "85": "Suiza-Argelia·1|1-0",
+      "86": "Australia-Egipto·1|1-0",
+      "87": "Argentina-Cabo Verde·1|3-0",
+      "88": "Colombia-Ghana·X|1-1",
+      "89": "Canadá-Marruecos·2|0-2",
+      "90": "Alemania-Francia·2|0-1",
+      "91": "Brasil-Noruega·1|1-0",
+      "92": "México-Inglaterra·X|1-1",
+      "93": "Portugal-España·2|0-2",
+      "94": "Estados Unidos-Bélgica·2|0-1",
+      "95": "Argentina-Australia·1|2-0",
+      "96": "Suiza-Colombia·2|0-1",
+      "97": "Francia-Marruecos·1|2-1",
+      "98": "España-Bélgica·1|1-0",
+      "99": "Brasil-Inglaterra·2|1-2",
+      "100": "Argentina-Colombia·X|1-1",
+      "101": "Francia-España·2|1-2",
+      "102": "Inglaterra-Argentina·X|1-1",
+      "103": "Francia-Inglaterra·1|2-0",
+      "104": "España-Argentina·1|2-1"
+    },
+    "koPenalties": {
+      "78": {
+        "home": 2,
+        "away": 4
+      },
+      "82": {
+        "home": 4,
+        "away": 1
+      },
+      "81": {
+        "home": 5,
+        "away": 4
+      },
+      "87": {
+        "home": 4,
+        "away": 2
+      },
+      "92": {
+        "home": 3,
+        "away": 5
+      },
+      "100": {
+        "home": 4,
+        "away": 2
+      },
+      "102": {
+        "home": 2,
+        "away": 4
+      }
+    }
+  },
+  "Andrés": {
+    "groupMatches": {
+      "1": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "2": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "3": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "8": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "7": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "5": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "4": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "6": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "10": {
+        "winner": "1",
+        "gh": 7,
+        "ga": 1
+      },
+      "9": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "11": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "12": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "16": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "15": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "14": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "13": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "17": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "18": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "19": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "20": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "23": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "24": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "22": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "21": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "25": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "28": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "26": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "27": {
+        "winner": "1",
+        "gh": 6,
+        "ga": 0
+      },
+      "30": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "29": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "32": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "31": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "33": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "34": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "35": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "36": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 4
+      },
+      "39": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "40": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "38": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "37": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "42": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "41": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "43": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "44": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "47": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "48": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "45": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "46": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "53": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "54": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "51": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "52": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "49": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "50": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "59": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "60": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "55": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "56": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "57": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "58": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "63": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "64": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 5
+      },
+      "65": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "66": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "61": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "62": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "69": {
+        "winner": "X",
+        "gh": 3,
+        "ga": 3
+      },
+      "70": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "71": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "72": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "67": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "68": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      }
+    },
+    "groupRankings": {
+      "A": [
+        "México",
+        "Sudáfrica",
+        "Corea del Sur",
+        "República Checa"
+      ],
+      "B": [
+        "Suiza",
+        "Canadá",
+        "Bosnia y Herzegovina",
+        "Catar"
+      ],
+      "C": [
+        "Brasil",
+        "Marruecos",
+        "Escocia",
+        "Haití"
+      ],
+      "D": [
+        "Estados Unidos",
+        "Australia",
+        "Paraguay",
+        "Turquía"
+      ],
+      "E": [
+        "Alemania",
+        "Costa de Marfil",
+        "Ecuador",
+        "Curazao"
+      ],
+      "F": [
+        "Países Bajos",
+        "Japón",
+        "Suecia",
+        "Túnez"
+      ],
+      "G": [
+        "Bélgica",
+        "Egipto",
+        "Irán",
+        "Nueva Zelanda"
+      ],
+      "H": [
+        "España",
+        "Cabo Verde",
+        "Uruguay",
+        "Arabia Saudita"
+      ],
+      "I": [
+        "Francia",
+        "Noruega",
+        "Senegal",
+        "Irak"
+      ],
+      "J": [
+        "Argentina",
+        "Austria",
+        "Argelia",
+        "Jordania"
+      ],
+      "K": [
+        "Colombia",
+        "Portugal",
+        "RD Congo",
+        "Uzbekistán"
+      ],
+      "L": [
+        "Inglaterra",
+        "Croacia",
+        "Ghana",
+        "Panamá"
+      ]
+    },
+    "octavos": [
+      "Canadá",
+      "Alemania",
+      "Brasil",
+      "México",
+      "Portugal",
+      "Estados Unidos",
+      "Argentina",
+      "Suiza",
+      "Marruecos",
+      "Francia",
+      "Noruega",
+      "Inglaterra",
+      "España",
+      "Senegal",
+      "Egipto",
+      "Colombia"
     ],
     "cuartos": [
       "Alemania",
       "España",
+      "Brasil",
+      "Argentina",
       "Marruecos",
-      "Austria",
-      "República Checa",
       "Estados Unidos",
-      "México",
+      "Inglaterra",
       "Suiza"
     ],
     "semis": [
       "Alemania",
-      "Marruecos",
+      "Inglaterra",
       "España",
-      "Austria"
+      "Argentina"
+    ],
+    "finalistas": [
+      "Alemania",
+      "Inglaterra"
+    ],
+    "match34": [
+      "España",
+      "Argentina"
+    ],
+    "thirdPlace": "Argentina",
+    "champion": "Alemania",
+    "subchampion": "Inglaterra",
+    "pichichi": "Messi",
+    "mvp": "Olise",
+    "koMatches": {
+      "73": "Sudáfrica-Canadá·2|0-2",
+      "74": "Brasil-Japón·1|1-0",
+      "75": "Alemania-Paraguay·1|3-0",
+      "76": "Países Bajos-Marruecos·2|1-3",
+      "77": "Costa de Marfil-Noruega·2|1-3",
+      "78": "Francia-Suecia·1|3-0",
+      "79": "México-Ecuador·X|1-1",
+      "80": "Inglaterra-RD Congo·1|3-0",
+      "81": "Bélgica-Senegal·X|1-1",
+      "82": "Estados Unidos-Bosnia y Herzegovina·1|3-1",
+      "83": "España-Austria·1|3-1",
+      "84": "Portugal-Croacia·X|1-1",
+      "85": "Suiza-Argelia·1|3-0",
+      "86": "Australia-Egipto·2|0-2",
+      "87": "Argentina-Cabo Verde·1|4-0",
+      "88": "Colombia-Ghana·1|2-0",
+      "89": "Canadá-Marruecos·2|1-3",
+      "90": "Alemania-Francia·1|2-0",
+      "91": "Brasil-Noruega·1|3-1",
+      "92": "México-Inglaterra·2|0-3",
+      "93": "Portugal-España·2|0-2",
+      "94": "Estados Unidos-Senegal·1|3-1",
+      "95": "Argentina-Egipto·1|2-0",
+      "96": "Suiza-Colombia·X|1-1",
+      "97": "Alemania-Marruecos·X|2-2",
+      "98": "España-Estados Unidos·1|1-0",
+      "99": "Brasil-Inglaterra·2|1-3",
+      "100": "Argentina-Suiza·1|2-0",
+      "101": "Alemania-España·1|1-0",
+      "102": "Inglaterra-Argentina·1|2-0",
+      "103": "España-Argentina·2|0-2",
+      "104": "Alemania-Inglaterra·X|1-1"
+    },
+    "koPenalties": {
+      "79": {
+        "home": 4,
+        "away": 2
+      },
+      "82": {
+        "home": 4,
+        "away": 5
+      },
+      "83": {
+        "home": 5,
+        "away": 3
+      },
+      "96": {
+        "home": 5,
+        "away": 3
+      },
+      "97": {
+        "home": 4,
+        "away": 3
+      },
+      "104": {
+        "home": 4,
+        "away": 3
+      }
+    }
+  },
+  "Alber": {
+    "groupMatches": {
+      "1": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "2": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "3": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "8": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "7": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "5": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "4": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "6": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "10": {
+        "winner": "1",
+        "gh": 7,
+        "ga": 1
+      },
+      "9": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "11": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "12": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "16": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "15": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "14": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "13": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "17": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "18": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "19": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "20": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "23": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "24": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "22": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "21": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "25": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "28": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "26": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "27": {
+        "winner": "1",
+        "gh": 6,
+        "ga": 0
+      },
+      "30": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "29": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "32": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "31": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "33": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "34": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "35": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "36": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 4
+      },
+      "39": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "40": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "38": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "37": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "42": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "41": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "43": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "44": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "47": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "48": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "45": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "46": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "53": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "54": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "51": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "52": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "49": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "50": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "59": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "60": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "55": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "56": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "57": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "58": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "63": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "64": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 5
+      },
+      "65": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "66": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "61": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "62": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "69": {
+        "winner": "X",
+        "gh": 3,
+        "ga": 3
+      },
+      "70": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "71": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "72": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "67": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "68": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      }
+    },
+    "groupRankings": {
+      "A": [
+        "México",
+        "Sudáfrica",
+        "Corea del Sur",
+        "República Checa"
+      ],
+      "B": [
+        "Suiza",
+        "Canadá",
+        "Bosnia y Herzegovina",
+        "Catar"
+      ],
+      "C": [
+        "Brasil",
+        "Marruecos",
+        "Escocia",
+        "Haití"
+      ],
+      "D": [
+        "Estados Unidos",
+        "Australia",
+        "Paraguay",
+        "Turquía"
+      ],
+      "E": [
+        "Alemania",
+        "Costa de Marfil",
+        "Ecuador",
+        "Curazao"
+      ],
+      "F": [
+        "Países Bajos",
+        "Japón",
+        "Suecia",
+        "Túnez"
+      ],
+      "G": [
+        "Bélgica",
+        "Egipto",
+        "Irán",
+        "Nueva Zelanda"
+      ],
+      "H": [
+        "España",
+        "Cabo Verde",
+        "Uruguay",
+        "Arabia Saudita"
+      ],
+      "I": [
+        "Francia",
+        "Noruega",
+        "Senegal",
+        "Irak"
+      ],
+      "J": [
+        "Argentina",
+        "Austria",
+        "Argelia",
+        "Jordania"
+      ],
+      "K": [
+        "Colombia",
+        "Portugal",
+        "RD Congo",
+        "Uzbekistán"
+      ],
+      "L": [
+        "Inglaterra",
+        "Croacia",
+        "Ghana",
+        "Panamá"
+      ]
+    },
+    "octavos": [
+      "Canadá",
+      "Alemania",
+      "Brasil",
+      "México",
+      "Croacia",
+      "Estados Unidos",
+      "Argentina",
+      "Suiza",
+      "Países Bajos",
+      "Francia",
+      "Noruega",
+      "Inglaterra",
+      "España",
+      "Senegal",
+      "Egipto",
+      "Colombia"
+    ],
+    "cuartos": [
+      "Alemania",
+      "España",
+      "Brasil",
+      "Argentina",
+      "Países Bajos",
+      "Estados Unidos",
+      "México",
+      "Colombia"
+    ],
+    "semis": [
+      "Países Bajos",
+      "México",
+      "España",
+      "Argentina"
+    ],
+    "finalistas": [
+      "Países Bajos",
+      "Argentina"
+    ],
+    "match34": [
+      "España",
+      "México"
+    ],
+    "thirdPlace": "México",
+    "champion": "Argentina",
+    "subchampion": "Países Bajos",
+    "pichichi": "Messi",
+    "mvp": "Messi",
+    "koMatches": {
+      "73": "Sudáfrica-Canadá·2|1-2",
+      "74": "Brasil-Japón·1|3-1",
+      "75": "Alemania-Paraguay·1|3-1",
+      "76": "Países Bajos-Marruecos·X|2-2",
+      "77": "Costa de Marfil-Noruega·2|1-2",
+      "78": "Francia-Suecia·1|3-0",
+      "79": "México-Ecuador·1|2-0",
+      "80": "Inglaterra-RD Congo·1|1-0",
+      "81": "Bélgica-Senegal·X|2-2",
+      "82": "Estados Unidos-Bosnia y Herzegovina·X|1-1",
+      "83": "España-Austria·1|2-1",
+      "84": "Portugal-Croacia·X|2-2",
+      "85": "Suiza-Argelia·1|2-0",
+      "86": "Australia-Egipto·2|1-2",
+      "87": "Argentina-Cabo Verde·1|3-0",
+      "88": "Colombia-Ghana·1|1-0",
+      "89": "Canadá-Países Bajos·2|1-2",
+      "90": "Alemania-Francia·X|1-1",
+      "91": "Brasil-Noruega·1|2-1",
+      "92": "México-Inglaterra·1|2-0",
+      "93": "Croacia-España·2|1-3",
+      "94": "Estados Unidos-Senegal·X|2-2",
+      "95": "Argentina-Egipto·1|2-1",
+      "96": "Suiza-Colombia·X|1-1",
+      "97": "Alemania-Países Bajos·X|1-1",
+      "98": "España-Estados Unidos·X|1-1",
+      "99": "Brasil-México·X|1-1",
+      "100": "Argentina-Colombia·1|2-1",
+      "101": "Países Bajos-España·X|1-1",
+      "102": "México-Argentina·2|1-3",
+      "103": "España-México·2|0-2",
+      "104": "Países Bajos-Argentina·2|1-3"
+    },
+    "koPenalties": {
+      "75": {
+        "home": 4,
+        "away": 3
+      },
+      "82": {
+        "home": 2,
+        "away": 4
+      },
+      "81": {
+        "home": 5,
+        "away": 4
+      },
+      "83": {
+        "home": 3,
+        "away": 4
+      },
+      "89": {
+        "home": 4,
+        "away": 3
+      },
+      "94": {
+        "home": 4,
+        "away": 3
+      },
+      "96": {
+        "home": 0,
+        "away": 3
+      },
+      "97": {
+        "home": 2,
+        "away": 4
+      },
+      "98": {
+        "home": 4,
+        "away": 3
+      },
+      "99": {
+        "home": 3,
+        "away": 4
+      },
+      "101": {
+        "home": 4,
+        "away": 3
+      }
+    }
+  },
+  "Iván": {
+    "groupMatches": {
+      "1": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "2": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "3": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "8": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "7": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "5": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "4": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "6": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "10": {
+        "winner": "1",
+        "gh": 7,
+        "ga": 1
+      },
+      "9": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "11": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "12": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "16": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "15": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "14": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "13": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "17": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "18": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "19": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "20": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "23": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "24": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "22": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "21": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "25": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "28": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "26": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "27": {
+        "winner": "1",
+        "gh": 6,
+        "ga": 0
+      },
+      "30": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "29": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "32": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "31": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "33": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "34": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "35": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "36": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 4
+      },
+      "39": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "40": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "38": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "37": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "42": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "41": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "43": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "44": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "47": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "48": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "45": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "46": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "53": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "54": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "51": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "52": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "49": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "50": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "59": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "60": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "55": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "56": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "57": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "58": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "63": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "64": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 5
+      },
+      "65": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "66": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "61": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "62": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "69": {
+        "winner": "X",
+        "gh": 3,
+        "ga": 3
+      },
+      "70": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "71": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "72": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "67": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "68": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      }
+    },
+    "groupRankings": {
+      "A": [
+        "México",
+        "Sudáfrica",
+        "Corea del Sur",
+        "República Checa"
+      ],
+      "B": [
+        "Suiza",
+        "Canadá",
+        "Bosnia y Herzegovina",
+        "Catar"
+      ],
+      "C": [
+        "Brasil",
+        "Marruecos",
+        "Escocia",
+        "Haití"
+      ],
+      "D": [
+        "Estados Unidos",
+        "Australia",
+        "Paraguay",
+        "Turquía"
+      ],
+      "E": [
+        "Alemania",
+        "Costa de Marfil",
+        "Ecuador",
+        "Curazao"
+      ],
+      "F": [
+        "Países Bajos",
+        "Japón",
+        "Suecia",
+        "Túnez"
+      ],
+      "G": [
+        "Bélgica",
+        "Egipto",
+        "Irán",
+        "Nueva Zelanda"
+      ],
+      "H": [
+        "España",
+        "Cabo Verde",
+        "Uruguay",
+        "Arabia Saudita"
+      ],
+      "I": [
+        "Francia",
+        "Noruega",
+        "Senegal",
+        "Irak"
+      ],
+      "J": [
+        "Argentina",
+        "Austria",
+        "Argelia",
+        "Jordania"
+      ],
+      "K": [
+        "Colombia",
+        "Portugal",
+        "RD Congo",
+        "Uzbekistán"
+      ],
+      "L": [
+        "Inglaterra",
+        "Croacia",
+        "Ghana",
+        "Panamá"
+      ]
+    },
+    "octavos": [
+      "Canadá",
+      "Alemania",
+      "Brasil",
+      "México",
+      "Portugal",
+      "Estados Unidos",
+      "Argentina",
+      "Suiza",
+      "Países Bajos",
+      "Francia",
+      "Noruega",
+      "Inglaterra",
+      "España",
+      "Bélgica",
+      "Egipto",
+      "Colombia"
+    ],
+    "cuartos": [
+      "Francia",
+      "España",
+      "Brasil",
+      "Argentina",
+      "Países Bajos",
+      "Bélgica",
+      "Inglaterra",
+      "Colombia"
+    ],
+    "semis": [
+      "Francia",
+      "Brasil",
+      "España",
+      "Argentina"
+    ],
+    "finalistas": [
+      "Francia",
+      "Argentina"
+    ],
+    "match34": [
+      "España",
+      "Brasil"
+    ],
+    "thirdPlace": "Brasil",
+    "champion": "Argentina",
+    "subchampion": "Francia",
+    "pichichi": "Mbape=",
+    "mvp": "Mesi",
+    "koMatches": {
+      "73": "Sudáfrica-Canadá·X|1-1",
+      "74": "Brasil-Japón·1|2-1",
+      "75": "Alemania-Paraguay·1|3-0",
+      "76": "Países Bajos-Marruecos·X|2-2",
+      "77": "Costa de Marfil-Noruega·2|0-2",
+      "78": "Francia-Suecia·1|3-1",
+      "79": "México-Ecuador·1|2-1",
+      "80": "Inglaterra-RD Congo·1|3-0",
+      "81": "Bélgica-Senegal·1|2-0",
+      "82": "Estados Unidos-Bosnia y Herzegovina·1|2-1",
+      "83": "España-Austria·1|2-0",
+      "84": "Portugal-Croacia·1|2-1",
+      "85": "Suiza-Argelia·1|2-0",
+      "86": "Australia-Egipto·2|1-2",
+      "87": "Argentina-Cabo Verde·1|2-0",
+      "88": "Colombia-Ghana·1|2-0",
+      "89": "Canadá-Países Bajos·2|1-3",
+      "90": "Alemania-Francia·X|2-2",
+      "91": "Brasil-Noruega·1|2-1",
+      "92": "México-Inglaterra·2|0-2",
+      "93": "Portugal-España·2|0-1",
+      "94": "Estados Unidos-Bélgica·2|1-2",
+      "95": "Argentina-Egipto·1|2-0",
+      "96": "Suiza-Colombia·2|1-2",
+      "97": "Francia-Países Bajos·1|2-1",
+      "98": "España-Bélgica·1|2-0",
+      "99": "Brasil-Inglaterra·1|1-0",
+      "100": "Argentina-Colombia·X|1-1",
+      "101": "Francia-España·1|2-0",
+      "102": "Brasil-Argentina·2|1-2",
+      "103": "España-Brasil·2|0-2",
+      "104": "Francia-Argentina·2|1-2"
+    },
+    "koPenalties": {
+      "73": {
+        "home": 3,
+        "away": 4
+      },
+      "75": {
+        "home": 4,
+        "away": 3
+      },
+      "89": {
+        "home": 3,
+        "away": 4
+      },
+      "100": {
+        "home": 4,
+        "away": 3
+      }
+    }
+  },
+  "8pi": {
+    "groupMatches": {
+      "1": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "2": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "3": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "8": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "7": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "5": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "4": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "6": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "10": {
+        "winner": "1",
+        "gh": 7,
+        "ga": 1
+      },
+      "9": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "11": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "12": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "16": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "15": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "14": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "13": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "17": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "18": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "19": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "20": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "23": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "24": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "22": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "21": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "25": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "28": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "26": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "27": {
+        "winner": "1",
+        "gh": 6,
+        "ga": 0
+      },
+      "30": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "29": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "32": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "31": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "33": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "34": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "35": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 1
+      },
+      "36": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 4
+      },
+      "39": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "40": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "38": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "37": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "42": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "41": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "43": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "44": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "47": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "48": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "45": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "46": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "53": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "54": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "51": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "52": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "49": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "50": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "59": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "60": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "55": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "56": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "57": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "58": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "63": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "64": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 5
+      },
+      "65": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "66": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
+      "61": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 4
+      },
+      "62": {
+        "winner": "1",
+        "gh": 5,
+        "ga": 0
+      },
+      "69": {
+        "winner": "X",
+        "gh": 3,
+        "ga": 3
+      },
+      "70": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "71": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "72": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "67": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "68": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      }
+    },
+    "groupRankings": {
+      "A": [
+        "México",
+        "Sudáfrica",
+        "Corea del Sur",
+        "República Checa"
+      ],
+      "B": [
+        "Suiza",
+        "Canadá",
+        "Bosnia y Herzegovina",
+        "Catar"
+      ],
+      "C": [
+        "Brasil",
+        "Marruecos",
+        "Escocia",
+        "Haití"
+      ],
+      "D": [
+        "Estados Unidos",
+        "Australia",
+        "Paraguay",
+        "Turquía"
+      ],
+      "E": [
+        "Alemania",
+        "Costa de Marfil",
+        "Ecuador",
+        "Curazao"
+      ],
+      "F": [
+        "Países Bajos",
+        "Japón",
+        "Suecia",
+        "Túnez"
+      ],
+      "G": [
+        "Bélgica",
+        "Egipto",
+        "Irán",
+        "Nueva Zelanda"
+      ],
+      "H": [
+        "España",
+        "Cabo Verde",
+        "Uruguay",
+        "Arabia Saudita"
+      ],
+      "I": [
+        "Francia",
+        "Noruega",
+        "Senegal",
+        "Irak"
+      ],
+      "J": [
+        "Argentina",
+        "Austria",
+        "Argelia",
+        "Jordania"
+      ],
+      "K": [
+        "Colombia",
+        "Portugal",
+        "RD Congo",
+        "Uzbekistán"
+      ],
+      "L": [
+        "Inglaterra",
+        "Croacia",
+        "Ghana",
+        "Panamá"
+      ]
+    },
+    "octavos": [
+      "Canadá",
+      "Alemania",
+      "Brasil",
+      "México",
+      "Portugal",
+      "Estados Unidos",
+      "Argentina",
+      "Suiza",
+      "Países Bajos",
+      "Francia",
+      "Noruega",
+      "Inglaterra",
+      "España",
+      "Bélgica",
+      "Egipto",
+      "Colombia"
+    ],
+    "cuartos": [
+      "Francia",
+      "España",
+      "Brasil",
+      "Argentina",
+      "Países Bajos",
+      "Bélgica",
+      "Inglaterra",
+      "Colombia"
+    ],
+    "semis": [
+      "Francia",
+      "Inglaterra",
+      "España",
+      "Argentina"
     ],
     "finalistas": [
       "España",
-      "Austria"
+      "Argentina"
     ],
     "match34": [
-      "Alemania",
-      "Marruecos"
+      "Francia",
+      "Inglaterra"
     ],
-    "thirdPlace": "Alemania",
+    "thirdPlace": "Francia",
     "champion": "España",
-    "subchampion": "Austria",
-    "pichichi": "Julián Álvarez",
+    "subchampion": "Argentina",
+    "pichichi": "Mbappe",
     "mvp": "Pedri",
     "koMatches": {
-      "73": "República Checa-Canadá·1|1-0",
-      "74": "Marruecos-Japón·1|1-0",
-      "75": "Alemania-Escocia·1|1-0",
-      "76": "Países Bajos-Brasil·1|1-0",
-      "77": "Ecuador-Noruega·1|1-0",
-      "78": "Francia-Suecia·1|1-0",
-      "79": "México-Costa de Marfil·1|1-0",
-      "80": "Croacia-Uzbekistán·1|1-0",
-      "81": "Bélgica-Corea del Sur·1|1-0",
-      "82": "Estados Unidos-Bosnia y Herzegovina·1|1-0",
-      "83": "España-Argentina·1|1-0",
-      "84": "Colombia-Inglaterra·1|1-0",
-      "85": "Suiza-Senegal·1|1-0",
-      "86": "Turquía-Egipto·1|1-0",
-      "87": "Austria-Uruguay·1|1-0",
-      "88": "Portugal-Ghana·1|1-0",
-      "89": "República Checa-Países Bajos·1|1-0",
-      "90": "Alemania-Francia·1|1-0",
-      "91": "Marruecos-Ecuador·1|1-0",
-      "92": "México-Croacia·1|1-0",
-      "93": "Colombia-España·2|0-1",
-      "94": "Estados Unidos-Bélgica·1|1-0",
-      "95": "Austria-Turquía·1|1-0",
-      "96": "Suiza-Portugal·1|1-0",
-      "97": "Alemania-República Checa·1|1-0",
-      "98": "España-Estados Unidos·1|1-0",
-      "99": "Marruecos-México·1|1-0",
-      "100": "Austria-Suiza·1|1-0",
-      "101": "Alemania-España·2|0-1",
-      "102": "Marruecos-Austria·2|0-1",
-      "103": "Alemania-Marruecos·1|1-0",
-      "104": "España-Austria·1|1-0"
+      "73": "Sudáfrica-Canadá·2|0-1",
+      "74": "Brasil-Japón·1|2-1",
+      "75": "Alemania-Paraguay·1|4-0",
+      "76": "Países Bajos-Marruecos·X|1-1",
+      "77": "Costa de Marfil-Noruega·2|1-2",
+      "78": "Francia-Suecia·1|3-0",
+      "79": "México-Ecuador·1|1-0",
+      "80": "Inglaterra-RD Congo·1|2-0",
+      "81": "Bélgica-Senegal·1|2-1",
+      "82": "Estados Unidos-Bosnia y Herzegovina·1|2-0",
+      "83": "España-Austria·1|4-1",
+      "84": "Portugal-Croacia·X|2-2",
+      "85": "Suiza-Argelia·1|1-0",
+      "86": "Australia-Egipto·2|1-2",
+      "87": "Argentina-Cabo Verde·1|2-1",
+      "88": "Colombia-Ghana·1|1-0",
+      "89": "Canadá-Países Bajos·2|0-2",
+      "90": "Alemania-Francia·2|2-3",
+      "91": "Brasil-Noruega·1|3-2",
+      "92": "México-Inglaterra·2|1-3",
+      "93": "Portugal-España·X|1-1",
+      "94": "Estados Unidos-Bélgica·2|0-2",
+      "95": "Argentina-Egipto·X|1-1",
+      "96": "Suiza-Colombia·X|0-0",
+      "97": "Francia-Países Bajos·1|2-0",
+      "98": "España-Bélgica·1|3-1",
+      "99": "Brasil-Inglaterra·2|0-1",
+      "100": "Argentina-Colombia·1|2-1",
+      "101": "Francia-España·2|1-3",
+      "102": "Inglaterra-Argentina·2|0-1",
+      "103": "Francia-Inglaterra·1|2-0",
+      "104": "España-Argentina·1|2-1"
     },
-    "koPenalties": {}
+    "koPenalties": {
+      "75": {
+        "home": 5,
+        "away": 3
+      },
+      "83": {
+        "home": 7,
+        "away": 6
+      },
+      "93": {
+        "home": 3,
+        "away": 5
+      },
+      "95": {
+        "home": 5,
+        "away": 3
+      },
+      "96": {
+        "home": 4,
+        "away": 5
+      }
+    }
   }
 };

@@ -824,21 +824,25 @@ function evaluateTournament() {
         const koVal = preds.koMatches ? preds.koMatches[matchNum] : null;
         if (koVal && koVal.includes("·")) {
           const parts = koVal.split("·");
-          const outcomePart = parts[1].split("|")[0]; // "1", "2", "X"
+          const scorePart = parts[1].split("|")[1]; // e.g. "2-1" or "1-1"
           
-          const actWinner = score.gh > score.ga ? "1" : (score.gh < score.ga ? "2" : "X");
+          const scoreTokens = scorePart.split("-");
+          const pred_gh = parseInt(scoreTokens[0]);
+          const pred_ga = parseInt(scoreTokens[1]);
           
-          if (outcomePart === actWinner) {
-            ptsDetail.koMatches += KO_MATCH_1X2_POINTS;
-            
-            if (actWinner === "X") {
-              const predPen = preds.koPenalties ? preds.koPenalties[matchNum] : null;
-              const actPenh = score.penh;
-              const actPena = score.pena;
-              if (predPen && actPenh !== "" && actPena !== "" && actPenh !== undefined && actPena !== undefined && actPenh !== null && actPena !== null) {
-                if (predPen.home === parseInt(actPenh) && predPen.away === parseInt(actPena)) {
-                  ptsDetail.koMatches += KO_PENALTY_EXACT_POINTS;
-                }
+          // 1. Exact match score (+1 pt)
+          if (pred_gh === score.gh && pred_ga === score.ga) {
+            ptsDetail.koMatches += 1;
+          }
+          
+          // 2. Exact penalties (+1 pt)
+          if (score.gh === score.ga && pred_gh === pred_ga) {
+            const predPen = preds.koPenalties ? preds.koPenalties[matchNum] : null;
+            const actPenh = score.penh;
+            const actPena = score.pena;
+            if (predPen && actPenh !== "" && actPena !== "" && actPenh !== undefined && actPena !== undefined && actPenh !== null && actPena !== null) {
+              if (predPen.home === parseInt(actPenh) && predPen.away === parseInt(actPena)) {
+                ptsDetail.koMatches += 1;
               }
             }
           }
@@ -1016,18 +1020,25 @@ function renderUserPredictions() {
         const koVal = pUser.koMatches ? pUser.koMatches[matchNum] : null;
         if (koVal && koVal.includes("·")) {
           const parts = koVal.split("·");
-          const outcomePart = parts[1].split("|")[0]; // "1", "2", "X"
-          const actWinner = score.gh > score.ga ? "1" : (score.gh < score.ga ? "2" : "X");
-          if (outcomePart === actWinner) {
-            ptsDetail.koMatches += KO_MATCH_1X2_POINTS;
-            if (actWinner === "X") {
-              const predPen = pUser.koPenalties ? pUser.koPenalties[matchNum] : null;
-              const actPenh = score.penh;
-              const actPena = score.pena;
-              if (predPen && actPenh !== "" && actPena !== "" && actPenh !== undefined && actPena !== undefined && actPenh !== null && actPena !== null) {
-                if (predPen.home === parseInt(actPenh) && predPen.away === parseInt(actPena)) {
-                  ptsDetail.koMatches += KO_PENALTY_EXACT_POINTS;
-                }
+          const scorePart = parts[1].split("|")[1]; // e.g. "2-1" or "1-1"
+          
+          const scoreTokens = scorePart.split("-");
+          const pred_gh = parseInt(scoreTokens[0]);
+          const pred_ga = parseInt(scoreTokens[1]);
+          
+          // 1. Exact match score (+1 pt)
+          if (pred_gh === score.gh && pred_ga === score.ga) {
+            ptsDetail.koMatches += 1;
+          }
+          
+          // 2. Exact penalties (+1 pt)
+          if (score.gh === score.ga && pred_gh === pred_ga) {
+            const predPen = pUser.koPenalties ? pUser.koPenalties[matchNum] : null;
+            const actPenh = score.penh;
+            const actPena = score.pena;
+            if (predPen && actPenh !== "" && actPena !== "" && actPenh !== undefined && actPena !== undefined && actPenh !== null && actPena !== null) {
+              if (predPen.home === parseInt(actPenh) && predPen.away === parseInt(actPena)) {
+                ptsDetail.koMatches += 1;
               }
             }
           }
@@ -1130,17 +1141,20 @@ function renderUserPredictions() {
       predText = `${homeDisp} ${scorePart}${penSuffix} ${awayDisp}`;
       
       if (score && score.gh !== "" && score.ga !== "") {
-        const actWinner = score.gh > score.ga ? "1" : (score.gh < score.ga ? "2" : "X");
-        if (winnerPart === actWinner) {
-          pointsEarned += KO_MATCH_1X2_POINTS;
-          
-          if (actWinner === "X") {
-            const actPenh = score.penh;
-            const actPena = score.pena;
-            if (predPen && actPenh !== "" && actPena !== "" && actPenh !== undefined && actPena !== undefined && actPenh !== null && actPena !== null) {
-              if (predPen.home === parseInt(actPenh) && predPen.away === parseInt(actPena)) {
-                pointsEarned += KO_PENALTY_EXACT_POINTS;
-              }
+        const scoreTokens = scorePart.split("-");
+        const pred_gh = parseInt(scoreTokens[0]);
+        const pred_ga = parseInt(scoreTokens[1]);
+        
+        if (pred_gh === score.gh && pred_ga === score.ga) {
+          pointsEarned += 1;
+        }
+        
+        if (score.gh === score.ga && pred_gh === pred_ga) {
+          const actPenh = score.penh;
+          const actPena = score.pena;
+          if (predPen && actPenh !== "" && actPena !== "" && actPenh !== undefined && actPena !== undefined && actPenh !== null && actPena !== null) {
+            if (predPen.home === parseInt(actPenh) && predPen.away === parseInt(actPena)) {
+              pointsEarned += 1;
             }
           }
         }
@@ -1158,12 +1172,21 @@ function renderUserPredictions() {
       actScoreHtml = `${score.gh} - ${score.ga}${penSuffix}`;
       
       if (pointsEarned > 0) {
-        if (pointsEarned > KO_MATCH_1X2_POINTS) {
+        if (pointsEarned === 2) {
           badgeClass = "exact";
-          badgeLabel = `Acierto 1X2 + Penaltis (+${pointsEarned})`;
+          badgeLabel = "Marcador y Penaltis (+2)";
         } else {
-          badgeClass = "win1x2";
-          badgeLabel = `Acierto 1X2 (+${pointsEarned})`;
+          // pointsEarned is 1
+          const scoreTokens = scorePart.split("-");
+          const pred_gh = parseInt(scoreTokens[0]);
+          const pred_ga = parseInt(scoreTokens[1]);
+          if (pred_gh === score.gh && pred_ga === score.ga) {
+            badgeClass = "exact";
+            badgeLabel = "Resultado Exacto (+1)";
+          } else {
+            badgeClass = "partial";
+            badgeLabel = "Penaltis Exactos (+1)";
+          }
         }
       } else {
         badgeClass = "miss";
