@@ -1170,8 +1170,8 @@ const PREDICTIONS = {
     "groupMatches": {
       "1": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "2": {
         "winner": "1",
@@ -1184,138 +1184,138 @@ const PREDICTIONS = {
         "ga": 1
       },
       "8": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "7": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 3,
         "ga": 1
       },
       "5": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 3
       },
       "4": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 1
       },
       "6": {
-        "winner": "1",
+        "winner": "X",
         "gh": 2,
-        "ga": 0
+        "ga": 2
       },
       "10": {
-        "winner": "1",
-        "gh": 7,
-        "ga": 1
-      },
-      "9": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "11": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "12": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 1
-      },
-      "16": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "15": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "14": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "13": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "17": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "18": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 4
-      },
-      "19": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "20": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "23": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "24": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "22": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 2
-      },
-      "21": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "25": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "28": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "26": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
-      "27": {
         "winner": "1",
         "gh": 6,
         "ga": 0
       },
-      "30": {
+      "9": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "11": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "12": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "16": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "15": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "14": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "13": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "17": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "18": {
         "winner": "2",
         "gh": 0,
+        "ga": 2
+      },
+      "19": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "20": {
+        "winner": "1",
+        "gh": 2,
         "ga": 1
+      },
+      "23": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "24": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 4
+      },
+      "22": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "21": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "25": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "28": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "26": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "27": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "30": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
       },
       "29": {
         "winner": "1",
-        "gh": 3,
+        "gh": 4,
         "ga": 0
       },
       "32": {
@@ -1324,68 +1324,68 @@ const PREDICTIONS = {
         "ga": 0
       },
       "31": {
-        "winner": "2",
-        "gh": 0,
+        "winner": "1",
+        "gh": 3,
         "ga": 1
       },
       "33": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 4,
+        "ga": 0
       },
       "34": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
       },
       "35": {
         "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "36": {
         "winner": "2",
         "gh": 0,
-        "ga": 4
+        "ga": 1
       },
       "39": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "40": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "40": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
       "38": {
         "winner": "1",
-        "gh": 4,
-        "ga": 0
+        "gh": 2,
+        "ga": 1
       },
       "37": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
       },
       "42": {
         "winner": "1",
-        "gh": 3,
-        "ga": 0
+        "gh": 5,
+        "ga": 1
       },
       "41": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
-      },
-      "43": {
         "winner": "1",
         "gh": 2,
         "ga": 0
       },
+      "43": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
       "44": {
-        "winner": "2",
-        "gh": 1,
+        "winner": "X",
+        "gh": 2,
         "ga": 2
       },
       "47": {
@@ -1395,28 +1395,28 @@ const PREDICTIONS = {
       },
       "48": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "45": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 1,
         "ga": 0
       },
       "46": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "53": {
         "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "gh": 1,
+        "ga": 2
       },
       "54": {
-        "winner": "1",
+        "winner": "X",
         "gh": 1,
-        "ga": 0
+        "ga": 1
       },
       "51": {
         "winner": "1",
@@ -1424,23 +1424,23 @@ const PREDICTIONS = {
         "ga": 1
       },
       "52": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
       },
       "49": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "50": {
         "winner": "1",
         "gh": 4,
-        "ga": 2
+        "ga": 1
       },
       "59": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "X",
+        "gh": 2,
         "ga": 2
       },
       "60": {
@@ -1450,78 +1450,78 @@ const PREDICTIONS = {
       },
       "55": {
         "winner": "2",
-        "gh": 0,
+        "gh": 1,
         "ga": 2
       },
       "56": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
       },
       "57": {
-        "winner": "X",
+        "winner": "2",
         "gh": 1,
-        "ga": 1
+        "ga": 2
       },
       "58": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 2
       },
       "63": {
-        "winner": "X",
+        "winner": "1",
         "gh": 1,
-        "ga": 1
+        "ga": 0
       },
       "64": {
         "winner": "2",
-        "gh": 1,
-        "ga": 5
+        "gh": 0,
+        "ga": 3
       },
       "65": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "66": {
-        "winner": "2",
-        "gh": 0,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "61": {
         "winner": "2",
-        "gh": 1,
-        "ga": 4
+        "gh": 0,
+        "ga": 3
       },
       "62": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "70": {
         "winner": "2",
-        "gh": 1,
+        "gh": 0,
         "ga": 3
       },
       "71": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "72": {
         "winner": "X",
         "gh": 0,
         "ga": 0
-      },
-      "72": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
       },
       "67": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 3
       },
       "68": {
         "winner": "1",
@@ -1532,9 +1532,9 @@ const PREDICTIONS = {
     "groupRankings": {
       "A": [
         "México",
-        "Sudáfrica",
         "Corea del Sur",
-        "República Checa"
+        "República Checa",
+        "Sudáfrica"
       ],
       "B": [
         "Suiza",
@@ -1544,39 +1544,39 @@ const PREDICTIONS = {
       ],
       "C": [
         "Brasil",
-        "Marruecos",
         "Escocia",
+        "Marruecos",
         "Haití"
       ],
       "D": [
         "Estados Unidos",
+        "Turquía",
         "Australia",
-        "Paraguay",
-        "Turquía"
+        "Paraguay"
       ],
       "E": [
         "Alemania",
-        "Costa de Marfil",
         "Ecuador",
+        "Costa de Marfil",
         "Curazao"
       ],
       "F": [
         "Países Bajos",
-        "Japón",
         "Suecia",
+        "Japón",
         "Túnez"
       ],
       "G": [
         "Bélgica",
         "Egipto",
-        "Irán",
-        "Nueva Zelanda"
+        "Nueva Zelanda",
+        "Irán"
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita"
+        "Arabia Saudita",
+        "Cabo Verde"
       ],
       "I": [
         "Francia",
@@ -1591,16 +1591,16 @@ const PREDICTIONS = {
         "Jordania"
       ],
       "K": [
-        "Colombia",
         "Portugal",
+        "Colombia",
         "RD Congo",
         "Uzbekistán"
       ],
       "L": [
         "Inglaterra",
         "Croacia",
-        "Ghana",
-        "Panamá"
+        "Panamá",
+        "Ghana"
       ]
     },
     "octavos": [
@@ -1690,18 +1690,18 @@ const PREDICTIONS = {
     "groupMatches": {
       "1": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "2": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "3": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "8": {
         "winner": "X",
@@ -1709,99 +1709,99 @@ const PREDICTIONS = {
         "ga": 1
       },
       "7": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 4,
+        "ga": 3
       },
       "5": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "4": {
         "winner": "1",
-        "gh": 4,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "6": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "10": {
-        "winner": "1",
-        "gh": 7,
-        "ga": 1
-      },
-      "9": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "11": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "12": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 1
-      },
-      "16": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "15": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "14": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "13": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "17": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "18": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 4
-      },
-      "19": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "20": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "23": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "24": {
         "winner": "2",
         "gh": 1,
         "ga": 3
       },
-      "22": {
+      "10": {
         "winner": "1",
         "gh": 4,
+        "ga": 1
+      },
+      "9": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "11": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "12": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "16": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "15": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "14": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "13": {
+        "winner": "2",
+        "gh": 0,
         "ga": 2
+      },
+      "17": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 1
+      },
+      "18": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "19": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "20": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "23": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "24": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "22": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
       },
       "21": {
         "winner": "1",
@@ -1809,129 +1809,129 @@ const PREDICTIONS = {
         "ga": 0
       },
       "25": {
-        "winner": "X",
+        "winner": "2",
         "gh": 1,
-        "ga": 1
+        "ga": 2
       },
       "28": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 4,
+        "ga": 2
       },
       "26": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 1
       },
       "27": {
         "winner": "1",
-        "gh": 6,
-        "ga": 0
+        "gh": 3,
+        "ga": 2
       },
       "30": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "29": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "32": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "31": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "33": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
-      },
-      "34": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "35": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 1
-      },
-      "36": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 4
-      },
-      "39": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "40": {
         "winner": "2",
         "gh": 1,
         "ga": 3
       },
-      "38": {
+      "29": {
         "winner": "1",
-        "gh": 4,
+        "gh": 5,
+        "ga": 1
+      },
+      "32": {
+        "winner": "1",
+        "gh": 1,
         "ga": 0
       },
-      "37": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "42": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "41": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
-      },
-      "43": {
+      "31": {
         "winner": "1",
         "gh": 2,
         "ga": 0
       },
-      "44": {
+      "33": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "34": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "35": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "36": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "39": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "40": {
         "winner": "2",
         "gh": 1,
         "ga": 2
       },
-      "47": {
+      "38": {
         "winner": "1",
-        "gh": 5,
+        "gh": 3,
+        "ga": 1
+      },
+      "37": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
+      "42": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "41": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "43": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "44": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "47": {
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "48": {
-        "winner": "1",
-        "gh": 1,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "45": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 3,
         "ga": 0
       },
       "46": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "53": {
         "winner": "2",
         "gh": 0,
-        "ga": 3
+        "ga": 2
       },
       "54": {
         "winner": "1",
@@ -1939,93 +1939,93 @@ const PREDICTIONS = {
         "ga": 0
       },
       "51": {
-        "winner": "1",
+        "winner": "X",
         "gh": 2,
-        "ga": 1
+        "ga": 2
       },
       "52": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "49": {
         "winner": "2",
         "gh": 0,
-        "ga": 3
+        "ga": 2
       },
       "50": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 3,
+        "ga": 1
       },
       "59": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "X",
+        "gh": 2,
         "ga": 2
       },
       "60": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "55": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "55": {
+      "56": {
         "winner": "2",
         "gh": 0,
         "ga": 2
       },
-      "56": {
+      "57": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "58": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "63": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "64": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "65": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "66": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "61": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "62": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "69": {
         "winner": "1",
         "gh": 2,
         "ga": 1
       },
-      "57": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "58": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "63": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "64": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 5
-      },
-      "65": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "66": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "61": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 4
-      },
-      "62": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
-      },
-      "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
-      },
       "70": {
         "winner": "2",
-        "gh": 1,
+        "gh": 0,
         "ga": 3
       },
       "71": {
@@ -2034,33 +2034,33 @@ const PREDICTIONS = {
         "ga": 0
       },
       "72": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "67": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 1
       },
       "68": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       }
     },
     "groupRankings": {
       "A": [
         "México",
         "Sudáfrica",
-        "Corea del Sur",
-        "República Checa"
+        "República Checa",
+        "Corea del Sur"
       ],
       "B": [
-        "Suiza",
         "Canadá",
-        "Bosnia y Herzegovina",
-        "Catar"
+        "Suiza",
+        "Catar",
+        "Bosnia y Herzegovina"
       ],
       "C": [
         "Brasil",
@@ -2069,15 +2069,15 @@ const PREDICTIONS = {
         "Haití"
       ],
       "D": [
+        "Turquía",
         "Estados Unidos",
         "Australia",
-        "Paraguay",
-        "Turquía"
+        "Paraguay"
       ],
       "E": [
         "Alemania",
-        "Costa de Marfil",
         "Ecuador",
+        "Costa de Marfil",
         "Curazao"
       ],
       "F": [
@@ -2094,9 +2094,9 @@ const PREDICTIONS = {
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita"
+        "Arabia Saudita",
+        "Cabo Verde"
       ],
       "I": [
         "Francia",
@@ -2106,15 +2106,15 @@ const PREDICTIONS = {
       ],
       "J": [
         "Argentina",
-        "Austria",
         "Argelia",
+        "Austria",
         "Jordania"
       ],
       "K": [
-        "Colombia",
         "Portugal",
         "RD Congo",
-        "Uzbekistán"
+        "Uzbekistán",
+        "Colombia"
       ],
       "L": [
         "Inglaterra",
@@ -2228,21 +2228,21 @@ const PREDICTIONS = {
       "1": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       },
       "2": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "3": {
-        "winner": "X",
+        "winner": "1",
         "gh": 1,
-        "ga": 1
+        "ga": 0
       },
       "8": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "2",
+        "gh": 0,
         "ga": 1
       },
       "7": {
@@ -2257,33 +2257,33 @@ const PREDICTIONS = {
       },
       "4": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 1
       },
       "6": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "10": {
         "winner": "1",
-        "gh": 7,
-        "ga": 1
-      },
-      "9": {
-        "winner": "1",
-        "gh": 1,
+        "gh": 3,
         "ga": 0
       },
+      "9": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
       "11": {
-        "winner": "X",
+        "winner": "1",
         "gh": 2,
-        "ga": 2
+        "ga": 1
       },
       "12": {
         "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "16": {
         "winner": "X",
@@ -2292,63 +2292,63 @@ const PREDICTIONS = {
       },
       "15": {
         "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "14": {
-        "winner": "X",
         "gh": 0,
         "ga": 0
       },
+      "14": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
       "13": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "2",
+        "gh": 0,
         "ga": 1
       },
       "17": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "18": {
         "winner": "2",
         "gh": 1,
-        "ga": 4
+        "ga": 2
       },
       "19": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 0
       },
       "20": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "23": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "24": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 1
       },
       "22": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 2
-      },
-      "21": {
         "winner": "1",
         "gh": 1,
         "ga": 0
       },
-      "25": {
+      "21": {
         "winner": "X",
         "gh": 1,
         "ga": 1
+      },
+      "25": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
       },
       "28": {
         "winner": "1",
@@ -2357,18 +2357,18 @@ const PREDICTIONS = {
       },
       "26": {
         "winner": "1",
-        "gh": 4,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "27": {
-        "winner": "1",
-        "gh": 6,
-        "ga": 0
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "30": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "29": {
         "winner": "1",
@@ -2376,64 +2376,64 @@ const PREDICTIONS = {
         "ga": 0
       },
       "32": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "31": {
-        "winner": "2",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "33": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "34": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 1,
         "ga": 0
       },
       "35": {
         "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "36": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 4
-      },
-      "39": {
         "winner": "X",
         "gh": 0,
+        "ga": 0
+      },
+      "39": {
+        "winner": "1",
+        "gh": 1,
         "ga": 0
       },
       "40": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 1
       },
       "38": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 0
       },
       "37": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
       },
       "42": {
         "winner": "1",
-        "gh": 3,
+        "gh": 1,
         "ga": 0
       },
       "41": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "43": {
         "winner": "1",
@@ -2441,13 +2441,13 @@ const PREDICTIONS = {
         "ga": 0
       },
       "44": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "47": {
         "winner": "1",
-        "gh": 5,
+        "gh": 2,
         "ga": 0
       },
       "48": {
@@ -2456,89 +2456,89 @@ const PREDICTIONS = {
         "ga": 0
       },
       "45": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "46": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "53": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "54": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "51": {
         "winner": "1",
         "gh": 2,
         "ga": 1
       },
-      "52": {
+      "46": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "53": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "54": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 1
+      },
+      "51": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "52": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "49": {
         "winner": "2",
         "gh": 0,
-        "ga": 3
+        "ga": 2
       },
       "50": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 2,
+        "ga": 0
       },
       "59": {
         "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "gh": 2,
+        "ga": 0
       },
       "60": {
         "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "55": {
+        "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "55": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
-      },
       "56": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "57": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "gh": 0,
+        "ga": 0
       },
       "58": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "63": {
-        "winner": "X",
-        "gh": 1,
+        "gh": 0,
         "ga": 1
       },
-      "64": {
-        "winner": "2",
+      "63": {
+        "winner": "1",
         "gh": 1,
-        "ga": 5
+        "ga": 0
       },
-      "65": {
+      "64": {
         "winner": "X",
         "gh": 0,
         "ga": 0
+      },
+      "65": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
       },
       "66": {
         "winner": "2",
@@ -2548,32 +2548,32 @@ const PREDICTIONS = {
       "61": {
         "winner": "2",
         "gh": 1,
-        "ga": 4
+        "ga": 2
       },
       "62": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
-      },
-      "70": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "71": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
+      "70": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "71": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
       "72": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "67": {
         "winner": "2",
@@ -2581,23 +2581,23 @@ const PREDICTIONS = {
         "ga": 2
       },
       "68": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "2",
+        "gh": 0,
         "ga": 1
       }
     },
     "groupRankings": {
       "A": [
         "México",
+        "República Checa",
         "Sudáfrica",
-        "Corea del Sur",
-        "República Checa"
+        "Corea del Sur"
       ],
       "B": [
         "Suiza",
         "Canadá",
-        "Bosnia y Herzegovina",
-        "Catar"
+        "Catar",
+        "Bosnia y Herzegovina"
       ],
       "C": [
         "Brasil",
@@ -2606,34 +2606,34 @@ const PREDICTIONS = {
         "Haití"
       ],
       "D": [
+        "Turquía",
         "Estados Unidos",
         "Australia",
-        "Paraguay",
-        "Turquía"
+        "Paraguay"
       ],
       "E": [
         "Alemania",
-        "Costa de Marfil",
         "Ecuador",
+        "Costa de Marfil",
         "Curazao"
       ],
       "F": [
         "Países Bajos",
-        "Japón",
         "Suecia",
+        "Japón",
         "Túnez"
       ],
       "G": [
-        "Bélgica",
         "Egipto",
-        "Irán",
-        "Nueva Zelanda"
+        "Bélgica",
+        "Nueva Zelanda",
+        "Irán"
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita"
+        "Arabia Saudita",
+        "Cabo Verde"
       ],
       "I": [
         "Francia",
@@ -2644,20 +2644,20 @@ const PREDICTIONS = {
       "J": [
         "Argentina",
         "Austria",
-        "Argelia",
-        "Jordania"
+        "Jordania",
+        "Argelia"
       ],
       "K": [
-        "Colombia",
         "Portugal",
+        "Colombia",
         "RD Congo",
         "Uzbekistán"
       ],
       "L": [
         "Inglaterra",
-        "Croacia",
         "Ghana",
-        "Panamá"
+        "Panamá",
+        "Croacia"
       ]
     },
     "octavos": [
@@ -2760,27 +2760,27 @@ const PREDICTIONS = {
     "groupMatches": {
       "1": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "2": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "3": {
         "winner": "1",
         "gh": 2,
         "ga": 1
       },
-      "3": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
       "8": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
       },
       "7": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "5": {
@@ -2790,53 +2790,53 @@ const PREDICTIONS = {
       },
       "4": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 1
       },
       "6": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "10": {
         "winner": "1",
-        "gh": 7,
-        "ga": 1
-      },
-      "9": {
-        "winner": "1",
-        "gh": 1,
+        "gh": 3,
         "ga": 0
       },
+      "9": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
+      },
       "11": {
-        "winner": "X",
-        "gh": 2,
+        "winner": "2",
+        "gh": 1,
         "ga": 2
       },
       "12": {
         "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "16": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "15": {
-        "winner": "X",
+        "winner": "1",
         "gh": 2,
-        "ga": 2
+        "ga": 0
       },
       "14": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 4,
         "ga": 0
       },
       "13": {
-        "winner": "X",
+        "winner": "2",
         "gh": 1,
-        "ga": 1
+        "ga": 2
       },
       "17": {
         "winner": "1",
@@ -2846,62 +2846,62 @@ const PREDICTIONS = {
       "18": {
         "winner": "2",
         "gh": 1,
-        "ga": 4
+        "ga": 2
       },
       "19": {
         "winner": "1",
-        "gh": 3,
-        "ga": 0
+        "gh": 2,
+        "ga": 1
       },
       "20": {
         "winner": "1",
         "gh": 3,
-        "ga": 1
+        "ga": 0
       },
       "23": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "24": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 2
       },
       "22": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 2,
+        "ga": 1
       },
       "21": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "25": {
         "winner": "1",
         "gh": 1,
         "ga": 0
       },
-      "25": {
+      "28": {
         "winner": "X",
         "gh": 1,
         "ga": 1
       },
-      "28": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
       "26": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 1
       },
       "27": {
         "winner": "1",
-        "gh": 6,
+        "gh": 2,
         "ga": 0
       },
       "30": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 2
       },
       "29": {
         "winner": "1",
@@ -2911,11 +2911,11 @@ const PREDICTIONS = {
       "32": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       },
       "31": {
-        "winner": "2",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "33": {
@@ -2924,39 +2924,39 @@ const PREDICTIONS = {
         "ga": 1
       },
       "34": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 3,
         "ga": 0
       },
       "35": {
         "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "gh": 3,
+        "ga": 0
       },
       "36": {
         "winner": "2",
-        "gh": 0,
-        "ga": 4
+        "gh": 1,
+        "ga": 2
       },
       "39": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
       },
       "40": {
         "winner": "2",
-        "gh": 1,
+        "gh": 0,
         "ga": 3
       },
       "38": {
         "winner": "1",
-        "gh": 4,
+        "gh": 3,
         "ga": 0
       },
       "37": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
       },
       "42": {
         "winner": "1",
@@ -2964,154 +2964,154 @@ const PREDICTIONS = {
         "ga": 0
       },
       "41": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "X",
+        "gh": 2,
         "ga": 2
       },
       "43": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "44": {
         "winner": "1",
         "gh": 2,
         "ga": 0
       },
-      "44": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
       "47": {
         "winner": "1",
-        "gh": 5,
+        "gh": 3,
         "ga": 0
       },
       "48": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 2,
+        "ga": 1
       },
       "45": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
       },
       "46": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 2
       },
       "53": {
         "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "gh": 1,
+        "ga": 2
       },
       "54": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "51": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "52": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "49": {
         "winner": "2",
-        "gh": 0,
+        "gh": 1,
         "ga": 3
       },
       "50": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 2,
+        "ga": 1
       },
       "59": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "X",
+        "gh": 2,
         "ga": 2
       },
       "60": {
         "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "gh": 1,
+        "ga": 1
       },
       "55": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "56": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 2
+      },
+      "57": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 2
+      },
+      "58": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 4
+      },
+      "63": {
         "winner": "1",
         "gh": 2,
         "ga": 1
       },
-      "57": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "58": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "63": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
       "64": {
         "winner": "2",
-        "gh": 1,
-        "ga": 5
+        "gh": 0,
+        "ga": 4
       },
       "65": {
         "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "gh": 1,
+        "ga": 1
       },
       "66": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 2
       },
       "61": {
         "winner": "2",
         "gh": 1,
-        "ga": 4
+        "ga": 2
       },
       "62": {
         "winner": "1",
-        "gh": 5,
+        "gh": 3,
         "ga": 0
       },
       "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
       },
       "70": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 4
       },
       "71": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "72": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "67": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 3
       },
       "68": {
         "winner": "1",
@@ -3122,9 +3122,9 @@ const PREDICTIONS = {
     "groupRankings": {
       "A": [
         "México",
-        "Sudáfrica",
         "Corea del Sur",
-        "República Checa"
+        "República Checa",
+        "Sudáfrica"
       ],
       "B": [
         "Suiza",
@@ -3140,19 +3140,19 @@ const PREDICTIONS = {
       ],
       "D": [
         "Estados Unidos",
-        "Australia",
+        "Turquía",
         "Paraguay",
-        "Turquía"
+        "Australia"
       ],
       "E": [
+        "Ecuador",
         "Alemania",
         "Costa de Marfil",
-        "Ecuador",
         "Curazao"
       ],
       "F": [
-        "Países Bajos",
         "Japón",
+        "Países Bajos",
         "Suecia",
         "Túnez"
       ],
@@ -3164,25 +3164,25 @@ const PREDICTIONS = {
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita"
+        "Arabia Saudita",
+        "Cabo Verde"
       ],
       "I": [
         "Francia",
-        "Noruega",
         "Senegal",
+        "Noruega",
         "Irak"
       ],
       "J": [
         "Argentina",
         "Austria",
-        "Argelia",
-        "Jordania"
+        "Jordania",
+        "Argelia"
       ],
       "K": [
-        "Colombia",
         "Portugal",
+        "Colombia",
         "RD Congo",
         "Uzbekistán"
       ],
@@ -3292,28 +3292,28 @@ const PREDICTIONS = {
   "Lidia": {
     "groupMatches": {
       "1": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "2": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "3": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "8": {
-        "winner": "X",
+        "winner": "2",
         "gh": 1,
-        "ga": 1
+        "ga": 2
       },
       "7": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "5": {
@@ -3323,63 +3323,63 @@ const PREDICTIONS = {
       },
       "4": {
         "winner": "1",
-        "gh": 4,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "6": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "10": {
         "winner": "1",
-        "gh": 7,
-        "ga": 1
-      },
-      "9": {
-        "winner": "1",
-        "gh": 1,
+        "gh": 3,
         "ga": 0
       },
-      "11": {
-        "winner": "X",
-        "gh": 2,
+      "9": {
+        "winner": "2",
+        "gh": 0,
         "ga": 2
+      },
+      "11": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
       },
       "12": {
         "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "16": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "15": {
-        "winner": "X",
+        "winner": "1",
         "gh": 2,
-        "ga": 2
+        "ga": 0
       },
       "14": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 3,
         "ga": 0
       },
       "13": {
-        "winner": "X",
+        "winner": "2",
         "gh": 1,
-        "ga": 1
+        "ga": 2
       },
       "17": {
         "winner": "1",
         "gh": 3,
-        "ga": 1
+        "ga": 0
       },
       "18": {
-        "winner": "2",
+        "winner": "X",
         "gh": 1,
-        "ga": 4
+        "ga": 1
       },
       "19": {
         "winner": "1",
@@ -3388,28 +3388,28 @@ const PREDICTIONS = {
       },
       "20": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "23": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "24": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 2
       },
       "22": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 2,
+        "ga": 1
       },
       "21": {
-        "winner": "1",
+        "winner": "X",
         "gh": 1,
-        "ga": 0
+        "ga": 1
       },
       "25": {
         "winner": "X",
@@ -3417,28 +3417,28 @@ const PREDICTIONS = {
         "ga": 1
       },
       "28": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "26": {
         "winner": "1",
         "gh": 1,
         "ga": 0
       },
-      "26": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
       "27": {
-        "winner": "1",
-        "gh": 6,
-        "ga": 0
-      },
-      "30": {
         "winner": "2",
         "gh": 0,
         "ga": 1
       },
+      "30": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
       "29": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 0
       },
       "32": {
@@ -3447,14 +3447,14 @@ const PREDICTIONS = {
         "ga": 0
       },
       "31": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
       },
       "33": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "34": {
         "winner": "X",
@@ -3463,123 +3463,123 @@ const PREDICTIONS = {
       },
       "35": {
         "winner": "1",
-        "gh": 5,
+        "gh": 2,
         "ga": 1
       },
       "36": {
         "winner": "2",
         "gh": 0,
-        "ga": 4
+        "ga": 2
       },
       "39": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 1,
         "ga": 0
       },
       "40": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 1
       },
       "38": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 0
       },
       "37": {
         "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "gh": 1,
+        "ga": 1
       },
       "42": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 0
       },
       "41": {
         "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "gh": 1,
+        "ga": 0
       },
       "43": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       },
       "44": {
-        "winner": "2",
+        "winner": "X",
         "gh": 1,
-        "ga": 2
+        "ga": 1
       },
       "47": {
         "winner": "1",
-        "gh": 5,
+        "gh": 2,
         "ga": 0
       },
       "48": {
-        "winner": "1",
+        "winner": "X",
         "gh": 1,
-        "ga": 0
+        "ga": 1
       },
       "45": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 3,
         "ga": 0
       },
       "46": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "53": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
       },
       "54": {
-        "winner": "1",
+        "winner": "X",
         "gh": 1,
-        "ga": 0
+        "ga": 1
       },
       "51": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "52": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "49": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
-      },
-      "50": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 2
-      },
-      "59": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
-      },
-      "60": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "55": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 2
+      "49": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
-      "56": {
+      "50": {
         "winner": "1",
         "gh": 2,
+        "ga": 0
+      },
+      "59": {
+        "winner": "X",
+        "gh": 1,
         "ga": 1
+      },
+      "60": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "55": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "56": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
       },
       "57": {
         "winner": "X",
@@ -3588,8 +3588,8 @@ const PREDICTIONS = {
       },
       "58": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 2
       },
       "63": {
         "winner": "X",
@@ -3598,48 +3598,48 @@ const PREDICTIONS = {
       },
       "64": {
         "winner": "2",
-        "gh": 1,
-        "ga": 5
+        "gh": 0,
+        "ga": 3
       },
       "65": {
-        "winner": "X",
+        "winner": "2",
         "gh": 0,
-        "ga": 0
+        "ga": 1
       },
       "66": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "61": {
         "winner": "2",
         "gh": 1,
-        "ga": 4
+        "ga": 2
       },
       "62": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
-      },
-      "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
-      },
-      "70": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "71": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
+      "69": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "70": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "71": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
       "72": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "67": {
         "winner": "2",
@@ -3649,21 +3649,21 @@ const PREDICTIONS = {
       "68": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       }
     },
     "groupRankings": {
       "A": [
-        "México",
-        "Sudáfrica",
         "Corea del Sur",
-        "República Checa"
+        "Sudáfrica",
+        "República Checa",
+        "México"
       ],
       "B": [
         "Suiza",
-        "Canadá",
         "Bosnia y Herzegovina",
-        "Catar"
+        "Catar",
+        "Canadá"
       ],
       "C": [
         "Brasil",
@@ -3673,15 +3673,15 @@ const PREDICTIONS = {
       ],
       "D": [
         "Estados Unidos",
-        "Australia",
+        "Turquía",
         "Paraguay",
-        "Turquía"
+        "Australia"
       ],
       "E": [
         "Alemania",
-        "Costa de Marfil",
         "Ecuador",
-        "Curazao"
+        "Curazao",
+        "Costa de Marfil"
       ],
       "F": [
         "Países Bajos",
@@ -3691,21 +3691,21 @@ const PREDICTIONS = {
       ],
       "G": [
         "Bélgica",
-        "Egipto",
         "Irán",
+        "Egipto",
         "Nueva Zelanda"
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita"
+        "Arabia Saudita",
+        "Cabo Verde"
       ],
       "I": [
         "Francia",
         "Noruega",
-        "Senegal",
-        "Irak"
+        "Irak",
+        "Senegal"
       ],
       "J": [
         "Argentina",
@@ -3714,16 +3714,16 @@ const PREDICTIONS = {
         "Jordania"
       ],
       "K": [
-        "Colombia",
         "Portugal",
+        "Colombia",
         "RD Congo",
         "Uzbekistán"
       ],
       "L": [
         "Inglaterra",
         "Croacia",
-        "Ghana",
-        "Panamá"
+        "Panamá",
+        "Ghana"
       ]
     },
     "octavos": [
@@ -3834,213 +3834,213 @@ const PREDICTIONS = {
     "groupMatches": {
       "1": {
         "winner": "1",
-        "gh": 2,
+        "gh": 3,
         "ga": 0
       },
       "2": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "3": {
-        "winner": "X",
+        "winner": "1",
         "gh": 1,
-        "ga": 1
+        "ga": 0
       },
       "8": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "7": {
-        "winner": "X",
+        "winner": "2",
         "gh": 1,
-        "ga": 1
+        "ga": 2
       },
       "5": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "4": {
-        "winner": "1",
-        "gh": 4,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "6": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "10": {
         "winner": "1",
-        "gh": 7,
-        "ga": 1
+        "gh": 5,
+        "ga": 0
       },
       "9": {
-        "winner": "1",
+        "winner": "2",
         "gh": 1,
-        "ga": 0
+        "ga": 2
       },
       "11": {
         "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "gh": 1,
+        "ga": 1
       },
       "12": {
         "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "16": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 4,
         "ga": 1
       },
       "15": {
         "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "14": {
-        "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "13": {
-        "winner": "X",
-        "gh": 1,
+      "14": {
+        "winner": "1",
+        "gh": 3,
         "ga": 1
+      },
+      "13": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "17": {
         "winner": "1",
-        "gh": 3,
+        "gh": 4,
         "ga": 1
       },
       "18": {
         "winner": "2",
-        "gh": 1,
-        "ga": 4
+        "gh": 0,
+        "ga": 2
       },
       "19": {
         "winner": "1",
-        "gh": 3,
+        "gh": 4,
         "ga": 0
       },
       "20": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "23": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
       },
       "24": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 2
       },
       "22": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 2,
+        "ga": 1
       },
       "21": {
-        "winner": "1",
-        "gh": 1,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "25": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "28": {
         "winner": "1",
-        "gh": 1,
+        "gh": 2,
         "ga": 0
       },
-      "26": {
+      "28": {
         "winner": "1",
         "gh": 4,
         "ga": 1
       },
+      "26": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
+      },
       "27": {
         "winner": "1",
-        "gh": 6,
-        "ga": 0
+        "gh": 2,
+        "ga": 1
       },
       "30": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 3
       },
       "29": {
         "winner": "1",
-        "gh": 3,
+        "gh": 4,
         "ga": 0
       },
       "32": {
         "winner": "1",
-        "gh": 2,
+        "gh": 1,
         "ga": 0
       },
       "31": {
-        "winner": "2",
-        "gh": 0,
+        "winner": "1",
+        "gh": 3,
         "ga": 1
       },
       "33": {
         "winner": "1",
-        "gh": 2,
+        "gh": 3,
         "ga": 1
       },
       "34": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "35": {
         "winner": "1",
-        "gh": 5,
+        "gh": 2,
         "ga": 1
       },
       "36": {
         "winner": "2",
         "gh": 0,
-        "ga": 4
+        "ga": 2
       },
       "39": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 3,
         "ga": 0
       },
       "40": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 1
       },
       "38": {
         "winner": "1",
-        "gh": 4,
+        "gh": 5,
         "ga": 0
       },
       "37": {
-        "winner": "X",
+        "winner": "1",
         "gh": 2,
-        "ga": 2
+        "ga": 1
       },
       "42": {
         "winner": "1",
-        "gh": 3,
+        "gh": 6,
         "ga": 0
       },
       "41": {
         "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "gh": 2,
+        "ga": 1
       },
       "43": {
         "winner": "1",
@@ -4048,33 +4048,33 @@ const PREDICTIONS = {
         "ga": 0
       },
       "44": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 2
-      },
-      "47": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
-      },
-      "48": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "45": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
+      "47": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "48": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "45": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
       "46": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "53": {
         "winner": "2",
-        "gh": 0,
+        "gh": 2,
         "ga": 3
       },
       "54": {
@@ -4088,24 +4088,24 @@ const PREDICTIONS = {
         "ga": 1
       },
       "52": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
       },
       "49": {
         "winner": "2",
-        "gh": 0,
+        "gh": 1,
         "ga": 3
       },
       "50": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 3,
+        "ga": 0
       },
       "59": {
         "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "gh": 2,
+        "ga": 0
       },
       "60": {
         "winner": "X",
@@ -4118,9 +4118,9 @@ const PREDICTIONS = {
         "ga": 2
       },
       "56": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "57": {
         "winner": "X",
@@ -4129,57 +4129,57 @@ const PREDICTIONS = {
       },
       "58": {
         "winner": "2",
-        "gh": 1,
+        "gh": 0,
         "ga": 3
       },
       "63": {
-        "winner": "X",
+        "winner": "1",
         "gh": 1,
-        "ga": 1
+        "ga": 0
       },
       "64": {
         "winner": "2",
-        "gh": 1,
-        "ga": 5
+        "gh": 0,
+        "ga": 2
       },
       "65": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "66": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
       },
       "61": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 4
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
       },
       "62": {
         "winner": "1",
-        "gh": 5,
+        "gh": 2,
         "ga": 0
       },
       "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "70": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 5
       },
       "71": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "72": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "67": {
@@ -4196,32 +4196,32 @@ const PREDICTIONS = {
     "groupRankings": {
       "A": [
         "México",
+        "República Checa",
         "Sudáfrica",
-        "Corea del Sur",
-        "República Checa"
+        "Corea del Sur"
       ],
       "B": [
         "Suiza",
         "Canadá",
-        "Bosnia y Herzegovina",
-        "Catar"
+        "Catar",
+        "Bosnia y Herzegovina"
       ],
       "C": [
-        "Brasil",
         "Marruecos",
+        "Brasil",
         "Escocia",
         "Haití"
       ],
       "D": [
+        "Turquía",
         "Estados Unidos",
-        "Australia",
         "Paraguay",
-        "Turquía"
+        "Australia"
       ],
       "E": [
         "Alemania",
-        "Costa de Marfil",
         "Ecuador",
+        "Costa de Marfil",
         "Curazao"
       ],
       "F": [
@@ -4233,13 +4233,13 @@ const PREDICTIONS = {
       "G": [
         "Bélgica",
         "Egipto",
-        "Irán",
-        "Nueva Zelanda"
+        "Nueva Zelanda",
+        "Irán"
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
+        "Cabo Verde",
         "Arabia Saudita"
       ],
       "I": [
@@ -4255,8 +4255,8 @@ const PREDICTIONS = {
         "Jordania"
       ],
       "K": [
-        "Colombia",
         "Portugal",
+        "Colombia",
         "RD Congo",
         "Uzbekistán"
       ],
@@ -4375,23 +4375,23 @@ const PREDICTIONS = {
     "groupMatches": {
       "1": {
         "winner": "1",
-        "gh": 2,
+        "gh": 1,
         "ga": 0
       },
       "2": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "3": {
-        "winner": "X",
+        "winner": "2",
         "gh": 1,
-        "ga": 1
+        "ga": 2
       },
       "8": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
       },
       "7": {
         "winner": "X",
@@ -4401,67 +4401,67 @@ const PREDICTIONS = {
       "5": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "4": {
-        "winner": "1",
-        "gh": 4,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "6": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "10": {
         "winner": "1",
-        "gh": 7,
-        "ga": 1
+        "gh": 3,
+        "ga": 0
       },
       "9": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "11": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "12": {
         "winner": "1",
         "gh": 1,
         "ga": 0
       },
-      "11": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "12": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 1
-      },
       "16": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "15": {
         "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "gh": 1,
+        "ga": 1
       },
       "14": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 3,
         "ga": 0
       },
       "13": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "17": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "18": {
         "winner": "2",
-        "gh": 1,
-        "ga": 4
+        "gh": 0,
+        "ga": 2
       },
       "19": {
         "winner": "1",
@@ -4470,23 +4470,23 @@ const PREDICTIONS = {
       },
       "20": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "23": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "24": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 2
       },
       "22": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 2,
+        "ga": 1
       },
       "21": {
         "winner": "1",
@@ -4494,29 +4494,29 @@ const PREDICTIONS = {
         "ga": 0
       },
       "25": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "2",
+        "gh": 0,
         "ga": 1
       },
       "28": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 2,
+        "ga": 1
       },
       "26": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "27": {
         "winner": "1",
-        "gh": 6,
+        "gh": 1,
         "ga": 0
       },
       "30": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "29": {
         "winner": "1",
@@ -4525,12 +4525,12 @@ const PREDICTIONS = {
       },
       "32": {
         "winner": "1",
-        "gh": 2,
+        "gh": 1,
         "ga": 0
       },
       "31": {
-        "winner": "2",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "33": {
@@ -4539,63 +4539,63 @@ const PREDICTIONS = {
         "ga": 1
       },
       "34": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 3,
         "ga": 0
       },
       "35": {
         "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "36": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 4
-      },
-      "39": {
         "winner": "X",
         "gh": 0,
+        "ga": 0
+      },
+      "39": {
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "40": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 1
       },
       "38": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 0
       },
       "37": {
-        "winner": "X",
+        "winner": "1",
         "gh": 2,
-        "ga": 2
+        "ga": 0
       },
       "42": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 0
       },
       "41": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "43": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       },
       "44": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 1
       },
       "47": {
         "winner": "1",
-        "gh": 5,
+        "gh": 2,
         "ga": 0
       },
       "48": {
@@ -4604,19 +4604,19 @@ const PREDICTIONS = {
         "ga": 0
       },
       "45": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 1,
         "ga": 0
       },
       "46": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "53": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "54": {
         "winner": "1",
@@ -4624,69 +4624,69 @@ const PREDICTIONS = {
         "ga": 0
       },
       "51": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "2",
+        "gh": 0,
         "ga": 1
       },
       "52": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "49": {
         "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "gh": 1,
+        "ga": 2
       },
       "50": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 2,
+        "ga": 0
       },
       "59": {
         "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "gh": 2,
+        "ga": 1
       },
       "60": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 1,
         "ga": 0
       },
       "55": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 1
       },
       "56": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "57": {
-        "winner": "X",
+        "winner": "1",
         "gh": 1,
-        "ga": 1
+        "ga": 0
       },
       "58": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 2
       },
       "63": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "gh": 0,
+        "ga": 0
       },
       "64": {
         "winner": "2",
-        "gh": 1,
-        "ga": 5
+        "gh": 0,
+        "ga": 1
       },
       "65": {
-        "winner": "X",
+        "winner": "2",
         "gh": 0,
-        "ga": 0
+        "ga": 1
       },
       "66": {
         "winner": "2",
@@ -4694,33 +4694,33 @@ const PREDICTIONS = {
         "ga": 1
       },
       "61": {
-        "winner": "2",
+        "winner": "X",
         "gh": 1,
-        "ga": 4
+        "ga": 1
       },
       "62": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
-      },
-      "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
-      },
-      "70": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "71": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
+      "69": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "70": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "71": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
       "72": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "67": {
@@ -4730,21 +4730,21 @@ const PREDICTIONS = {
       },
       "68": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       }
     },
     "groupRankings": {
       "A": [
         "México",
         "Sudáfrica",
-        "Corea del Sur",
-        "República Checa"
+        "República Checa",
+        "Corea del Sur"
       ],
       "B": [
-        "Suiza",
-        "Canadá",
         "Bosnia y Herzegovina",
+        "Canadá",
+        "Suiza",
         "Catar"
       ],
       "C": [
@@ -4754,15 +4754,15 @@ const PREDICTIONS = {
         "Haití"
       ],
       "D": [
+        "Turquía",
         "Estados Unidos",
-        "Australia",
         "Paraguay",
-        "Turquía"
+        "Australia"
       ],
       "E": [
         "Alemania",
-        "Costa de Marfil",
         "Ecuador",
+        "Costa de Marfil",
         "Curazao"
       ],
       "F": [
@@ -4779,9 +4779,9 @@ const PREDICTIONS = {
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita"
+        "Arabia Saudita",
+        "Cabo Verde"
       ],
       "I": [
         "Francia",
@@ -4796,8 +4796,8 @@ const PREDICTIONS = {
         "Jordania"
       ],
       "K": [
-        "Colombia",
         "Portugal",
+        "Colombia",
         "RD Congo",
         "Uzbekistán"
       ],
@@ -4924,123 +4924,123 @@ const PREDICTIONS = {
     "groupMatches": {
       "1": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "2": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "3": {
-        "winner": "X",
+        "winner": "1",
         "gh": 1,
-        "ga": 1
+        "ga": 0
       },
       "8": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
       },
       "7": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "gh": 2,
+        "ga": 2
       },
       "5": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "4": {
         "winner": "1",
-        "gh": 4,
+        "gh": 3,
         "ga": 1
       },
       "6": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "10": {
         "winner": "1",
-        "gh": 7,
-        "ga": 1
+        "gh": 6,
+        "ga": 0
       },
       "9": {
         "winner": "1",
-        "gh": 1,
+        "gh": 2,
         "ga": 0
       },
       "11": {
         "winner": "X",
-        "gh": 2,
-        "ga": 2
+        "gh": 1,
+        "ga": 1
       },
       "12": {
         "winner": "1",
-        "gh": 5,
+        "gh": 2,
         "ga": 1
       },
       "16": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "15": {
-        "winner": "X",
+        "winner": "1",
         "gh": 2,
-        "ga": 2
+        "ga": 0
       },
       "14": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 4,
         "ga": 0
       },
       "13": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
       },
       "17": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 1
       },
       "18": {
         "winner": "2",
-        "gh": 1,
-        "ga": 4
+        "gh": 0,
+        "ga": 2
       },
       "19": {
         "winner": "1",
         "gh": 3,
-        "ga": 0
+        "ga": 1
       },
       "20": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "23": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 4,
         "ga": 1
       },
       "24": {
         "winner": "2",
         "gh": 1,
-        "ga": 3
+        "ga": 2
       },
       "22": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 2,
+        "ga": 1
       },
       "21": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "25": {
         "winner": "X",
@@ -5048,113 +5048,113 @@ const PREDICTIONS = {
         "ga": 1
       },
       "28": {
-        "winner": "1",
-        "gh": 1,
+        "winner": "X",
+        "gh": 0,
         "ga": 0
       },
       "26": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 1
       },
       "27": {
         "winner": "1",
-        "gh": 6,
-        "ga": 0
+        "gh": 2,
+        "ga": 1
       },
       "30": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "29": {
         "winner": "1",
-        "gh": 3,
+        "gh": 4,
         "ga": 0
       },
       "32": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       },
       "31": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
       },
       "33": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "34": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "35": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "36": {
         "winner": "2",
         "gh": 0,
-        "ga": 4
+        "ga": 2
       },
       "39": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
       },
       "40": {
         "winner": "2",
-        "gh": 1,
+        "gh": 0,
         "ga": 3
       },
       "38": {
         "winner": "1",
-        "gh": 4,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "37": {
-        "winner": "X",
+        "winner": "1",
         "gh": 2,
-        "ga": 2
+        "ga": 0
       },
       "42": {
         "winner": "1",
-        "gh": 3,
+        "gh": 4,
         "ga": 0
       },
       "41": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "43": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       },
       "44": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 1
       },
       "47": {
         "winner": "1",
-        "gh": 5,
+        "gh": 3,
         "ga": 0
       },
       "48": {
-        "winner": "1",
+        "winner": "X",
         "gh": 1,
-        "ga": 0
+        "ga": 1
       },
       "45": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "46": {
@@ -5165,22 +5165,22 @@ const PREDICTIONS = {
       "53": {
         "winner": "2",
         "gh": 0,
-        "ga": 3
+        "ga": 2
       },
       "54": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
       },
       "51": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "52": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "49": {
         "winner": "2",
@@ -5189,28 +5189,28 @@ const PREDICTIONS = {
       },
       "50": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 3,
+        "ga": 1
       },
       "59": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "60": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 1,
         "ga": 0
       },
       "55": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 3
       },
       "56": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "57": {
         "winner": "X",
@@ -5219,76 +5219,76 @@ const PREDICTIONS = {
       },
       "58": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 2
       },
       "63": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "64": {
         "winner": "2",
-        "gh": 1,
-        "ga": 5
+        "gh": 0,
+        "ga": 2
       },
       "65": {
-        "winner": "X",
+        "winner": "2",
         "gh": 0,
-        "ga": 0
+        "ga": 1
       },
       "66": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 3
       },
       "61": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 4
-      },
-      "62": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
-      },
-      "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
-      },
-      "70": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "71": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "72": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "67": {
         "winner": "2",
         "gh": 0,
         "ga": 2
       },
-      "68": {
+      "62": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
+      },
+      "69": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "70": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "71": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "72": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "67": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "68": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
       }
     },
     "groupRankings": {
       "A": [
-        "México",
-        "Sudáfrica",
         "Corea del Sur",
-        "República Checa"
+        "México",
+        "República Checa",
+        "Sudáfrica"
       ],
       "B": [
         "Suiza",
@@ -5304,9 +5304,9 @@ const PREDICTIONS = {
       ],
       "D": [
         "Estados Unidos",
-        "Australia",
+        "Turquía",
         "Paraguay",
-        "Turquía"
+        "Australia"
       ],
       "E": [
         "Alemania",
@@ -5315,9 +5315,9 @@ const PREDICTIONS = {
         "Curazao"
       ],
       "F": [
-        "Países Bajos",
-        "Japón",
         "Suecia",
+        "Japón",
+        "Países Bajos",
         "Túnez"
       ],
       "G": [
@@ -5328,14 +5328,14 @@ const PREDICTIONS = {
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita"
+        "Arabia Saudita",
+        "Cabo Verde"
       ],
       "I": [
         "Francia",
-        "Noruega",
         "Senegal",
+        "Noruega",
         "Irak"
       ],
       "J": [
@@ -5345,15 +5345,15 @@ const PREDICTIONS = {
         "Jordania"
       ],
       "K": [
-        "Colombia",
         "Portugal",
+        "Colombia",
         "RD Congo",
         "Uzbekistán"
       ],
       "L": [
         "Inglaterra",
-        "Croacia",
         "Ghana",
+        "Croacia",
         "Panamá"
       ]
     },
@@ -5468,14 +5468,14 @@ const PREDICTIONS = {
   "Alber": {
     "groupMatches": {
       "1": {
-        "winner": "1",
+        "winner": "X",
         "gh": 2,
-        "ga": 0
+        "ga": 2
       },
       "2": {
         "winner": "1",
-        "gh": 2,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "3": {
         "winner": "X",
@@ -5483,48 +5483,48 @@ const PREDICTIONS = {
         "ga": 1
       },
       "8": {
-        "winner": "X",
+        "winner": "2",
         "gh": 1,
-        "ga": 1
+        "ga": 3
       },
       "7": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "5": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "4": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
-      "6": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "10": {
-        "winner": "1",
-        "gh": 7,
-        "ga": 1
-      },
-      "9": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
-      "11": {
         "winner": "X",
         "gh": 2,
         "ga": 2
       },
-      "12": {
+      "5": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 6
+      },
+      "4": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "6": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "10": {
         "winner": "1",
-        "gh": 5,
+        "gh": 4,
+        "ga": 0
+      },
+      "9": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "11": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
+      },
+      "12": {
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "16": {
@@ -5534,87 +5534,87 @@ const PREDICTIONS = {
       },
       "15": {
         "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "14": {
-        "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "13": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "17": {
+      "14": {
         "winner": "1",
         "gh": 3,
-        "ga": 1
+        "ga": 0
+      },
+      "13": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "17": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
       },
       "18": {
         "winner": "2",
-        "gh": 1,
-        "ga": 4
+        "gh": 0,
+        "ga": 3
       },
       "19": {
         "winner": "1",
-        "gh": 3,
+        "gh": 1,
         "ga": 0
       },
       "20": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 1
       },
       "23": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "24": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
+      "22": {
         "winner": "X",
         "gh": 1,
         "ga": 1
       },
-      "24": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "22": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 2
-      },
       "21": {
         "winner": "1",
-        "gh": 1,
+        "gh": 2,
         "ga": 0
       },
       "25": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "gh": 0,
+        "ga": 0
       },
       "28": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "26": {
-        "winner": "1",
-        "gh": 4,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "27": {
-        "winner": "1",
-        "gh": 6,
-        "ga": 0
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "30": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 3
       },
       "29": {
         "winner": "1",
-        "gh": 3,
+        "gh": 4,
         "ga": 0
       },
       "32": {
@@ -5623,73 +5623,73 @@ const PREDICTIONS = {
         "ga": 0
       },
       "31": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "33": {
         "winner": "1",
         "gh": 2,
         "ga": 1
       },
-      "34": {
+      "33": {
         "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "gh": 1,
+        "ga": 1
+      },
+      "34": {
+        "winner": "1",
+        "gh": 3,
+        "ga": 1
       },
       "35": {
         "winner": "1",
-        "gh": 5,
+        "gh": 4,
         "ga": 1
       },
       "36": {
         "winner": "2",
         "gh": 0,
-        "ga": 4
+        "ga": 2
       },
       "39": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "40": {
-        "winner": "2",
+        "winner": "X",
         "gh": 1,
-        "ga": 3
+        "ga": 1
       },
       "38": {
         "winner": "1",
-        "gh": 4,
+        "gh": 1,
         "ga": 0
       },
       "37": {
-        "winner": "X",
+        "winner": "1",
         "gh": 2,
-        "ga": 2
+        "ga": 0
       },
       "42": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 0
       },
       "41": {
         "winner": "1",
-        "gh": 3,
-        "ga": 2
-      },
-      "43": {
-        "winner": "1",
-        "gh": 2,
+        "gh": 1,
         "ga": 0
       },
-      "44": {
-        "winner": "2",
+      "43": {
+        "winner": "X",
         "gh": 1,
-        "ga": 2
+        "ga": 1
+      },
+      "44": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "47": {
         "winner": "1",
-        "gh": 5,
+        "gh": 3,
         "ga": 0
       },
       "48": {
@@ -5699,52 +5699,52 @@ const PREDICTIONS = {
       },
       "45": {
         "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "gh": 1,
+        "ga": 1
       },
       "46": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 3
       },
       "53": {
         "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "gh": 1,
+        "ga": 2
       },
       "54": {
-        "winner": "1",
+        "winner": "2",
         "gh": 1,
-        "ga": 0
+        "ga": 2
       },
       "51": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "52": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 1
       },
       "49": {
         "winner": "2",
-        "gh": 0,
+        "gh": 1,
         "ga": 3
       },
       "50": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 7,
+        "ga": 1
       },
       "59": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "2",
+        "gh": 0,
         "ga": 2
       },
       "60": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "55": {
@@ -5753,54 +5753,54 @@ const PREDICTIONS = {
         "ga": 2
       },
       "56": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "57": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "58": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "63": {
         "winner": "1",
         "gh": 2,
         "ga": 1
       },
-      "57": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "58": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "63": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
       "64": {
         "winner": "2",
-        "gh": 1,
-        "ga": 5
+        "gh": 0,
+        "ga": 2
       },
       "65": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "66": {
         "winner": "2",
         "gh": 0,
+        "ga": 3
+      },
+      "66": {
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "61": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 4
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
       },
       "62": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
+        "winner": "2",
+        "gh": 0,
+        "ga": 1
       },
       "70": {
         "winner": "2",
@@ -5808,50 +5808,50 @@ const PREDICTIONS = {
         "ga": 3
       },
       "71": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
       },
       "72": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "67": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 3
       },
       "68": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       }
     },
     "groupRankings": {
       "A": [
         "México",
-        "Sudáfrica",
         "Corea del Sur",
+        "Sudáfrica",
         "República Checa"
       ],
       "B": [
         "Suiza",
-        "Canadá",
         "Bosnia y Herzegovina",
-        "Catar"
+        "Catar",
+        "Canadá"
       ],
       "C": [
-        "Brasil",
         "Marruecos",
+        "Brasil",
         "Escocia",
         "Haití"
       ],
       "D": [
         "Estados Unidos",
-        "Australia",
+        "Turquía",
         "Paraguay",
-        "Turquía"
+        "Australia"
       ],
       "E": [
         "Alemania",
@@ -5868,18 +5868,18 @@ const PREDICTIONS = {
       "G": [
         "Bélgica",
         "Egipto",
-        "Irán",
-        "Nueva Zelanda"
+        "Nueva Zelanda",
+        "Irán"
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita"
+        "Arabia Saudita",
+        "Cabo Verde"
       ],
       "I": [
-        "Francia",
         "Noruega",
+        "Francia",
         "Senegal",
         "Irak"
       ],
@@ -5890,8 +5890,8 @@ const PREDICTIONS = {
         "Jordania"
       ],
       "K": [
-        "Colombia",
         "Portugal",
+        "Colombia",
         "RD Congo",
         "Uzbekistán"
       ],
@@ -6038,49 +6038,49 @@ const PREDICTIONS = {
         "ga": 0
       },
       "2": {
+        "winner": "X",
+        "gh": 2,
+        "ga": 2
+      },
+      "3": {
         "winner": "1",
         "gh": 2,
         "ga": 1
       },
-      "3": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
       "8": {
-        "winner": "X",
+        "winner": "2",
         "gh": 1,
-        "ga": 1
+        "ga": 3
       },
       "7": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "1",
+        "gh": 2,
         "ga": 1
       },
       "5": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 3
       },
       "4": {
-        "winner": "1",
-        "gh": 4,
-        "ga": 1
-      },
-      "6": {
         "winner": "1",
         "gh": 2,
         "ga": 0
       },
+      "6": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
+      },
       "10": {
         "winner": "1",
-        "gh": 7,
-        "ga": 1
+        "gh": 5,
+        "ga": 0
       },
       "9": {
-        "winner": "1",
+        "winner": "2",
         "gh": 1,
-        "ga": 0
+        "ga": 2
       },
       "11": {
         "winner": "X",
@@ -6088,29 +6088,29 @@ const PREDICTIONS = {
         "ga": 2
       },
       "12": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 1
-      },
-      "16": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
-      "15": {
-        "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "14": {
         "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "13": {
-        "winner": "X",
-        "gh": 1,
+      "16": {
+        "winner": "1",
+        "gh": 2,
         "ga": 1
+      },
+      "15": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "14": {
+        "winner": "1",
+        "gh": 4,
+        "ga": 0
+      },
+      "13": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
       },
       "17": {
         "winner": "1",
@@ -6119,38 +6119,38 @@ const PREDICTIONS = {
       },
       "18": {
         "winner": "2",
-        "gh": 1,
-        "ga": 4
+        "gh": 0,
+        "ga": 2
       },
       "19": {
         "winner": "1",
-        "gh": 3,
+        "gh": 2,
         "ga": 0
       },
       "20": {
         "winner": "1",
         "gh": 3,
-        "ga": 1
+        "ga": 0
       },
       "23": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 3,
+        "ga": 0
       },
       "24": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 2
       },
       "22": {
-        "winner": "1",
-        "gh": 4,
+        "winner": "X",
+        "gh": 2,
         "ga": 2
       },
       "21": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 2,
+        "ga": 1
       },
       "25": {
         "winner": "X",
@@ -6159,17 +6159,17 @@ const PREDICTIONS = {
       },
       "28": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 2,
+        "ga": 1
       },
       "26": {
         "winner": "1",
-        "gh": 4,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "27": {
         "winner": "1",
-        "gh": 6,
+        "gh": 1,
         "ga": 0
       },
       "30": {
@@ -6179,92 +6179,92 @@ const PREDICTIONS = {
       },
       "29": {
         "winner": "1",
-        "gh": 3,
+        "gh": 6,
         "ga": 0
       },
       "32": {
         "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "gh": 3,
+        "ga": 1
       },
       "31": {
-        "winner": "2",
+        "winner": "X",
         "gh": 0,
-        "ga": 1
+        "ga": 0
       },
       "33": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "34": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "35": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 1
-      },
-      "36": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 4
-      },
-      "39": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "40": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "38": {
         "winner": "1",
         "gh": 4,
         "ga": 0
       },
-      "37": {
-        "winner": "X",
-        "gh": 2,
+      "35": {
+        "winner": "1",
+        "gh": 3,
         "ga": 2
       },
-      "42": {
+      "36": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 3
+      },
+      "39": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "40": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
+      },
+      "38": {
         "winner": "1",
         "gh": 3,
         "ga": 0
       },
-      "41": {
+      "37": {
         "winner": "1",
         "gh": 3,
+        "ga": 0
+      },
+      "42": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "41": {
+        "winner": "X",
+        "gh": 2,
         "ga": 2
       },
       "43": {
         "winner": "1",
         "gh": 2,
-        "ga": 0
+        "ga": 1
       },
       "44": {
         "winner": "2",
-        "gh": 1,
-        "ga": 2
+        "gh": 0,
+        "ga": 1
       },
       "47": {
         "winner": "1",
-        "gh": 5,
+        "gh": 4,
         "ga": 0
       },
       "48": {
         "winner": "1",
-        "gh": 1,
-        "ga": 0
+        "gh": 2,
+        "ga": 1
       },
       "45": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "46": {
@@ -6273,53 +6273,53 @@ const PREDICTIONS = {
         "ga": 1
       },
       "53": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "54": {
-        "winner": "1",
+        "winner": "2",
         "gh": 1,
-        "ga": 0
+        "ga": 2
       },
       "51": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "52": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "49": {
         "winner": "2",
-        "gh": 0,
-        "ga": 3
+        "gh": 1,
+        "ga": 2
       },
       "50": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 3,
+        "ga": 0
       },
       "59": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "60": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "55": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 3
       },
       "56": {
-        "winner": "1",
-        "gh": 2,
+        "winner": "X",
+        "gh": 1,
         "ga": 1
       },
       "57": {
@@ -6329,76 +6329,76 @@ const PREDICTIONS = {
       },
       "58": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 2
       },
       "63": {
         "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "gh": 2,
+        "ga": 2
       },
       "64": {
         "winner": "2",
-        "gh": 1,
-        "ga": 5
+        "gh": 0,
+        "ga": 3
       },
       "65": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "66": {
-        "winner": "2",
-        "gh": 0,
-        "ga": 1
-      },
-      "61": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 4
-      },
-      "62": {
-        "winner": "1",
-        "gh": 5,
-        "ga": 0
-      },
-      "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
-      },
-      "70": {
-        "winner": "2",
-        "gh": 1,
-        "ga": 3
-      },
-      "71": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "72": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 1
-      },
-      "67": {
         "winner": "2",
         "gh": 0,
         "ga": 2
       },
+      "66": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "61": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
+      "62": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "69": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "70": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 4
+      },
+      "71": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "72": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
+      "67": {
+        "winner": "2",
+        "gh": 1,
+        "ga": 2
+      },
       "68": {
         "winner": "1",
-        "gh": 2,
+        "gh": 3,
         "ga": 1
       }
     },
     "groupRankings": {
       "A": [
         "México",
-        "Sudáfrica",
         "Corea del Sur",
-        "República Checa"
+        "República Checa",
+        "Sudáfrica"
       ],
       "B": [
         "Suiza",
@@ -6414,14 +6414,14 @@ const PREDICTIONS = {
       ],
       "D": [
         "Estados Unidos",
-        "Australia",
+        "Turquía",
         "Paraguay",
-        "Turquía"
+        "Australia"
       ],
       "E": [
         "Alemania",
-        "Costa de Marfil",
         "Ecuador",
+        "Costa de Marfil",
         "Curazao"
       ],
       "F": [
@@ -6438,9 +6438,9 @@ const PREDICTIONS = {
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita"
+        "Arabia Saudita",
+        "Cabo Verde"
       ],
       "I": [
         "Francia",
@@ -6455,8 +6455,8 @@ const PREDICTIONS = {
         "Jordania"
       ],
       "K": [
-        "Colombia",
         "Portugal",
+        "Colombia",
         "RD Congo",
         "Uzbekistán"
       ],
@@ -6575,59 +6575,59 @@ const PREDICTIONS = {
         "ga": 0
       },
       "2": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
+      "3": {
         "winner": "1",
         "gh": 2,
         "ga": 1
       },
-      "3": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
-      },
       "8": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
       },
       "7": {
-        "winner": "X",
-        "gh": 1,
+        "winner": "2",
+        "gh": 0,
         "ga": 1
       },
       "5": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 2
       },
       "4": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 1
       },
       "6": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
       },
       "10": {
         "winner": "1",
-        "gh": 7,
-        "ga": 1
-      },
-      "9": {
-        "winner": "1",
-        "gh": 1,
+        "gh": 4,
         "ga": 0
       },
-      "11": {
-        "winner": "X",
-        "gh": 2,
+      "9": {
+        "winner": "2",
+        "gh": 0,
         "ga": 2
+      },
+      "11": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
       },
       "12": {
         "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "gh": 3,
+        "ga": 0
       },
       "16": {
         "winner": "X",
@@ -6636,18 +6636,18 @@ const PREDICTIONS = {
       },
       "15": {
         "winner": "X",
-        "gh": 2,
-        "ga": 2
-      },
-      "14": {
-        "winner": "X",
         "gh": 0,
         "ga": 0
       },
-      "13": {
-        "winner": "X",
-        "gh": 1,
+      "14": {
+        "winner": "1",
+        "gh": 4,
         "ga": 1
+      },
+      "13": {
+        "winner": "2",
+        "gh": 0,
+        "ga": 3
       },
       "17": {
         "winner": "1",
@@ -6656,43 +6656,43 @@ const PREDICTIONS = {
       },
       "18": {
         "winner": "2",
-        "gh": 1,
-        "ga": 4
+        "gh": 0,
+        "ga": 3
       },
       "19": {
         "winner": "1",
-        "gh": 3,
+        "gh": 1,
         "ga": 0
       },
       "20": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "23": {
-        "winner": "X",
-        "gh": 1,
-        "ga": 1
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
       },
       "24": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 1
       },
       "22": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 2,
+        "ga": 1
       },
       "21": {
         "winner": "1",
-        "gh": 1,
+        "gh": 2,
         "ga": 0
       },
       "25": {
-        "winner": "X",
+        "winner": "1",
         "gh": 1,
-        "ga": 1
+        "ga": 0
       },
       "28": {
         "winner": "1",
@@ -6701,33 +6701,33 @@ const PREDICTIONS = {
       },
       "26": {
         "winner": "1",
-        "gh": 4,
-        "ga": 1
+        "gh": 2,
+        "ga": 0
       },
       "27": {
         "winner": "1",
-        "gh": 6,
+        "gh": 1,
         "ga": 0
       },
       "30": {
         "winner": "2",
-        "gh": 0,
-        "ga": 1
+        "gh": 1,
+        "ga": 2
       },
       "29": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "32": {
         "winner": "1",
         "gh": 2,
         "ga": 0
       },
+      "32": {
+        "winner": "1",
+        "gh": 1,
+        "ga": 0
+      },
       "31": {
-        "winner": "2",
+        "winner": "X",
         "gh": 0,
-        "ga": 1
+        "ga": 0
       },
       "33": {
         "winner": "1",
@@ -6735,99 +6735,99 @@ const PREDICTIONS = {
         "ga": 1
       },
       "34": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "35": {
         "winner": "1",
-        "gh": 5,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "36": {
         "winner": "2",
         "gh": 0,
-        "ga": 4
+        "ga": 2
       },
       "39": {
-        "winner": "X",
-        "gh": 0,
+        "winner": "1",
+        "gh": 2,
         "ga": 0
       },
       "40": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 1
       },
       "38": {
         "winner": "1",
-        "gh": 4,
+        "gh": 2,
         "ga": 0
       },
       "37": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 1
+      },
+      "42": {
+        "winner": "1",
+        "gh": 2,
+        "ga": 0
+      },
+      "41": {
         "winner": "X",
         "gh": 2,
         "ga": 2
       },
-      "42": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 0
-      },
-      "41": {
-        "winner": "1",
-        "gh": 3,
-        "ga": 2
-      },
       "43": {
-        "winner": "1",
-        "gh": 2,
-        "ga": 0
-      },
-      "44": {
         "winner": "2",
         "gh": 1,
         "ga": 2
       },
+      "44": {
+        "winner": "X",
+        "gh": 0,
+        "ga": 0
+      },
       "47": {
         "winner": "1",
-        "gh": 5,
+        "gh": 3,
         "ga": 0
       },
       "48": {
         "winner": "1",
-        "gh": 1,
+        "gh": 2,
         "ga": 0
       },
       "45": {
-        "winner": "X",
+        "winner": "2",
         "gh": 0,
-        "ga": 0
+        "ga": 1
       },
       "46": {
         "winner": "2",
         "gh": 0,
-        "ga": 1
+        "ga": 3
       },
       "53": {
+        "winner": "X",
+        "gh": 1,
+        "ga": 1
+      },
+      "54": {
         "winner": "2",
         "gh": 0,
         "ga": 3
       },
-      "54": {
-        "winner": "1",
-        "gh": 1,
-        "ga": 0
-      },
       "51": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       },
       "52": {
         "winner": "1",
-        "gh": 3,
-        "ga": 1
+        "gh": 1,
+        "ga": 0
       },
       "49": {
         "winner": "2",
@@ -6836,13 +6836,13 @@ const PREDICTIONS = {
       },
       "50": {
         "winner": "1",
-        "gh": 4,
-        "ga": 2
+        "gh": 1,
+        "ga": 0
       },
       "59": {
         "winner": "1",
-        "gh": 3,
-        "ga": 2
+        "gh": 1,
+        "ga": 0
       },
       "60": {
         "winner": "X",
@@ -6851,91 +6851,91 @@ const PREDICTIONS = {
       },
       "55": {
         "winner": "2",
-        "gh": 0,
-        "ga": 2
+        "gh": 1,
+        "ga": 3
       },
       "56": {
-        "winner": "1",
+        "winner": "X",
         "gh": 2,
-        "ga": 1
+        "ga": 2
       },
       "57": {
-        "winner": "X",
+        "winner": "1",
         "gh": 1,
-        "ga": 1
+        "ga": 0
       },
       "58": {
         "winner": "2",
-        "gh": 1,
+        "gh": 0,
         "ga": 3
       },
       "63": {
-        "winner": "X",
+        "winner": "1",
         "gh": 1,
-        "ga": 1
+        "ga": 0
       },
       "64": {
         "winner": "2",
-        "gh": 1,
-        "ga": 5
+        "gh": 0,
+        "ga": 2
       },
       "65": {
-        "winner": "X",
-        "gh": 0,
-        "ga": 0
-      },
-      "66": {
         "winner": "2",
         "gh": 0,
         "ga": 1
       },
-      "61": {
+      "66": {
         "winner": "2",
         "gh": 1,
-        "ga": 4
+        "ga": 2
+      },
+      "61": {
+        "winner": "2",
+        "gh": 2,
+        "ga": 3
       },
       "62": {
         "winner": "1",
-        "gh": 5,
+        "gh": 1,
         "ga": 0
       },
       "69": {
-        "winner": "X",
-        "gh": 3,
-        "ga": 3
+        "winner": "2",
+        "gh": 0,
+        "ga": 2
       },
       "70": {
         "winner": "2",
-        "gh": 1,
-        "ga": 3
+        "gh": 0,
+        "ga": 4
       },
       "71": {
         "winner": "X",
-        "gh": 0,
-        "ga": 0
+        "gh": 1,
+        "ga": 1
       },
       "72": {
-        "winner": "1",
-        "gh": 3,
+        "winner": "2",
+        "gh": 0,
         "ga": 1
       },
       "67": {
         "winner": "2",
         "gh": 0,
-        "ga": 2
+        "ga": 3
       },
       "68": {
         "winner": "1",
         "gh": 2,
-        "ga": 1
+        "ga": 0
       }
     },
     "groupRankings": {
       "A": [
         "México",
-        "Sudáfrica",
+        "República Checa",
         "Corea del Sur",
-        "República Checa"
+        "Sudáfrica"
       ],
       "B": [
         "Suiza",
@@ -6944,21 +6944,21 @@ const PREDICTIONS = {
         "Catar"
       ],
       "C": [
-        "Brasil",
         "Marruecos",
+        "Brasil",
         "Escocia",
         "Haití"
       ],
       "D": [
         "Estados Unidos",
-        "Australia",
+        "Turquía",
         "Paraguay",
-        "Turquía"
+        "Australia"
       ],
       "E": [
         "Alemania",
-        "Costa de Marfil",
         "Ecuador",
+        "Costa de Marfil",
         "Curazao"
       ],
       "F": [
@@ -6970,14 +6970,14 @@ const PREDICTIONS = {
       "G": [
         "Bélgica",
         "Egipto",
-        "Irán",
-        "Nueva Zelanda"
+        "Nueva Zelanda",
+        "Irán"
       ],
       "H": [
         "España",
-        "Cabo Verde",
         "Uruguay",
-        "Arabia Saudita"
+        "Arabia Saudita",
+        "Cabo Verde"
       ],
       "I": [
         "Francia",
@@ -6986,20 +6986,20 @@ const PREDICTIONS = {
         "Irak"
       ],
       "J": [
-        "Argentina",
         "Austria",
+        "Argentina",
         "Argelia",
         "Jordania"
       ],
       "K": [
-        "Colombia",
         "Portugal",
-        "RD Congo",
-        "Uzbekistán"
+        "Colombia",
+        "Uzbekistán",
+        "RD Congo"
       ],
       "L": [
-        "Inglaterra",
         "Croacia",
+        "Inglaterra",
         "Ghana",
         "Panamá"
       ]

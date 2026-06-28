@@ -81,16 +81,27 @@ for f in files:
     contenders.append(name)
     print(f"Parsing predictions for {name}...")
     filepath = os.path.join(base_dir, f)
-    wb = openpyxl.load_workbook(filepath, data_only=True)
+    filepath_orig = os.path.join(base_dir, "original_excels", f)
     
-    # Read Pool sheet
-    sheet_pool = wb["Pool"]
+    wb_new = openpyxl.load_workbook(filepath, data_only=True)
+    if os.path.exists(filepath_orig):
+        wb_orig = openpyxl.load_workbook(filepath_orig, data_only=True)
+    else:
+        wb_orig = wb_new
+
+    # Read Pool and WORLDCUP sheets from the original Excel for group stage
+    sheet_pool_orig = wb_orig["Pool"]
+    sheet_wc_orig = wb_orig["WORLDCUP"]
     
-    # Parse group matches predictions (rows 6 to 77)
+    # Read Pool and WORLDCUP sheets from the new Excel for knockout stage
+    sheet_pool_new = wb_new["Pool"]
+    sheet_wc_new = wb_new["WORLDCUP"]
+    
+    # Parse group matches predictions (rows 6 to 77) from original
     group_matches_preds = {}
     for r in range(6, 78):
-        matchup = sheet_pool.cell(row=r, column=2).value
-        pred = sheet_pool.cell(row=r, column=3).value
+        matchup = sheet_pool_orig.cell(row=r, column=2).value
+        pred = sheet_pool_orig.cell(row=r, column=3).value
         
         winner = "1"
         gh = 0
@@ -126,76 +137,75 @@ for f in files:
             print(f"ERROR: Could not find fixture for {home} vs {away}")
 
     
-    # Read predicted group standings from WORLDCUP sheet
-    sheet_wc_p = wb["WORLDCUP"]
+    # Read predicted group standings from original WORLDCUP sheet
     group_rankings_preds = {}
     for g_idx, g_name in enumerate(groups):
         start_row = 6 + 8 * g_idx
         group_rankings_preds[g_name] = []
         for r in range(start_row, start_row + 4):
-            team = sheet_wc_p.cell(row=r, column=38).value # Col AL (38) is Selección
+            team = sheet_wc_orig.cell(row=r, column=38).value # Col AL (38) is Selección
             if team:
                 group_rankings_preds[g_name].append(team)
     
-    # Parse qualifiers
+    # Parse qualifiers from new Excel
     # Octavos (1/8): rows 182-197
-    octavos = [sheet_pool.cell(row=r, column=3).value for r in range(182, 198)]
+    octavos = [sheet_pool_new.cell(row=r, column=3).value for r in range(182, 198)]
     # Cuartos (1/4): rows 210-217
-    cuartos = [sheet_pool.cell(row=r, column=3).value for r in range(210, 218)]
+    cuartos = [sheet_pool_new.cell(row=r, column=3).value for r in range(210, 218)]
     # Semis (1/2): rows 226-229
-    semis = [sheet_pool.cell(row=r, column=3).value for r in range(226, 230)]
+    semis = [sheet_pool_new.cell(row=r, column=3).value for r in range(226, 230)]
     # Finalistas: rows 240-241
-    finalistas = [sheet_pool.cell(row=r, column=3).value for r in range(240, 242)]
+    finalistas = [sheet_pool_new.cell(row=r, column=3).value for r in range(240, 242)]
     # 3-4 Match participants: rows 236-237
-    match34 = [sheet_pool.cell(row=r, column=3).value for r in range(236, 238)]
+    match34 = [sheet_pool_new.cell(row=r, column=3).value for r in range(236, 238)]
     
-    # Cuadro de honor
-    champion = sheet_pool.cell(row=250, column=3).value
-    subchampion = sheet_pool.cell(row=251, column=3).value
-    third_place = sheet_pool.cell(row=252, column=3).value
-    pichichi = sheet_pool.cell(row=253, column=3).value
-    mvp = sheet_pool.cell(row=256, column=3).value
+    # Cuadro de honor from new Excel
+    champion = sheet_pool_new.cell(row=250, column=3).value
+    subchampion = sheet_pool_new.cell(row=251, column=3).value
+    third_place = sheet_pool_new.cell(row=252, column=3).value
+    pichichi = sheet_pool_new.cell(row=253, column=3).value
+    mvp = sheet_pool_new.cell(row=256, column=3).value
     
-    # Parse knockout match score predictions
+    # Parse knockout match score predictions from new Excel
     ko_match_preds = {}
     # Row index to match key mappings
     # 1/16 matches: 164-179 -> Matches 73-88
     for idx, r in enumerate(range(164, 180)):
         match_num = 73 + idx
-        val_c = sheet_pool.cell(row=r, column=3).value
+        val_c = sheet_pool_new.cell(row=r, column=3).value
         ko_match_preds[str(match_num)] = val_c
         
     # 1/8 matches: 200-207 -> Matches 89-96
     for idx, r in enumerate(range(200, 208)):
         match_num = 89 + idx
-        val_c = sheet_pool.cell(row=r, column=3).value
+        val_c = sheet_pool_new.cell(row=r, column=3).value
         ko_match_preds[str(match_num)] = val_c
         
     # 1/4 matches: 220-223 -> Matches 97-100
     for idx, r in enumerate(range(220, 224)):
         match_num = 97 + idx
-        val_c = sheet_pool.cell(row=r, column=3).value
+        val_c = sheet_pool_new.cell(row=r, column=3).value
         ko_match_preds[str(match_num)] = val_c
         
     # Semis: 232-233 -> Matches 101-102
     for idx, r in enumerate(range(232, 234)):
         match_num = 101 + idx
-        val_c = sheet_pool.cell(row=r, column=3).value
+        val_c = sheet_pool_new.cell(row=r, column=3).value
         ko_match_preds[str(match_num)] = val_c
         
     # 3-4 match: 244 -> Match 103
-    ko_match_preds["103"] = sheet_pool.cell(row=244, column=3).value
+    ko_match_preds["103"] = sheet_pool_new.cell(row=244, column=3).value
     
     # Final match: 247 -> Match 104
-    ko_match_preds["104"] = sheet_pool.cell(row=247, column=3).value
+    ko_match_preds["104"] = sheet_pool_new.cell(row=247, column=3).value
 
-    # Parse penalty shootout predictions from WORLDCUP sheet
+    # Parse penalty shootout predictions from new Excel WORLDCUP sheet
     ko_penalties = {}
     for r in range(1, 200):
-        match_num_val = sheet_wc_p.cell(row=r, column=34).value # Col AH (34)
+        match_num_val = sheet_wc_new.cell(row=r, column=34).value # Col AH (34)
         if isinstance(match_num_val, int) and 73 <= match_num_val <= 104:
-            home_pen = sheet_wc_p.cell(row=r, column=28).value # Col AB (28)
-            away_pen = sheet_wc_p.cell(row=r, column=31).value # Col AE (31)
+            home_pen = sheet_wc_new.cell(row=r, column=28).value # Col AB (28)
+            away_pen = sheet_wc_new.cell(row=r, column=31).value # Col AE (31)
             if home_pen is not None or away_pen is not None:
                 try:
                     hp = int(home_pen) if home_pen is not None and str(home_pen).strip() != "" else 0
