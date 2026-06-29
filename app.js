@@ -361,7 +361,7 @@ function createMatchCard(id, stageLabel, homeName, awayName, dateStr, isKnockout
   `;
 
   // Draw penalty selector if goals are equal and it's a knockout match
-  const isDraw = score.gh !== "" && score.ga !== "" && score.gh === score.ga;
+  const isDraw = score.gh !== "" && score.ga !== "" && score.gh == score.ga;
   const showPenaltySelect = isKnockout && isDraw;
   
   let penaltySelectHtml = "";
@@ -438,7 +438,7 @@ window.handleScoreChange = function(id, type, val) {
   }
 
   // Clear penalty winner and penalty scores if scores are no longer equal
-  if (actualScores[id].gh !== actualScores[id].ga) {
+  if (actualScores[id].gh != actualScores[id].ga) {
     actualScores[id].penaltyWinner = "";
     actualScores[id].penh = "";
     actualScores[id].pena = "";
@@ -734,9 +734,9 @@ function evaluateTournament() {
         
         if (pred.winner === actWinner) {
           // Correct 1X2!
-          if (pred.gh === score.gh && pred.ga === score.ga) {
+          if (pred.gh == score.gh && pred.ga == score.ga) {
             ptsDetail.groupMatches += 3; // Exact match score
-          } else if (pred.gh === score.gh || pred.ga === score.ga) {
+          } else if (pred.gh == score.gh || pred.ga == score.ga) {
             ptsDetail.groupMatches += 2; // Exact goals of one team
           } else {
             ptsDetail.groupMatches += 1; // 1X2 winner only
@@ -830,13 +830,13 @@ function evaluateTournament() {
           const pred_gh = parseInt(scoreTokens[0]);
           const pred_ga = parseInt(scoreTokens[1]);
           
-          // 1. Exact match score (+1 pt)
-          if (pred_gh === score.gh && pred_ga === score.ga) {
+           // 1. Exact match score (+1 pt)
+          if (pred_gh == score.gh && pred_ga == score.ga) {
             ptsDetail.koMatches += 1;
           }
           
           // 2. Exact penalties (+1 pt)
-          if (score.gh === score.ga && pred_gh === pred_ga) {
+          if (score.gh == score.ga && pred_gh === pred_ga) {
             const predPen = preds.koPenalties ? preds.koPenalties[matchNum] : null;
             const actPenh = score.penh;
             const actPena = score.pena;
@@ -986,8 +986,8 @@ function renderUserPredictions() {
         const p = pUser.groupMatches[match.matchNum];
         const actWinner = score.gh > score.ga ? "1" : (score.gh < score.ga ? "2" : "X");
         if (p.winner === actWinner) {
-          if (p.gh === score.gh && p.ga === score.ga) ptsDetail.groupMatches += 3;
-          else if (p.gh === score.gh || p.ga === score.ga) ptsDetail.groupMatches += 2;
+          if (p.gh == score.gh && p.ga == score.ga) ptsDetail.groupMatches += 3;
+          else if (p.gh == score.gh || p.ga == score.ga) ptsDetail.groupMatches += 2;
           else ptsDetail.groupMatches += 1;
         }
       }
@@ -1027,12 +1027,12 @@ function renderUserPredictions() {
           const pred_ga = parseInt(scoreTokens[1]);
           
           // 1. Exact match score (+1 pt)
-          if (pred_gh === score.gh && pred_ga === score.ga) {
+          if (pred_gh == score.gh && pred_ga == score.ga) {
             ptsDetail.koMatches += 1;
           }
           
           // 2. Exact penalties (+1 pt)
-          if (score.gh === score.ga && pred_gh === pred_ga) {
+          if (score.gh == score.ga && pred_gh === pred_ga) {
             const predPen = pUser.koPenalties ? pUser.koPenalties[matchNum] : null;
             const actPenh = score.penh;
             const actPena = score.pena;
@@ -1077,10 +1077,10 @@ function renderUserPredictions() {
       const actWinner = score.gh > score.ga ? "1" : (score.gh < score.ga ? "2" : "X");
       
       if (pred.winner === actWinner) {
-        if (pred.gh === score.gh && pred.ga === score.ga) {
+        if (pred.gh == score.gh && pred.ga == score.ga) {
           badgeClass = "exact";
           badgeLabel = "Resultado Exacto (+3)";
-        } else if (pred.gh === score.gh || pred.ga === score.ga) {
+        } else if (pred.gh == score.gh || pred.ga == score.ga) {
           badgeClass = "partial";
           badgeLabel = "Goles de un equipo (+2)";
         } else {
@@ -1145,11 +1145,11 @@ function renderUserPredictions() {
         const pred_gh = parseInt(scoreTokens[0]);
         const pred_ga = parseInt(scoreTokens[1]);
         
-        if (pred_gh === score.gh && pred_ga === score.ga) {
+        if (pred_gh == score.gh && pred_ga == score.ga) {
           pointsEarned += 1;
         }
         
-        if (score.gh === score.ga && pred_gh === pred_ga) {
+        if (score.gh == score.ga && pred_gh === pred_ga) {
           const actPenh = score.penh;
           const actPena = score.pena;
           if (predPen && actPenh !== "" && actPena !== "" && actPenh !== undefined && actPena !== undefined && actPenh !== null && actPena !== null) {
@@ -1166,7 +1166,7 @@ function renderUserPredictions() {
       const actPenh = score.penh;
       const actPena = score.pena;
       let penSuffix = "";
-      if (score.gh === score.ga && actPenh !== undefined && actPena !== undefined && actPenh !== "" && actPena !== "" && actPenh !== null && actPena !== null) {
+      if (score.gh == score.ga && actPenh !== undefined && actPena !== undefined && actPenh !== "" && actPena !== "" && actPenh !== null && actPena !== null) {
         penSuffix = ` (${actPenh}-${actPena} pen)`;
       }
       actScoreHtml = `${score.gh} - ${score.ga}${penSuffix}`;
@@ -1180,7 +1180,7 @@ function renderUserPredictions() {
           const scoreTokens = scorePart.split("-");
           const pred_gh = parseInt(scoreTokens[0]);
           const pred_ga = parseInt(scoreTokens[1]);
-          if (pred_gh === score.gh && pred_ga === score.ga) {
+          if (pred_gh == score.gh && pred_ga == score.ga) {
             badgeClass = "exact";
             badgeLabel = "Resultado Exacto (+1)";
           } else {
@@ -1567,7 +1567,7 @@ function createCalendarMatchCard(match) {
   const awayName = match.away;
 
   // Draw penalty selector if goals are equal and it's a knockout match
-  const isDraw = score.gh !== "" && score.ga !== "" && score.gh === score.ga;
+  const isDraw = score.gh !== "" && score.ga !== "" && score.gh == score.ga;
   const showPenaltySelect = isKnockout && isDraw;
   
   let penaltySelectHtml = "";
