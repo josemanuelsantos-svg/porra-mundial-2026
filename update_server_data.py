@@ -68,10 +68,21 @@ scores = {
     60: {"gh": 0, "ga": 0, "penaltyWinner": ""}, # Paraguay vs Australia
     61: {"gh": 1, "ga": 4, "penaltyWinner": ""}, # Noruega vs Francia
     62: {"gh": 5, "ga": 0, "penaltyWinner": ""}, # Senegal vs Irak
+    63: {"gh": 1, "ga": 1, "penaltyWinner": ""}, # Egipto vs Irán
+    64: {"gh": 1, "ga": 5, "penaltyWinner": ""}, # Nueva Zelanda vs Bélgica
     65: {"gh": 0, "ga": 0, "penaltyWinner": ""}, # Cabo Verde vs Arabia Saudita
     66: {"gh": 0, "ga": 1, "penaltyWinner": ""}, # Uruguay vs España
-    63: {"gh": 1, "ga": 1, "penaltyWinner": ""}, # Egipto vs Irán
-    64: {"gh": 1, "ga": 5, "penaltyWinner": ""}  # Nueva Zelanda vs Bélgica
+    67: {"gh": 0, "ga": 2, "penaltyWinner": ""}, # Panamá vs Inglaterra
+    68: {"gh": 2, "ga": 1, "penaltyWinner": ""}, # Croacia vs Ghana
+    69: {"gh": 3, "ga": 3, "penaltyWinner": ""}, # Argelia vs Austria
+    70: {"gh": 1, "ga": 3, "penaltyWinner": ""}, # Jordania vs Argentina
+    71: {"gh": 0, "ga": 0, "penaltyWinner": ""}, # Colombia vs Portugal
+    72: {"gh": 3, "ga": 1, "penaltyWinner": ""}, # RD Congo vs Uzbekistán
+    73: {"gh": 0, "ga": 1, "penaltyWinner": ""}, # Sudáfrica vs Canadá (Match 73)
+    74: {"gh": 2, "ga": 1, "penaltyWinner": ""}, # Brasil vs Japón (Match 74)
+    75: {"gh": 1, "ga": 1, "penaltyWinner": "away", "penh": 3, "pena": 4}, # Alemania vs Paraguay (Match 75)
+    76: {"gh": 1, "ga": 1, "penaltyWinner": "away", "penh": 2, "pena": 3}, # Países Bajos vs Marruecos (Match 76)
+    77: {"gh": 1, "ga": 2, "penaltyWinner": ""} # Costa de Marfil vs Noruega (Match 77)
 }
 
 # Ask for password from argv or use default
