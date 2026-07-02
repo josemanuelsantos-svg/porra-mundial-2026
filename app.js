@@ -593,20 +593,11 @@ function evaluateTournament() {
   computedQualifiers.champion = "";
   computedQualifiers.subchampion = "";
 
-  let playedMatchesCount = 0;
-
-  // Group stage played count
-  FIXTURES.forEach(m => {
-    const score = actualScores[m.matchNum];
-    if (score && score.gh !== "" && score.ga !== "") playedMatchesCount++;
-  });
-
   // Helper to evaluate winner of a knockout match
   function evaluateKoWinner(matchNum) {
     const match = knockoutFixtures[matchNum];
     const score = actualScores[matchNum];
     if (score && score.gh !== "" && score.ga !== "") {
-      playedMatchesCount++;
       if (score.gh > score.ga) return match.home;
       if (score.gh < score.ga) return match.away;
       if (score.penaltyWinner === "home") return match.home;
@@ -872,6 +863,11 @@ function evaluateTournament() {
   renderCalendarTab();
 
   // Update Top Header Stats
+  let playedMatchesCount = 0;
+  for (let m = 1; m <= 104; m++) {
+    const score = actualScores[m];
+    if (score && score.gh !== "" && score.ga !== "") playedMatchesCount++;
+  }
   document.getElementById("stat-played-count").textContent = `${playedMatchesCount} / 104`;
   const progressPercent = Math.min(100, (playedMatchesCount / 104) * 100);
   const progEl = document.getElementById("stat-played-progress");
