@@ -89,7 +89,11 @@ scores = {
     81: {"gh": 3, "ga": 2, "penaltyWinner": ""}, # Bélgica vs Senegal (Match 81)
     82: {"gh": 2, "ga": 0, "penaltyWinner": ""}, # Estados Unidos vs Bosnia y Herzegovina (Match 82)
     83: {"gh": 4, "ga": 0, "penaltyWinner": ""}, # Portugal vs Croacia (Match 83)
-    84: {"gh": 3, "ga": 0, "penaltyWinner": ""}  # España vs Austria (Match 84)
+    84: {"gh": 3, "ga": 0, "penaltyWinner": ""}, # España vs Austria (Match 84)
+    85: {"gh": 2, "ga": 0, "penaltyWinner": ""}, # Suiza vs Argelia (Match 85)
+    86: {"gh": 1, "ga": 1, "penaltyWinner": "away", "penh": 2, "pena": 4}, # Australia vs Egipto (Match 86)
+    87: {"gh": 3, "ga": 2, "penaltyWinner": ""}, # Argentina vs Cabo Verde (Match 87)
+    88: {"gh": 1, "ga": 0, "penaltyWinner": ""}  # Colombia vs Ghana (Match 88)
 }
 
 # Ask for password from argv or use default
