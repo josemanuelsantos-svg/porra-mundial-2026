@@ -475,6 +475,18 @@
       "gh": 4,
       "ga": 1,
       "penaltyWinner": ""
+    },
+    "95": {
+      "gh": 3,
+      "ga": 2,
+      "penaltyWinner": ""
+    },
+    "96": {
+      "gh": 0,
+      "ga": 0,
+      "penaltyWinner": "home",
+      "penh": 4,
+      "pena": 3
     }
   },
   "extras": {}
