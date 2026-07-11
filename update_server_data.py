@@ -101,7 +101,9 @@ scores = {
     93: {"gh": 1, "ga": 0, "penaltyWinner": ""}, # España vs Portugal (Match 93)
     94: {"gh": 4, "ga": 1, "penaltyWinner": ""}, # Bélgica vs Estados Unidos (Match 94)
     95: {"gh": 3, "ga": 2, "penaltyWinner": ""}, # Argentina vs Egipto (Match 95)
-    96: {"gh": 0, "ga": 0, "penaltyWinner": "home", "penh": 4, "pena": 3}  # Suiza vs Colombia (Match 96)
+    96: {"gh": 0, "ga": 0, "penaltyWinner": "home", "penh": 4, "pena": 3}, # Suiza vs Colombia (Match 96)
+    97: {"gh": 2, "ga": 0, "penaltyWinner": ""}, # Francia vs Marruecos (Match 97)
+    98: {"gh": 2, "ga": 1, "penaltyWinner": ""}  # España vs Bélgica (Match 98)
 }
 
 # Ask for password from argv or use default

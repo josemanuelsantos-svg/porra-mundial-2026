@@ -487,6 +487,16 @@
       "penaltyWinner": "home",
       "penh": 4,
       "pena": 3
+    },
+    "97": {
+      "gh": 2,
+      "ga": 0,
+      "penaltyWinner": ""
+    },
+    "98": {
+      "gh": 2,
+      "ga": 1,
+      "penaltyWinner": ""
     }
   },
   "extras": {}
