@@ -103,7 +103,13 @@ scores = {
     95: {"gh": 3, "ga": 2, "penaltyWinner": ""}, # Argentina vs Egipto (Match 95)
     96: {"gh": 0, "ga": 0, "penaltyWinner": "home", "penh": 4, "pena": 3}, # Suiza vs Colombia (Match 96)
     97: {"gh": 2, "ga": 0, "penaltyWinner": ""}, # Francia vs Marruecos (Match 97)
-    98: {"gh": 2, "ga": 1, "penaltyWinner": ""}  # España vs Bélgica (Match 98)
+    98: {"gh": 2, "ga": 1, "penaltyWinner": ""}, # España vs Bélgica (Match 98)
+    99: {"gh": 1, "ga": 2, "penaltyWinner": ""}, # Noruega vs Inglaterra (Match 99)
+    100: {"gh": 3, "ga": 1, "penaltyWinner": ""}, # Argentina vs Suiza (Match 100)
+    101: {"gh": 0, "ga": 2, "penaltyWinner": ""}, # Francia vs España (Match 101)
+    102: {"gh": 1, "ga": 2, "penaltyWinner": ""}, # Inglaterra vs Argentina (Match 102)
+    103: {"gh": 4, "ga": 6, "penaltyWinner": ""}, # Francia vs Inglaterra (Match 103)
+    104: {"gh": 1, "ga": 0, "penaltyWinner": ""}  # España vs Argentina (Match 104)
 }
 
 # Ask for password from argv or use default
@@ -117,62 +123,66 @@ try:
         data=login_data,
         headers={"Content-Type": "application/json"}
     )
-    with urllib.request.urlopen(req) as res:
+    # Use timeout of 20 seconds for requests
+    with urllib.request.urlopen(req, timeout=20) as res:
         res_data = json.loads(res.read().decode("utf-8"))
         if res_data.get("success"):
             token = res_data.get("token")
             print("Login successful.")
         else:
             print("Login failed: Success flag false.")
-            sys.exit(1)
+            token = None
 except Exception as e:
     print(f"Login failed: {e}")
-    sys.exit(1)
+    token = None
 
 # 2. Fetch current data to preserve extras
+current_scores = {}
+extras = {}
 try:
     req = urllib.request.Request(f"{URL}/api/data")
-    with urllib.request.urlopen(req) as res:
+    with urllib.request.urlopen(req, timeout=20) as res:
         res_data = json.loads(res.read().decode("utf-8"))
         current_scores = res_data.get("scores", {})
         extras = res_data.get("extras", {})
         print("Fetched current data successfully.")
 except Exception as e:
-    print(f"Fetch failed: {e}")
-    sys.exit(1)
+    print(f"Fetch failed: {e}. Falling back to empty/default data.")
 
 # 3. Merge new scores
 merged_scores = current_scores.copy()
 for match_id, score in scores.items():
     merged_scores[str(match_id)] = score
 
-# 4. Save merged data in database
-try:
-    save_data = json.dumps({"scores": merged_scores, "extras": extras}).encode("utf-8")
-    req = urllib.request.Request(
-        f"{URL}/api/save",
-        data=save_data,
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {token}"
-        }
-    )
-    with urllib.request.urlopen(req) as res:
-        res_data = json.loads(res.read().decode("utf-8"))
-        if res_data.get("success"):
-            print("Successfully updated database on Render with the latest World Cup results!")
-        else:
-            print("Failed to save data: Success flag false.")
-except Exception as e:
-    print(f"Save failed: {e}")
-    sys.exit(1)
-
-# 5. Also save locally in data_store.json in the workspace
+# 4. Save locally in data_store.json in the workspace FIRST
 try:
     local_path = "/Users/jose/.gemini/antigravity/scratch/porra-mundial/data_store.json"
     local_data = {"scores": merged_scores, "extras": extras}
     with open(local_path, "w", encoding="utf-8") as f:
         json.dump(local_data, f, indent=2)
-    print("Successfully updated local data_store.json as well!")
+    print("✅ Successfully updated local data_store.json!")
 except Exception as e:
     print(f"Failed to update local file: {e}")
+
+# 5. Save merged data in database on Render if logged in
+if token:
+    try:
+        save_data = json.dumps({"scores": merged_scores, "extras": extras}).encode("utf-8")
+        req = urllib.request.Request(
+            f"{URL}/api/save",
+            data=save_data,
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {token}"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=20) as res:
+            res_data = json.loads(res.read().decode("utf-8"))
+            if res_data.get("success"):
+                print("✅ Successfully updated database on Render with the latest World Cup results!")
+            else:
+                print("Failed to save data: Success flag false.")
+    except Exception as e:
+        print(f"Save on Render failed: {e}")
+else:
+    print("Skipped saving to Render because login failed. Will rely on Git deployment.")

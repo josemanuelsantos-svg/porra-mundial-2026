@@ -100,9 +100,9 @@
       "ga": 1,
       "penaltyWinner": ""
     },
-    "21": {
+    "23": {
       "gh": 1,
-      "ga": 0,
+      "ga": 1,
       "penaltyWinner": ""
     },
     "22": {
@@ -110,9 +110,9 @@
       "ga": 2,
       "penaltyWinner": ""
     },
-    "23": {
+    "21": {
       "gh": 1,
-      "ga": 1,
+      "ga": 0,
       "penaltyWinner": ""
     },
     "24": {
@@ -180,11 +180,6 @@
       "ga": 4,
       "penaltyWinner": ""
     },
-    "37": {
-      "gh": 2,
-      "ga": 2,
-      "penaltyWinner": ""
-    },
     "38": {
       "gh": 4,
       "ga": 0,
@@ -195,19 +190,14 @@
       "ga": 0,
       "penaltyWinner": ""
     },
-    "40": {
-      "gh": 1,
-      "ga": 3,
-      "penaltyWinner": ""
-    },
-    "41": {
-      "gh": 3,
+    "37": {
+      "gh": 2,
       "ga": 2,
       "penaltyWinner": ""
     },
-    "42": {
-      "gh": 3,
-      "ga": 0,
+    "40": {
+      "gh": 1,
+      "ga": 3,
       "penaltyWinner": ""
     },
     "43": {
@@ -215,9 +205,24 @@
       "ga": 0,
       "penaltyWinner": ""
     },
+    "42": {
+      "gh": 3,
+      "ga": 0,
+      "penaltyWinner": ""
+    },
+    "41": {
+      "gh": 3,
+      "ga": 2,
+      "penaltyWinner": ""
+    },
     "44": {
       "gh": 1,
       "ga": 2,
+      "penaltyWinner": ""
+    },
+    "47": {
+      "gh": 5,
+      "ga": 0,
       "penaltyWinner": ""
     },
     "45": {
@@ -230,24 +235,9 @@
       "ga": 1,
       "penaltyWinner": ""
     },
-    "47": {
-      "gh": 5,
-      "ga": 0,
-      "penaltyWinner": ""
-    },
     "48": {
       "gh": 1,
       "ga": 0,
-      "penaltyWinner": ""
-    },
-    "49": {
-      "gh": 0,
-      "ga": 3,
-      "penaltyWinner": ""
-    },
-    "50": {
-      "gh": 4,
-      "ga": 2,
       "penaltyWinner": ""
     },
     "51": {
@@ -258,6 +248,16 @@
     "52": {
       "gh": 3,
       "ga": 1,
+      "penaltyWinner": ""
+    },
+    "49": {
+      "gh": 0,
+      "ga": 3,
+      "penaltyWinner": ""
+    },
+    "50": {
+      "gh": 4,
+      "ga": 2,
       "penaltyWinner": ""
     },
     "53": {
@@ -496,6 +496,36 @@
     "98": {
       "gh": 2,
       "ga": 1,
+      "penaltyWinner": ""
+    },
+    "99": {
+      "gh": 1,
+      "ga": 2,
+      "penaltyWinner": ""
+    },
+    "100": {
+      "gh": 3,
+      "ga": 1,
+      "penaltyWinner": ""
+    },
+    "101": {
+      "gh": 0,
+      "ga": 2,
+      "penaltyWinner": ""
+    },
+    "102": {
+      "gh": 1,
+      "ga": 2,
+      "penaltyWinner": ""
+    },
+    "103": {
+      "gh": 4,
+      "ga": 6,
+      "penaltyWinner": ""
+    },
+    "104": {
+      "gh": 1,
+      "ga": 0,
       "penaltyWinner": ""
     }
   },
